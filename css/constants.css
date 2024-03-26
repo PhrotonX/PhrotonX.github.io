@@ -1,0 +1,25 @@
+:root{
+    --margin-large: 24px;
+}
+
+@media (prefers-color-scheme: light){
+    :root{
+        --background-color: white;
+        --link-active: rgba(75, 75, 75);
+        --link-focus: rgb(200, 200, 200);
+        --link-hover: rgb(175, 175, 175);
+        --link-visited: rgb(150, 150, 150);
+        --text-color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --background-color: rgb(60, 60, 60);
+        --link-active: rgba(200, 200, 200);
+        --link-focus: rgba(75, 75, 75);
+        --link-hover: rgb(150, 150, 150);
+        --link-visited: rgb(128, 128, 128);
+        --text-color: white;
+    }
+}

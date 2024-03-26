@@ -1,0 +1,17 @@
+/* 
+    index.css
+
+    For html/index.php
+*/
+
+@import 'constants.css';
+
+#introduction-content{
+    margin: var(--margin-large);
+}
+
+img#introduction-image{
+    float: left;
+    width: 35%;
+    height: auto;
+}

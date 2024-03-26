@@ -1,0 +1,23 @@
+@import 'constants.css';
+
+@media(prefers-color-scheme: light){
+    :root{
+        --projects-background-color: rgba(220, 220, 220, 0.5);
+    }
+}
+
+@media(prefers-color-scheme: dark){
+    :root{
+        --projects-background-color: rgba(40, 40, 40, 0.5);
+    }
+}
+
+.project{
+    /* background-color: blue; */
+    background-color: var(--projects-background-color);
+    height: auto;
+}
+
+.project-content{
+    position: relative;
+}
