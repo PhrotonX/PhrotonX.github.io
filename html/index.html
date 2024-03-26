@@ -4,24 +4,22 @@
         <title>Charles Martin's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <script src="../js/script.js"></script>
     </head>
     <body>
         <h1>Portfolio in progress...</h1>
         <script>
-            fetch("header.html")
-                .then(response => response.text())
-                .then(html => {
-                    document.getElementById('toolbar').innerHTML =html;
-                })
-                .catch(error => {
-                    console.log("Error fetching HTML: ", error);
-                })
+            loadPagePart('header.html', 'toolbar');
+            loadPagePart('footer.html', 'footer');
         </script>
+        <span id="toolbar">
+            
+        </span>
         <section id="content">
             <div id="introduction">
                 <img id="introduction-image" src="../res/img/Question Mark.png" alt="Charles Martin's Image on Introduction Section of Page.">
                 <section id="introduction-content">
-                    <h2>Charles Martin Pascual</h2>
+                    <h2>Charles Martin</h2>
                     <p>Software Developer</p>
                 </section>
             </div>
@@ -45,14 +43,17 @@
             </ul>
 
             <h2>Skills</h2>
-                <ul>
-                    <li><p>Front-End Web Development</p></li>
-                    <li><p>Mobile App Development (Android, Java)</p></li>
-                    <li><p>Desktop App Development</p></li>
-                    <li><p>Game Development (C++, SFML)</p></li>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                </ul>
-            </section>
+            <ul>
+                <li><p>Front-End Web Development</p></li>
+                <li><p>Mobile App Development (Android, Java)</p></li>
+                <li><p>Desktop App Development</p></li>
+                <li><p>Game Development (C++, SFML)</p></li>
+                <li><p></p></li>
+                <li><p></p></li>
+            </ul>
+        </section>
+        <section id="footer">
+
+        </section>
     </body>
 </html>

@@ -1,4 +1,3 @@
-<script src="../js/script.js"></script>
 <script src="../js/cookies.js"></script>
 <script>
     window.onload = function(){
@@ -6,20 +5,18 @@
         document.getElementById(cookie).setAttribute("style", "background-color: var(--link-visited)");
     }
 </script>
-<span id="toolbar">
-    <header>
-        <p>Charles Martin</p>
-    </header>
-    <nav>
-        <span>
-            <script>
-                function onNavClick(id){
-                    createCookie(navClick, id, 1000);
-                }
-            </script>
-            <a id="nav-index" href="index.php" onClick="onNavClick('nav-index')"><p>Home</p></a>
-            <a id="nav-projects" href="projects.php" onClick="onNavClick('nav-projects')"><p>Projects</p></a>
-            <a href="#"><p>About</p></a>
-        </span>
-    </nav>
-</span>
+<header>
+    <p>Charles Martin</p>
+</header>
+<nav>
+    <span>
+        <script>
+            function onNavClick(id){
+                createCookie(navClick, id, 1000);
+            }
+        </script>
+        <a id="nav-index" href="index.php" onClick="onNavClick('nav-index')"><p>Home</p></a>
+        <a id="nav-projects" href="projects.php" onClick="onNavClick('nav-projects')"><p>Projects</p></a>
+        <a href="#"><p>About</p></a>
+    </span>
+</nav>
