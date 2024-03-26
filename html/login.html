@@ -4,10 +4,17 @@
         <meta charset="utf-8"/>
         <title>Log in or Sign up</title>
         <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+        <script src="../js/script.js"></script>
+        <script>
+            loadPagePart('header.html', 'toolbar');
+            loadPagePart('footer.html', 'footer');
+        </script>
     </head>
     <body>
+        <span id="toolbar">
+            
+        </span>
         <h1>Welcome to Charles Martin's Porftolio</h1>
-        <p><i>For professional purposes only.</i></p>
         <p>Already have an account? Log In:</p>
         <form action="../php/login-config.php" method="post">
             <label for="login-email">Email:</label>
@@ -294,5 +301,8 @@
             <input type="submit" name="signup-submit">
             <input type="reset">
         </form>
+        <section id="footer">
+
+        </section>
     </body>
 </html>

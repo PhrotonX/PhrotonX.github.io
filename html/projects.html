@@ -5,9 +5,16 @@
         <title>Charles Martin's Projects</title>
         <link rel="stylesheet" href="../css/style.css" type="text/css"/>
         <link rel="stylesheet" href="../css/projects.css" type="text/css"/>
+        <script src="../js/script.js"></script>
+        <script>
+            loadPagePart('header.html', 'toolbar');
+            loadPagePart('footer.html', 'footer');
+        </script>
     </head>
     <body>
-        <?php require_once 'header.html'?>
+        <span id="toolbar">
+            
+        </span>
         <section id="content">
             <h2>School Projects</h2>
             <div class="project">
@@ -49,6 +56,8 @@
                 </section>
             </div>
         </section>
-        <?php require_once 'footer.html'?>
+        <section id="footer">
+
+        </section>
     </body>
 </html>
