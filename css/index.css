@@ -6,12 +6,20 @@
 
 @import 'constants.css';
 
+#introduction{
+    display:flexbox;
+    vertical-align: middle;
+}
+
 #introduction-content{
     margin: var(--margin-large);
+    text-align: center;
+    font-size: xx-large;
 }
 
 img#introduction-image{
-    float: left;
-    width: 35%;
+    margin-left: calc((100% - 25%) / 2);
+    margin-right: calc((100% - 25%) / 2);
+    width: calc(100% / 4);
     height: auto;
 }

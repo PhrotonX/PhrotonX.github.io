@@ -1,13 +1,75 @@
-:root{
-    --input-form-shadow: 0px 14px 16px 0px;
+.small-button{
+    padding: 8px 12px;
 }
-@media (prefers-color-scheme){
-    :root{
-        --input-form-color: white;
-    }
+
+input[type=search], .input-text, button, .small-button, .large-button{
+    background-color: var(--static);
+    border-style: none;
 }
-input[type=text]{
-    background-color: var(--input-form-color);
-    border-radius: 0%;
-    box-shadow: var(--input-form-shadow);
+
+input[type=search], .input-text, #site-search-submit, select{
+    padding: 14px;
+    width: 100%;
+}
+
+input[type=search]:hover, .input-text:hover, .small-button:hover, button:hover, .large-button:hover{
+    background: var(--primary2);
+    border-style: none;
+    /* transition: 0.1s; */
+    -moz-box-shadow: 1px 2px 3px 0 #999999;
+	-webkit-box-shadow: 1px 2px 3px 0 #999999;
+	box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.25);
+}
+.small-button:active, button:active, .large-button:active{
+    background: var(--primary3);
+    border-style: none;
+    -moz-box-shadow: 0px 0px 0px 0 #999999;
+	-webkit-box-shadow: 0px 0px 0px 0 #999999;
+    box-shadow: 0px 0px 0px 0  rgba(0, 0, 0, 0.25);
+    /* transition: 0.1s; */
+}
+
+.input-text, select{
+    margin: 0px 3px 3px 0px;
+}
+
+.large-button{
+    padding: 4em 6em;
+}
+
+.form-table{
+    width: 100%;
+    display: block;
+}
+
+.form-table-label{
+    width: 17%;
+}
+
+.form-table-field{
+    width: 75%;
+}
+
+#site-search{
+    display: flex;
+    float: left;
+    /* height: auto; */
+    /* width: 40%; */
+    /* justify-content: space-between; */
+    /* margin: 0px; */
+}
+
+#site-search-bar{
+    /* background-color: white; */
+    /* height: auto; */
+    padding: 14px;
+    width: 75%;
+}
+
+#site-search-submit{
+    /* background-color: white; */
+    /* height: auto; */
+    padding: 14px 8px;
+    width: 25%;
+    /* border: none; */
 }

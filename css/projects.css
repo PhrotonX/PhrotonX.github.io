@@ -14,7 +14,7 @@
 
 .project{
     /* background-color: blue; */
-    background-color: var(--projects-background-color);
+    /* background-color: var(--projects-background-color); */
     height: auto;
 }
 
