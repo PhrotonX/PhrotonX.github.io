@@ -1,3 +1,13 @@
 <footer>
-    <p>Sample footer</p>
+    <p id="footer-copyright-info">No Content</p>
 </footer>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(){
+        var copyrightInfo = document.getElementById("footer-copyright-info");
+        var year = new Date().getFullYear();
+        copyrightInfo.innerHTML = "Copyright @ 2024-" + year;
+    });
+    
+</script>

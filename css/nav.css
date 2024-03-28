@@ -1,0 +1,49 @@
+@import url('toolbar.css');
+
+nav{
+    float: left;
+    /* height: auto; */
+    overflow: visible;
+    width: 100%;
+}
+
+nav a{
+    color: var(--color);
+    float: right;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    /* top: 0; */
+}
+
+#header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+#navbar{
+    /* background: var(--primary); */
+    /* display: flex; */
+    float: left;
+    /* justify-content: space-between; */
+    /* height: auto; */
+    /* left: 0; */
+    
+    
+    width: 100%;
+    
+}
+
+#navbar-title a{
+    color: var(--color);
+    text-decoration: none;
+}
+
+/*.toolbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} */  

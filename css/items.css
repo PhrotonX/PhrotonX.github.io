@@ -1,0 +1,11 @@
+.backdrop{
+    margin-top: -25%;
+    margin-left: 40%;
+    height: auto;
+    opacity: 0.25;
+    position: absolute;
+    padding: 27%;
+    width: 25%;
+    z-index: -1;
+    float: right;
+}
