@@ -9,3 +9,30 @@
     z-index: -1;
     float: right;
 }
+
+.item-image{
+    width: 100%;
+    height: 50%;
+    /* height: 100%; */
+    /* margin: 0px; */
+    /* overflow: hidden; */
+    object-fit: cover;
+    object-position: 50% 0%;
+    position: absolute;
+}
+
+.item-content{
+    width: 85%;
+    margin: 5%;
+    height: 300%;
+    top: 200px;
+    /* top: 50px; */
+    position: relative;
+    padding: 2.5%;
+    margin-bottom: 300px;
+}
+
+.item .title{
+    font-size: x-large;
+    text-align: center;
+}

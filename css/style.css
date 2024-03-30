@@ -33,7 +33,8 @@ a, h1, h2, h3, h4, h5, h6, label, p{
 body{
     background-color: var(--background);
     color: var(--color);
-    margin: 16px;
+    margin: 0px;
+    /* margin: 16px; */
 }
 
 #content{
@@ -57,19 +58,17 @@ header{
 #sample-content{
     padding: 25%;
 }
-
+/* 
 section, header, nav, article, aside, footer{
     display: block;
-}
+} */
 
 section{
-    width: 95%;
+    /* width: 95%; */
     height: auto;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    /* margin-left: 2.5%; */
+    /* margin-right: 2.5%; */
 }
-
-
 
 .shadow {
     border-radius: 1px;
