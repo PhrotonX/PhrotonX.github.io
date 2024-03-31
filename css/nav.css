@@ -1,24 +1,5 @@
 @import url('toolbar.css');
 
-@media screen and (max-width: 500px) {
-    #header{
-        bottom: 0;
-    }
-    #navbar{
-        display: flex;
-    }
-    .toolbar{
-        width: 75%;
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-    }
-}
-
-@media screen and (min-width: 450px){        
-    #header{
-        top: 0;
-    }
-}
 
 #header{
     display: block;
@@ -69,4 +50,32 @@ nav a{
     
     width: 100%;
     
+}
+
+
+@media screen and (max-width: 325px){
+    nav a{
+        float: right;
+        width: 80%;
+        padding: 0 10% 0 10%;
+    }
+
+}
+
+@media screen and (min-width: 325px) {
+    @media screen and (max-width: 500px) {
+        #header{
+            bottom: 0;
+        }
+        #navbar{
+            display: flex;
+            justify-content: center;
+        }
+    }   
+}
+
+@media screen and (min-width: 500px){        
+    #header{
+        top: 0;
+    }
 }

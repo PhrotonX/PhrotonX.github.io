@@ -37,6 +37,10 @@ body{
     /* margin: 16px; */
 }
 
+button, a, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+
 #content{
     padding-top: 48px;
 }
