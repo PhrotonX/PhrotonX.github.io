@@ -1,8 +1,38 @@
 @import url('toolbar.css');
 
+@media screen and (max-width: 500px) {
+    #header{
+        bottom: 0;
+    }
+    #navbar{
+        display: flex;
+    }
+    .toolbar{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+}
+
+@media screen and (min-width: 450px){        
+    #header{
+        top: 0;
+    }
+}
+
+#header{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}
+
 nav{
     float: left;
     /* height: auto; */
+    display: block;
     overflow: visible;
     width: 100%;
 }
@@ -16,25 +46,6 @@ nav a{
     /* top: 0; */
 }
 
-#header{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 500;
-}
-
-#navbar{
-    /* background: var(--primary); */
-    /* display: flex; */
-    float: left;
-    /* justify-content: space-between; */
-    /* height: auto; */
-    /* left: 0; */
-    
-    
-    width: 100%;
-    
-}
 
 #navbar-title a{
     color: var(--color);
@@ -47,3 +58,15 @@ nav a{
     padding: 0;
     overflow: hidden;
 } */  
+#navbar{
+    /* background: var(--primary); */
+    /* display: flex; */
+    float: left;
+    /* justify-content: space-between; */
+    /* height: auto; */
+    /* left: 0; */
+    
+    
+    width: 100%;
+    
+}
