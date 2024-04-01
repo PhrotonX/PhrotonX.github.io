@@ -1,5 +1,5 @@
+@import url('dropdown.css');
 @import url('toolbar.css');
-
 
 #header{
     display: block;
@@ -52,14 +52,52 @@ nav a{
     
 }
 
+#nav-menu{
+    display: none;
+}
 
 @media screen and (max-width: 325px){
+    #header{
+        bottom: -201px;
+        /* bottom: 0; */
+    }
+    #header:active .nav-dropdown{
+        bottom: 0;
+    }
     nav a{
         float: right;
         width: 80%;
         padding: 0 10% 0 10%;
     }
+    /* .toolbar{
+        display: none;
+    } */
+    #nav-menu{
+        display: block;
+    }
 
+    .nav-dropdown{
+        /* position: relative; */
+        /* display: block; */
+        /* cursor: pointer; */
+        /* float: right; */
+    }
+    
+    #nav-dropdown-content{
+        /* display: none; */
+        /* position: absolute; */
+        /* width: 160px; */
+        /* max-height: 400px; */
+        /* overflow-y: auto; */
+        /* overflow: auto; */
+        /* z-index: 1000; */
+        /* bottom: 100; */
+        /* float: left; */
+    }
+/*     
+    .nav-dropdown:hover .nav-dropdown-content{
+        display: block;
+    } */
 }
 
 @media screen and (min-width: 325px) {
@@ -73,9 +111,12 @@ nav a{
         }
     }   
 }
-
-@media screen and (min-width: 500px){        
+/* 
+@media screen and (max-width: 500px){        
     #header{
         top: 0;
     }
-}
+    .toolbar a{
+        display: hidden !important;
+    }
+} */
