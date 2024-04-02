@@ -12,6 +12,15 @@ input[type=search], .input-text, #site-search-submit, select{
     width: 100%;
 }
 
+button{
+    padding: 14px;
+    width: 25%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+
 input[type=search]:hover, .input-text:hover, .small-button:hover, button:hover, .large-button:hover{
     background: var(--primary2);
     border-style: none;

@@ -9,11 +9,8 @@
         --projects-background-color: rgba(40, 40, 40, 0.5);
     }
 }
-
+/* 
 .project{
-    /* background-color: blue; */
-    /* background-color: var(--projects-background-color); */
     height: auto;
-    /* align-content: center; */
-}
+} */
 

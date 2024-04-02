@@ -10,3 +10,7 @@ function loadPagePart(filename, containerId){
             console.log("Error fetching HTML: ", error);
         })
 }
+
+function navOnNewtab(url){
+    window.open(url, '_blank');
+}
