@@ -31,13 +31,27 @@
     /* top: 50px; */
     position: relative;
     padding: 2.5%;
-    
+}
+
+.item-block{
+    width: 85%;
+    margin: 5%;
+    /* top: 50px; */
+    position: relative;
+    padding: 2.5%;
+    /* margin-bottom: 0; */
+    top: 0;
 }
 
 .item .title{
     font-size: x-large;
+    font-weight: normal;
+}
+
+.item-content .title{
     text-align: center;
 }
+
 
 @media screen and (min-width: 500px){
     .item-image{
