@@ -1,0 +1,35 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "category": "Game",
+            "title": "Militia SFML (CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": "August",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/projects/militiaSFML.png",
+            "description": [
+                "This game contains large amount of code and implementation of skills and knowledge in software development, including MVC Architecture, Client-Server Architecture, Observer Pattern, Abstract Factory Pattern, and more.",
+                "This game also consists of features such as UI framework, Game Engine, and more.",
+                "This game gains the most amount of focus and priority compared to other projects.",
+                "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
+                "Is accompanied with a website called Militia SFML Documentation.",
+                "Built with C++ &amp; SFML"
+            ],
+            "button": [
+                {
+                    "title": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/"
+                },
+                {
+                    "title": "Request Code"
+                }
+            ]
+            
+        }
+    ]
+}

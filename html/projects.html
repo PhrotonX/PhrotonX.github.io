@@ -12,6 +12,8 @@
         <script>
             loadPagePart('header.html', 'header');
             loadPagePart('footer.html', 'footer');
+            // loadItems("project", "https://gist.github.com/PhrotonX/98e9786c1f67de6de59bd4662f074e82#file-projects-json");
+            loadItems("project", "../json/projects.json");
         </script>
         <span id="header">
             
@@ -20,35 +22,17 @@
         <section id="content">
             <!-- <h2>Self-Projects (Hobbies)</h2> -->
             <div class="projects">
-                <div class="project item">
-                    <img class="item-image" id="item-image-1" src="../res/img/projects/militiaSFML.png">
+                <div class="project item" id="project-1">
+                    <img class="item-image" id="item-image-1" src="">
                     <!-- <img class="backdrop" id="backdrop-1" src="../res/img/Coding Clipart.png"> -->
                     <section class="item-content acrylic parent shadow">
-                        <h3 class="title">Game: Militia SFML (CLOSED SOURCE)</h3>
-                        <p>August 2021-Present</p>
-                        <ul>
-                            <li><p>This game contains large amount of code and implementation of skills
-                            and knowledge in software development, including MVC Architecture, Client-Server
-                            Architecture, Observer Pattern, Abstract Factory Pattern, and more.</p></li>
-                            <li><p>This game also consists of features such as UI framework, Game Engine,
-                                and more.
-                            </p></li>
-                            <li><p>This game gains the most amount of focus and priority compared to other projects.</p></li>
-                            <li><p>This game has a lengthy development progress to ensure maintainable
-                                codebase before implementing actual gameplay features and avoid technical debt.
-                            </p></li>
-                            <ul>
-                                <li><p>C++</p></li>
-                                <li><p>SFML</p></li>
-                            </ul>
-                            <li><p>Is accompanied with a website called Militia SFML Documentation.</p></li>
+                        <h3 class="title"></h3>
+                        <p class="date"></p>
+                        <ul class="description-list">
                         </ul>
-                        <p>Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES</p>
-                        <button onclick='window.location.href = "https://privacy.gov.ph/data-privacy-act/";'>Learn more about R.A. 10173</button>
-                        <button>Request Code</button>
                     </section>
                 </div>
-                <div class="project item">
+                <!-- <div class="project item">
                     <img class="item-image" id="item-image-2" src="../res/img/projects/eightQueensPuzzle.png">
                     <section class="item-content acrylic parent shadow">
                         <h3 class="title">App: EightQueensPuzzle (CLOSED SOURCE)</h3>
@@ -81,7 +65,6 @@
                 </div>
                 <div class="project item">
                     <img class="item-image" id="item-image-4" src="../res/img/projects/comparts.jpeg">
-                    <!-- <img class="backdrop" id="backdrop-1" src="../res/img/Web Icon with Mouse Pointer.png"> -->
                     <section class="item-content acrylic parent shadow">
                         <h3 class="title">Website: ComParts (School Project) (CLOSED SOURCE)</h3>
                         <p>January 2022-April 2022</p>
@@ -140,7 +123,7 @@
                             <li><p>Derived from the same technologies as Militia SFML.</p></li>
                         </ul>
                     </section>
-                </div>
+                </div> -->
             </div>
         </section>
         <section id="footer">
