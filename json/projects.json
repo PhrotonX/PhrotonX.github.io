@@ -1,4 +1,5 @@
 {
+    "size": 3,
     "items": [
         {
             "id": 0,
@@ -27,6 +28,54 @@
                 },
                 {
                     "title": "Request Code"
+                }
+            ]
+            
+        },
+        {
+            "id": 1,
+            "category": "App",
+            "title": "EightQueensPuzzle (CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": "February",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/projects/eightQueensPuzzle.png",
+            "description": [
+                "This app strives to solve the eight queens problem.",
+                "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
+                "Unique features are soon merging with DzergeroEngine."
+            ],
+            "button": [
+                {
+                    "title": "Request Code"
+                }
+            ]
+            
+        },
+        {
+            "id": 2,
+            "category": "App",
+            "title": "UUID Generator",
+            "date": [
+                {
+                    "year": "Early",
+                    "month": "2021"
+                }
+            ],
+            "image": "../res/img/projects/uuidGen.png",
+            "description": [
+                "C",
+                "C++",
+                "Win32 API"    
+            ],
+            "button": [
+                {
+                    "title": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/UUID-Generator"
                 }
             ]
             
