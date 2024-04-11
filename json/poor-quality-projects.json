@@ -1,0 +1,36 @@
+{
+    "item": [
+        {
+            "category": "Game",
+            "title": " TankGame (CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": "???",
+                    "progress": "Early 2021"
+                }
+            ],
+            "image": "../res/img/projects/Coding Clipart.png",
+            "description": [
+                "This game contains large amount of bad practices",
+                "Built with C++ &amp; SFML"
+            ],
+            "note": [
+                "Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+            ],
+            "button": [
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Request Code",
+                    "action": "mailto:cpascual185@gmail.com",
+                    "target": "self"
+                }
+            ]
+            
+        }
+    ]
+}

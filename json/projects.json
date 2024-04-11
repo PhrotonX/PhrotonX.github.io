@@ -1,8 +1,6 @@
 {
-    "size": 3,
-    "items": [
+    "item": [
         {
-            "id": 0,
             "category": "Game",
             "title": "Militia SFML (CLOSED SOURCE)",
             "date": [
@@ -15,25 +13,30 @@
             "image": "../res/img/projects/militiaSFML.png",
             "description": [
                 "This game contains large amount of code and implementation of skills and knowledge in software development, including MVC Architecture, Client-Server Architecture, Observer Pattern, Abstract Factory Pattern, and more.",
-                "This game also consists of features such as UI framework, Game Engine, and more.",
+                "This game also consists of features such as UI framework, Game Engine, Multiplayer, and more.",
                 "This game gains the most amount of focus and priority compared to other projects.",
                 "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
                 "Is accompanied with a website called Militia SFML Documentation.",
                 "Built with C++ &amp; SFML"
             ],
+            "note": [
+                "Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+            ],
             "button": [
                 {
-                    "title": "Learn more about R.A. 10173",
-                    "action": "href=https://privacy.gov.ph/data-privacy-act/"
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
                 },
                 {
-                    "title": "Request Code"
+                    "content": "Request Code",
+                    "action": "mailto:sample@gmail.com",
+                    "target": "self"
                 }
             ]
             
         },
         {
-            "id": 1,
             "category": "App",
             "title": "EightQueensPuzzle (CLOSED SOURCE)",
             "date": [
@@ -51,13 +54,12 @@
             ],
             "button": [
                 {
-                    "title": "Request Code"
+                    "content": "Request Code"
                 }
             ]
             
         },
         {
-            "id": 2,
             "category": "App",
             "title": "UUID Generator",
             "date": [
@@ -74,11 +76,114 @@
             ],
             "button": [
                 {
-                    "title": "View on GitHub",
-                    "action": "href=https://github.com/PhrotonX/UUID-Generator"
+                    "content": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/UUID-Generator",
+                    "target": "_blank"
                 }
             ]
             
+        },
+        {
+            "category": "Website",
+            "title": "ComParts (School Project) (CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": "2022",
+                    "month": "January",
+                    "progress": "April 2022"
+                }
+            ],
+            "image": "../res/img/projects/comparts.jpeg",
+            "description": [
+                "School requirement for ICT-11 Students at Next Generation Technological College, S.Y. 2021-2022.",
+                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL"
+            ],
+            "note": [
+                "Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+            ],
+            "button": [
+                {
+                    "content": "Request Code"
+                },
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                }
+            ]
+        },
+        {
+            "category": "Website",
+            "title": "WebLog (Coming Soon)",
+            "date": [
+                {
+                    "year": "2024",
+                    "month": "January",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "description": [
+                "Is built on Laravel."
+            ],
+            "button": [
+                {
+                    "content": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/webLog",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                }
+            ]
+        },
+        {
+            "category": "App",
+            "title": "Notes for Android (Coming Soon)(CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": "2024",
+                    "month": "February",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on Android SDK with Java"
+            ]
+        },
+        {
+            "category": "App",
+            "title": "Xlintax (Coming Soon)(CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": "2024",
+                    "month": "March",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on .NET UWP.",
+                "Soon to be migrated to WinUI 3."
+            ]
+        },
+        {
+            "category": "Framework",
+            "title": "DzergeroEngine (Coming Soon)",
+            "date": [
+                {
+                    "year": "2021",
+                    "month": "August",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Derived from the same technologies as Militia SFML."
+            ]
         }
     ]
 }

@@ -48,7 +48,7 @@
     font-weight: normal;
 }
 
-.item-content .title{
+.item-content .title, .item-content .category{
     text-align: center;
 }
 

@@ -1,13 +1,14 @@
-<footer>
-    <p id="footer-copyright-info">Footer (Coming Soon)</p>
-</footer>
-
 <script>
 
-    document.addEventListener("DOMContentLoaded", function(){
-        var copyrightInfo = document.getElementById("footer-copyright-info");
+    function loadCopyrightInfo(){
+        var footer = document.getElementById("footer");
+        var copyrightInfo = document.createElement("p");
         var year = new Date().getFullYear();
         copyrightInfo.innerHTML = "Copyright @ 2024-" + year;
-    });
+        footer.appendChild(copyrightInfo);
+    };
     
 </script>
+<footer onload="loadCopyrightInfo()" id="footer">
+    <p>Copyright @2024</p>
+</footer>
