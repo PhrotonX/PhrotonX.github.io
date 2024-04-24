@@ -1,0 +1,7 @@
+@import url('colors.css');
+
+.infobox table{
+    background-color: var(--primary);
+    display: block;
+    width: 30%;
+}

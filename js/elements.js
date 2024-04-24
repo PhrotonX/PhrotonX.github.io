@@ -1,0 +1,3 @@
+function addInfoBox(title, content){
+    
+}
