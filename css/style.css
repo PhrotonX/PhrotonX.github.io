@@ -55,8 +55,9 @@ button, a, input, select, textarea {
 }
 
 footer{
+    /* position: relative; */
     padding: 50px;
-    /* background-color: black; */
+    background-color: black;
 }
 
 header{
