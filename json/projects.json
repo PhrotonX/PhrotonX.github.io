@@ -48,7 +48,7 @@
             ],
             "image": "../res/img/projects/eightQueensPuzzle.png",
             "description": [
-                "This app strives to solve the eight queens problem.",
+                "This app strives to solve the eight queens problem by guessing the algorithm.",
                 "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
                 "Unique features are soon merging with DzergeroEngine."
             ],
@@ -151,7 +151,7 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Is built on Android SDK with Java"
+                "Is currently being built on Android SDK with Java"
             ]
         },
         {
@@ -183,6 +183,22 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "Derived from the same technologies as Militia SFML."
+            ]
+        },
+        {
+            "category": "Framework",
+            "title": "DzergeroEngine3D (Coming Soon)",
+            "date": [
+                {
+                    "year": "2024",
+                    "month": "April",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "A relatively new project",
+                "Uses OpenGL, GLFW, and GLAD."
             ]
         }
     ]

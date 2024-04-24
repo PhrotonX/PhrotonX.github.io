@@ -60,6 +60,10 @@ header{
     vertical-align: middle;
 }
 
+.plaintext{
+    margin: 4%;
+}
+
 #sample-content{
     padding: 25%;
 }
