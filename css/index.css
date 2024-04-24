@@ -21,6 +21,20 @@
     font-size: xx-large;
 }
 
+.introduction-profile{
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+img.introduction-hero-image{
+    width: 100%;
+    height: auto;
+    z-index: -5;
+    top: 0;
+    filter: brightness(.7);
+    position: absolute;
+}
 
 img.introduction-image{
     margin-left: calc((100% - 25%) / 2);
