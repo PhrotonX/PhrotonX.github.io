@@ -1,7 +1,29 @@
 @import url('colors.css');
 
-.infobox table{
-    background-color: var(--primary);
-    display: block;
-    width: 30%;
+.tile-medium{
+    /* background-color: var(--primary); */
+    display: inline-block;
+    width: 20%;
+    margin: 2.5%;
+}
+
+.tiles{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+table.tile-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tile-info p, .tile-description p, .tile-content p{
+    padding: 0px;
+    margin: 2%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.tile-content p{
+    font-size: 96px;
 }
