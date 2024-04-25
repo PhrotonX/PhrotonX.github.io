@@ -17,7 +17,7 @@ table.tile-table{
     border-collapse: collapse;
 }
 
-.tile-info p, .tile-description p, .tile-content p{
+.tile-title p, .tile-description p, .tile-content p{
     padding: 0px;
     margin: 2%;
     font-weight: lighter;

@@ -1,0 +1,22 @@
+{
+    "tile": [
+        {
+            "title": "Clients Served",
+            "content": 0,
+            "description": "I'm seeking for experience.",
+            "size": "medium"
+        },
+        {
+            "title": "Projects / Repos",
+            "content": 41,
+            "description": "Excluding forked repos.",
+            "size": "medium"
+        },
+        {
+            "title": "Experience",
+            "content": "5+",
+            "description": "Years of making software*.",
+            "size": "medium"
+        }
+    ]
+}
