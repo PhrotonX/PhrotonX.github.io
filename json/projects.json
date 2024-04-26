@@ -30,7 +30,7 @@
                 },
                 {
                     "content": "Request Code",
-                    "action": "mailto:sample@gmail.com",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
                     "target": "self"
                 }
             ]
@@ -54,7 +54,9 @@
             ],
             "button": [
                 {
-                    "content": "Request Code"
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
                 }
             ]
             
@@ -103,7 +105,9 @@
             ],
             "button": [
                 {
-                    "content": "Request Code"
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
                 },
                 {
                     "content": "Learn more about R.A. 10173",
