@@ -4,19 +4,25 @@
             "title": "Clients Served",
             "content": 0,
             "description": "I'm seeking for experience.",
-            "size": "medium"
+            "size": "small"
         },
         {
             "title": "Projects / Repos",
-            "content": 41,
-            "description": "Excluding forked repos.",
-            "size": "medium"
+            "content": 16,
+            "description": "Repos available on GitHub*.",
+            "size": "small"
         },
         {
             "title": "Experience",
+            "content": ".3",
+            "description": "Years of making software**.",
+            "size": "small"
+        },
+        {
+            "title": "Studying",
             "content": "5+",
-            "description": "Years of making software*.",
-            "size": "medium"
+            "description": "Years of learning to make software***.",
+            "size": "small"
         }
     ]
 }

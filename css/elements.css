@@ -7,6 +7,13 @@
     margin: 2.5%;
 }
 
+.tile-small{
+    /* background-color: var(--primary); */
+    display: inline-block;
+    width: 15%;
+    margin: 2.5%;
+}
+
 .tiles{
     margin-left: 2.5%;
     margin-right: 2.5%;
