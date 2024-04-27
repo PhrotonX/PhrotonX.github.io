@@ -8,6 +8,7 @@
     position: fixed;
     z-index: 500;
     width: 100%;
+    transition: 1s;
 }
 
 nav{
@@ -58,12 +59,12 @@ nav a{
 
 @media screen and (max-width: 325px){
     #header{
-        bottom: -201px;
-        /* bottom: 0; */
-    }
-    #header:active .nav-dropdown{
+        /* bottom: -201px; */
         bottom: 0;
     }
+    /* #header:active .nav-dropdown{
+        bottom: 0;
+    } */
     nav a{
         float: right;
         width: 80%;
@@ -75,29 +76,32 @@ nav a{
     #nav-menu{
         display: block;
     }
-
+    #nav-dropdown-content{
+        display: none;
+    }
+/* 
     .nav-dropdown{
-        /* position: relative; */
-        /* display: block; */
-        /* cursor: pointer; */
-        /* float: right; */
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        float: right;
     }
     
     #nav-dropdown-content{
-        /* display: none; */
-        /* position: absolute; */
-        /* width: 160px; */
-        /* max-height: 400px; */
-        /* overflow-y: auto; */
-        /* overflow: auto; */
-        /* z-index: 1000; */
-        /* bottom: 100; */
-        /* float: left; */
-    }
-/*     
-    .nav-dropdown:hover .nav-dropdown-content{
-        display: block;
+        display: block; 
+        position: relative;
+        width: 160px;
+        max-height: 400px;
+        overflow-y: auto;
+        overflow: auto;
+        z-index: 1000;
+        bottom: 100;
+        float: left;
     } */
+    
+    .toolbar:active #nav-dropdown-content{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 325px) {

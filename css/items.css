@@ -70,4 +70,17 @@
         top: 100px;
         margin-bottom: 200px;
     }
+    .item button{
+        width: 100%;
+        margin: 1% 0 1% 0;
+    }
+    .item li, .item ul{
+        list-style-type: none;
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+    .item p{
+        font-size: smaller;
+    }
 }

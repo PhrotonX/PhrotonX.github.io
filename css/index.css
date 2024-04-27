@@ -4,7 +4,8 @@
     For html/index.php
 */
 
-@import 'constants.css';
+@import url('colors.css');
+@import url('constants.css');
 
 .introduction{
     display: flexbox;
@@ -41,4 +42,14 @@ img.introduction-image{
     margin-right: calc((100% - 25%) / 2);
     width: calc(100% / 4);
     height: auto;
+}
+
+.toolbar p{
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .toolbar p{
+        color: var(--color);
+    }
 }
