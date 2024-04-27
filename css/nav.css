@@ -57,7 +57,7 @@ nav a{
     display: none;
 }
 
-@media screen and (max-width: 325px){
+@media screen and (max-width: 500px){
     #header{
         /* bottom: -201px; */
         bottom: 0;
@@ -103,7 +103,7 @@ nav a{
         display: block;
     }
 }
-
+/* 
 @media screen and (min-width: 325px) {
     @media screen and (max-width: 500px) {
         #header{
@@ -114,7 +114,7 @@ nav a{
             justify-content: center;
         }
     }   
-}
+} */
 /* 
 @media screen and (max-width: 500px){        
     #header{
