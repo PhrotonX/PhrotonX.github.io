@@ -2,7 +2,7 @@
     "item": [
         {
             "category": "Game",
-            "title": "Militia SFML (CLOSED SOURCE)",
+            "title": "Militia SFML",
             "date": [
                 {
                     "year": 2021,
@@ -20,7 +20,7 @@
                 "Built with C++ &amp; SFML"
             ],
             "note": [
-                "Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+                "<b>The code is closed-source but it is open for code request.</b>"
             ],
             "button": [
                 {
@@ -38,7 +38,7 @@
         },
         {
             "category": "App",
-            "title": "EightQueensPuzzle (CLOSED SOURCE)",
+            "title": "EightQueensPuzzle",
             "date": [
                 {
                     "year": 2024,
@@ -48,9 +48,12 @@
             ],
             "image": "../res/img/projects/eightQueensPuzzle.png",
             "description": [
-                "This app strives to solve the eight queens problem by guessing the algorithm.",
+                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm.",
                 "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
                 "Unique features are soon merging with DzergeroEngine."
+            ],
+            "note": [
+                "<b>The code is closed-source but it is open for code request.</b>"
             ],
             "button": [
                 {
@@ -66,15 +69,16 @@
             "title": "UUID Generator",
             "date": [
                 {
-                    "year": "Early",
-                    "month": "2021"
+                    "year": "2021",
+                    "month": "June",
+                    "progress": "May 2022"
                 }
             ],
             "image": "../res/img/projects/uuidGen.png",
             "description": [
-                "C",
-                "C++",
-                "Win32 API"    
+                "Built on C++ and Win32 API",
+                "Can generate multiple variants of UUID.",
+                "Save UUID as a text file."
             ],
             "button": [
                 {
@@ -86,29 +90,48 @@
             
         },
         {
-            "category": "Website",
-            "title": "ComParts (School Project) (CLOSED SOURCE)",
+            "category": "App",
+            "title": "TextPad",
             "date": [
                 {
-                    "year": "2022",
-                    "month": "January",
+                    "year": "2021",
+                    "month": "March",
+                    "progress": "May 2021"
+                }
+            ],
+            "image": "../res/img/projects/textPad.png",
+            "description": [
+                "Built on C++ and Win32 API",
+                "This program is a proof that the developer needs more experience."
+            ],
+            "button": [
+                {
+                    "content": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/TextPad",
+                    "target": "_blank"
+                }
+            ]
+            
+        },
+        {
+            "category": "Website",
+            "title": "ComParts (School Project)",
+            "date": [
+                {
+                    "year": "2021",
+                    "month": "November",
                     "progress": "April 2022"
                 }
             ],
             "image": "../res/img/projects/comparts.jpeg",
             "description": [
                 "School requirement for ICT-11 Students at Next Generation Technological College, S.Y. 2021-2022.",
-                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL"
+                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL."
             ],
             "note": [
-                "Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+                "<b>The code is closed-source and it is not open for code request.</b>"
             ],
             "button": [
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                },
                 {
                     "content": "Learn more about R.A. 10173",
                     "action": "href=https://privacy.gov.ph/data-privacy-act/",
@@ -123,7 +146,7 @@
                 {
                     "year": "2024",
                     "month": "January",
-                    "progress": "Present"
+                    "progress": "Present (Inactive)"
                 }
             ],
             "image": "../res/img/Web Icon with Mouse Pointer.png",
@@ -145,7 +168,7 @@
         },
         {
             "category": "App",
-            "title": "Notes for Android (Coming Soon)(CLOSED SOURCE)",
+            "title": "Notes for Android (Coming Soon)",
             "date": [
                 {
                     "year": "2024",
@@ -156,11 +179,14 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "Is currently being built on Android SDK with Java"
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
             ]
         },
         {
             "category": "App",
-            "title": "Xlintax (Coming Soon)(CLOSED SOURCE)",
+            "title": "Xlintax (Coming Soon)",
             "date": [
                 {
                     "year": "2024",
@@ -172,6 +198,45 @@
             "description": [
                 "Is built on .NET UWP.",
                 "Soon to be migrated to WinUI 3."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ]
+        },
+        {
+            "category": "App",
+            "title": "TallyCounter (UWP)",
+            "date": [
+                {
+                    "year": "2023",
+                    "month": "April 17,",
+                    "progress": "April 17, 2023 (Shelved)"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on .NET UWP."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ]
+        },
+        {
+            "category": "App",
+            "title": "TallyCounter (Win32)",
+            "date": [
+                {
+                    "year": "2022",
+                    "month": "March",
+                    "progress": "May 2022 (Shelved)"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on C++ and Win32 API"
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
             ]
         },
         {
@@ -187,6 +252,9 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "Derived from the same technologies as Militia SFML."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is not open for code request.</b>"
             ]
         },
         {
@@ -202,7 +270,10 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "A relatively new project",
-                "Uses OpenGL, GLFW, and GLAD."
+                "Uses C++, OpenGL, GLFW, and GLAD."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
             ]
         }
     ]
