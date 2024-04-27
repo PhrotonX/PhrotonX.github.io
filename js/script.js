@@ -150,3 +150,23 @@ async function loadTiles(itemname, filename){
         itemGroup.appendChild(tile);
     }
 }
+
+function closeMenu(){
+    var backButton = document.getElementById("nav-back");
+    var menuButton = document.getElementById("nav-menu");
+    var dropdown = document.getElementById("nav-dropdown-content");
+    
+    backButton.style.display = "none";
+    menuButton.style.display = "block";
+    dropdown.style.display = "none";
+}
+
+function showMenu(){
+    var backButton = document.getElementById("nav-back");
+    var menuButton = document.getElementById("nav-menu");
+    var dropdown = document.getElementById("nav-dropdown-content");
+
+    backButton.style.display = "block";
+    menuButton.style.display = "none";
+    dropdown.style.display = "block";
+}

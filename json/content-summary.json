@@ -3,7 +3,7 @@
         {
             "title": "Clients Served",
             "content": 0,
-            "description": "I'm seeking for experience.",
+            "description": "I am seeking for experience.",
             "size": "small"
         },
         {
@@ -15,13 +15,13 @@
         {
             "title": "Experience",
             "content": ".3",
-            "description": "Years of making software**.",
+            "description": "Years of building software**.",
             "size": "small"
         },
         {
             "title": "Studying",
-            "content": "5+",
-            "description": "Years of learning to make software***.",
+            "content": "5",
+            "description": "Years of learning to code***.",
             "size": "small"
         }
     ]

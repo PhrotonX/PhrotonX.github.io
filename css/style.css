@@ -89,3 +89,19 @@ section{
     border-radius: 1px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 500px){
+    button{
+        width: 95%;
+        margin: 1% 2.5% 1% 2.5%;
+    }
+}
+
+@media screen and (min-width: 501px){
+    @media screen and (max-width: 800px){
+        button{
+            width: 75%;
+            margin: 1% 12.5% 1% 12.5%;
+        }
+    }
+}

@@ -7,6 +7,10 @@
 @import url('colors.css');
 @import url('constants.css');
 
+body{
+    background: black;
+}
+
 .introduction{
     display: flexbox;
     vertical-align: middle;
@@ -44,7 +48,7 @@ img.introduction-image{
     height: auto;
 }
 
-.toolbar p{
+p, #nav-menu p, #nav-back p, #nav-dropdown-content p{
     color: white;
 }
 

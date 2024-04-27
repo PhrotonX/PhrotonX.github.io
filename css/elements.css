@@ -2,6 +2,7 @@
 
 .tile-medium{
     /* background-color: var(--primary); */
+    padding: 1%;
     display: inline-block;
     width: 20%;
     margin: 2.5%;
@@ -9,19 +10,22 @@
 
 .tile-small{
     /* background-color: var(--primary); */
+    padding: 1%;
     display: inline-block;
     width: 15%;
     margin: 2.5%;
 }
 
 .tiles{
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    /* margin-left: 2.5%; */
+    /* margin-right: 2.5%; */
 }
 
 table.tile-table{
+    display: table;
     width: 100%;
     border-collapse: collapse;
+    overflow: auto;
 }
 
 .tile-title p, .tile-description p, .tile-content p{
@@ -31,6 +35,58 @@ table.tile-table{
     text-align: center;
 }
 
+.tile-title p, .tile-description p{
+    font-size: smaller;
+}
+
 .tile-content p{
     font-size: 96px;
+}
+
+/* Phone */
+@media screen and (max-width: 400px){
+    .tile-medium{
+        display: inline-block;
+        width: 90%;
+        margin: 2.5%;
+    }
+    
+    .tile-small{
+        display: inline-block;
+        width: 80%;
+        margin: 2.5%;
+    }
+}
+
+/* Large Phones and Tablets */
+@media screen and (min-width: 401px) {
+    @media screen and (max-width: 500px) {
+        .tile-medium{
+            display: inline-block;
+            width: 50%;
+            margin: 2.5%;
+        }
+        
+        .tile-small{
+            display: inline-block;
+            width: 40%;
+            margin: 2.5%;
+        }
+    }   
+}
+
+@media screen and (min-width: 501px) {
+    @media screen and (max-width: 850px) {
+        .tile-medium{
+            display: inline-block;
+            width: 30%;
+            margin: 2.5%;
+        }
+        
+        .tile-small{
+            display: inline-block;
+            width: 25%;
+            margin: 2.5%;
+        }
+    }   
 }
