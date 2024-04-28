@@ -43,16 +43,6 @@
     top: 0;
 }
 
-.item .title{
-    font-size: x-large;
-    font-weight: normal;
-}
-
-.item-content .title, .item-content .category{
-    text-align: center;
-}
-
-
 @media screen and (min-width: 500px){
     .item-image{
         height:  50%;

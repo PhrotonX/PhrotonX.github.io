@@ -4,9 +4,14 @@
 @import url('form.css');
 @import url('nav.css');
 
-a, h1, h2, h3, h4, h5, h6, label, p{
-    font-family: Arial, Helvetica, sans-serif;
+a, h1, h2, h3, h4, h5, h6, label, p, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    /* font-weight: lighter; */
+}
+
+button{
+    text-align: center;
 }
 
 .parent::after {
@@ -68,6 +73,7 @@ header{
 
 .plaintext{
     margin: 4%;
+    width: 92%;
 }
 
 #sample-content{
@@ -83,6 +89,19 @@ section{
     height: auto;
     /* margin-left: 2.5%; */
     /* margin-right: 2.5%; */
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.subtitle{
+    font-weight: xx-large;
+}
+
+.title, .subtitle, .category{
+    text-align: center;
+    font-weight: lighter;
 }
 
 .shadow {
