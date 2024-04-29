@@ -3,10 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
         <title>Charles Martin's Projects</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../js/months.js"></script>
+        <script src="../js/script.js"></script>
+        <!-- <script src="../lib/bootstrap-select-1.13.14/js/bootstrap-select.js"></script> -->
         <link rel="stylesheet" href="../css/items.css" type="text/css"/>
         <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/elements.css" type="text/css"/>
         <link rel="stylesheet" href="../css/projects.css" type="text/css"/>
-        <script src="../js/script.js"></script>
     </head>
     <body>
         <script>
@@ -14,6 +18,10 @@
             loadPagePart('footer.html', 'footer');
             // loadItems("project", "https://gist.github.com/PhrotonX/98e9786c1f67de6de59bd4662f074e82#file-projects-json");
             loadItems("project", "../json/projects.json");
+
+            $(() => {
+                ('select').selectpicker();
+            })
         </script>
         <span id="header">
             
@@ -22,6 +30,14 @@
         <section id="content">
             <div class="plaintext">
                 <h1 class="title">Projects</h1>
+                <span class="listbox">
+                    <!-- <label for="projects-sort">Sort by</label> -->
+                    <!-- <select name="Sort By" id="projects-sort" onselect='loadItems("project", "../json/projects.json")'>
+                        <option value="relevance">Relevance</option>
+                        <option value="date-asc">Date (Ascending)</option>
+                        <option value="date-des">Date (Descending)</option>
+                    </select> -->
+                </span>
             </div>
             <!-- <h2>Self-Projects (Hobbies)</h2> -->
             <div id="projects">

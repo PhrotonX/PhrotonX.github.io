@@ -1,0 +1,7 @@
+:root{
+    --mobile-max-width: 400px;
+    --xl-mobile-min-width: 401px;
+    --xl-mobile-max-width: 500px;
+    --tablet-min-width: 501px;
+    --tablet-max-width: 850px;
+}

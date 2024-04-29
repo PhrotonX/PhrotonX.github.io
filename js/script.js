@@ -39,7 +39,17 @@ async function loadItems(itemName, filename){
 
     var itemGroup = document.getElementById(itemName + "s");
 
+    var sortedItems = [];
+
+    //Sortign algorithm here...
+    /*const sortListBox = document.getElementById("projects-sort");
+
+    for(var i = 0; i < items; i++){
+            
+    }*/
+
     for(let i = 0; i < items; i++){
+
         var itemElement = document.createElement("div");
         itemElement.setAttribute("class", itemName + " item");
         itemElement.setAttribute("id", itemName + "-" + i);
@@ -57,11 +67,13 @@ async function loadItems(itemName, filename){
         itemContent.setAttribute("class", "item-content acrylic parent shadow");
         
         itemContent.innerHTML = "<h3 class='title'>"+ json.item[i].title +'</h3><p class="category">'+json.item[i].category+"</p>";
+        
+        var monthName = getMonthName(json.item[i].date[0].month);
 
         if((json.item[i].date[0].progress != null) || (json.item[i].date[0].progress != "")){
-            itemContent.innerHTML += "<p class='date'>"+ json.item[i].date[0].month + " " + json.item[i].date[0].year + "-" + json.item[i].date[0].progress + "</p>";
+            itemContent.innerHTML += "<p class='date'>"+ monthName + " " + json.item[i].date[0].year + "-" + json.item[i].date[0].progress + "</p>";
         }else{
-            itemContent.innerHTML += "<p class='date'>"+ json.item[i].date[0].month + " " + json.item[i].date[0].year + "</p>";
+            itemContent.innerHTML += "<p class='date'>"+ monthName + " " + json.item[i].date[0].year + "</p>";
         }
 
         var itemDescription = document.createElement("ul");

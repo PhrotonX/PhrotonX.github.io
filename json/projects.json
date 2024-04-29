@@ -6,7 +6,7 @@
             "date": [
                 {
                     "year": 2021,
-                    "month": "August",
+                    "month": 8,
                     "progress": "Present"
                 }
             ],
@@ -42,7 +42,7 @@
             "date": [
                 {
                     "year": 2024,
-                    "month": "February",
+                    "month": 2,
                     "progress": "Present"
                 }
             ],
@@ -69,8 +69,8 @@
             "title": "UUID Generator",
             "date": [
                 {
-                    "year": "2021",
-                    "month": "June",
+                    "year": 2021,
+                    "month": 6,
                     "progress": "May 2022"
                 }
             ],
@@ -94,15 +94,14 @@
             "title": "TextPad",
             "date": [
                 {
-                    "year": "2021",
-                    "month": "March",
+                    "year": 2021,
+                    "month": 3,
                     "progress": "May 2021"
                 }
             ],
             "image": "../res/img/projects/textPad.png",
             "description": [
-                "Built on C++ and Win32 API",
-                "This program is a proof that the developer needs more experience."
+                "Built on C++ and Win32 API"
             ],
             "button": [
                 {
@@ -118,8 +117,8 @@
             "title": "ComParts (School Project)",
             "date": [
                 {
-                    "year": "2021",
-                    "month": "November",
+                    "year": 2021,
+                    "month": 11,
                     "progress": "April 2022"
                 }
             ],
@@ -144,8 +143,8 @@
             "title": "WebLog (Coming Soon)",
             "date": [
                 {
-                    "year": "2024",
-                    "month": "January",
+                    "year": 2024,
+                    "month": 1,
                     "progress": "Present (Inactive)"
                 }
             ],
@@ -171,8 +170,8 @@
             "title": "Notes for Android (Coming Soon)",
             "date": [
                 {
-                    "year": "2024",
-                    "month": "February",
+                    "year": 2024,
+                    "month": 2,
                     "progress": "Present"
                 }
             ],
@@ -189,8 +188,8 @@
             "title": "Xlintax (Coming Soon)",
             "date": [
                 {
-                    "year": "2024",
-                    "month": "March",
+                    "year": 2024,
+                    "month": 3,
                     "progress": "Present"
                 }
             ],
@@ -208,9 +207,9 @@
             "title": "TallyCounter (UWP)",
             "date": [
                 {
-                    "year": "2023",
-                    "month": "April 17,",
-                    "progress": "April 17, 2023 (Shelved)"
+                    "year": 2023,
+                    "month": 4,
+                    "progress": "April 2023 (Shelved)"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
@@ -226,8 +225,8 @@
             "title": "TallyCounter (Win32)",
             "date": [
                 {
-                    "year": "2022",
-                    "month": "March",
+                    "year": 2022,
+                    "month": 3,
                     "progress": "May 2022 (Shelved)"
                 }
             ],
@@ -244,8 +243,8 @@
             "title": "DzergeroEngine (Coming Soon)",
             "date": [
                 {
-                    "year": "2021",
-                    "month": "August",
+                    "year": 2021,
+                    "month": 8,
                     "progress": "Present"
                 }
             ],
@@ -262,8 +261,8 @@
             "title": "DzergeroEngine3D (Coming Soon)",
             "date": [
                 {
-                    "year": "2024",
-                    "month": "April",
+                    "year": 2024,
+                    "month": 4,
                     "progress": "Present"
                 }
             ],
