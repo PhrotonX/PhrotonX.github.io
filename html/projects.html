@@ -3,7 +3,8 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
         <title>Charles Martin's Projects</title>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+        <script src="../js/cookies.js"></script>
         <script src="../js/months.js"></script>
         <script src="../js/script.js"></script>
         <!-- <script src="../lib/bootstrap-select-1.13.14/js/bootstrap-select.js"></script> -->
@@ -17,11 +18,10 @@
             loadPagePart('header.html', 'header');
             loadPagePart('footer.html', 'footer');
             // loadItems("project", "https://gist.github.com/PhrotonX/98e9786c1f67de6de59bd4662f074e82#file-projects-json");
-            loadItems("project", "../json/projects.json");
 
-            $(() => {
-                ('select').selectpicker();
-            })
+            // $(() => {
+            //     ('select').selectpicker();
+            // })
         </script>
         <span id="header">
             
@@ -32,13 +32,21 @@
                 <h1 class="title">Projects</h1>
                 <span class="listbox">
                     <!-- <label for="projects-sort">Sort by</label> -->
-                    <!-- <select name="Sort By" id="projects-sort" onselect='loadItems("project", "../json/projects.json")'>
+                    <select name="Sort By" id="projects-sort" onchange='load()'>
                         <option value="relevance">Relevance</option>
                         <option value="date-asc">Date (Ascending)</option>
                         <option value="date-des">Date (Descending)</option>
-                    </select> -->
+                    </select>
                 </span>
             </div>
+            <script>
+                async function load(){
+                    let values = await updateListBoxAndSort("projects-sort", "../json/projects.json");
+                    loadItems("project", "../json/projects.json", values);
+                }
+
+                load();
+            </script>
             <!-- <h2>Self-Projects (Hobbies)</h2> -->
             <div id="projects">
                 <!-- <div class="project item" id="project-1">

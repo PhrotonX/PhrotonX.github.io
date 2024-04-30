@@ -1,4 +1,5 @@
 const navClick = "navClick";
+var json;
 
 function loadPagePart(filename, containerId){
     fetch(filename)
@@ -29,27 +30,59 @@ async function loadJSON(filename){
 /**
  * itemName must be singular. Plural form of it should be appendable with -s.
  * Class name should be "tiles".
+ * Must call updateListBoxAndSort() or sortJSONItems() for the third argument.
  * @param {string} itemName 
  * @param {string} filename 
+ * @param {*} values
  */
-async function loadItems(itemName, filename){
-    const json = await loadJSON(filename);
+async function loadItems(itemName, filename, sortedValue){
+    if(json == null){
+        json = await loadJSON(filename);
+    }
 
     const items = Object.keys(json.item).length;
 
     var itemGroup = document.getElementById(itemName + "s");
-
-    var sortedItems = [];
-
-    //Sortign algorithm here...
-    /*const sortListBox = document.getElementById("projects-sort");
-
-    for(var i = 0; i < items; i++){
-            
-    }*/
+    itemGroup.innerHTML = "";
+    
+    var sortingMethod = getCookie("ProjectSorting");
+    console.log(sortingMethod.toString());
 
     for(let i = 0; i < items; i++){
+        console.log(sortedValue[i]);
+        switch(sortingMethod.toString()){
 
+            case "relevance":
+                load(i);
+                break;
+            case "date-asc":
+            case "date-des":
+                var displayedValue = [];
+
+                for(let j = 0; j < items; j++){
+                    console.log("items:" + items + "\tsortedValue: " + sortedValue[i] + "\tDate: " + json.item[j].date[0].year + '' + getMonthWithLeadingZeroStr(json.item[j].date[0].month));
+                    
+                    if(displayedValue.includes(j)){
+                        continue;
+                    }
+                    if(sortedValue[i] === json.item[j].date[0].year + '' + getMonthWithLeadingZeroStr(json.item[j].date[0].month)){
+                        console.log("SUCCEED at item " + sortedValue[i] + "\tIndex: " + i + " against j: " + j);
+                        displayedValue.push(j);
+                        load(j);
+                        break;
+                    }
+                }
+                break;
+            default:
+                break;
+        }
+    }
+
+    /*for(let i = 0; i < items; i++){
+
+        
+    }*/
+    function load(i){
         var itemElement = document.createElement("div");
         itemElement.setAttribute("class", itemName + " item");
         itemElement.setAttribute("id", itemName + "-" + i);
@@ -127,12 +160,15 @@ async function loadItems(itemName, filename){
 }
 
 async function loadTiles(itemname, filename){
-    const json = await loadJSON(filename);
+    json = await loadJSON(filename);
     const items = Object.keys(json.tile).length;
 
     var itemGroup = document.getElementById(itemname + "s");
 
+    const sortedItems = sortItems(listBox);
     for(let i = 0; i < items; i++){
+
+
         var tile = document.createElement("div");
 
         tile.setAttribute("class", "tile-" + json.tile[i].size + " " + itemname + " acrylic child");
@@ -161,6 +197,93 @@ async function loadTiles(itemname, filename){
 
         itemGroup.appendChild(tile);
     }
+}
+
+function updateListBoxAndSort(listBox, filename){
+    const sortListBox = document.getElementById(listBox);
+    
+    createCookie("ProjectSorting", sortListBox.value, 630);
+
+    return sortJSONItems(sortListBox.value, filename);
+
+    // const sortListBox = document.getElementById(listBox);
+
+    // var sortingMethod = getCookie("ProjectSorting");
+
+    // sortListBox.value = sortingMethod.toString();
+
+    // return sortJSONItems(sortingMethod.toString());
+}
+
+//Move this function into a class called Items in an OOP paradigm.
+/**
+ * Requires JSON with items.
+ * @param {*} sortingMethod 
+ * @returns 
+ */
+async function sortJSONItems(sortingMethod, filename){
+    if(json == null){
+        json = await loadJSON(filename);
+    }
+
+    var items = [];
+    //var sortedItems = [];
+
+    if(json != null){
+        const size = Object.keys(json.item).length;
+
+        for(let i = 0; i < size; i++){
+            switch(sortingMethod){
+                case "date-asc":
+                case "date-des":
+                    items[i] = json.item[i].date[0].year + getMonthWithLeadingZeroStr(json.item[i].date[0].month);
+                    //console.log(items[i]);
+                    break;
+                case "relevance":
+                    items[i] = i;
+                    break;
+                default:
+                    break;
+
+            }
+        }
+        
+        for(let i = 0; i < size; i++){
+            switch(sortingMethod){
+                case "date-asc":
+                    for(let j = i; j < size; j++){
+                        let temp = items[j];
+                        if(items[i] > items[j]){
+                            items[j] = items[i];
+                            items[i] = temp;
+                            //sortedItems[i] = j;
+                        }
+                    }
+                    break;
+                case "date-des":
+                    for(let j = i; j < size; j++){
+                        let temp = items[j];
+                        if(items[i] < items[j]){
+                            items[j] = items[i];
+                            items[i] = temp;
+                            //sortedItems[i] = j;
+                        }
+                    }
+                    break;
+                default:
+                    break;
+            }
+            
+        }
+
+        for(let i = 0; i < size; i++){
+            //console.log("Item: " + sortedItems[i] + "\tElement: " + items[i]);
+            //console.log("Element: " + items[i]);
+        }
+    }
+
+    //return sortedItems;
+    return items;
 }
 
 function closeMenu(){
