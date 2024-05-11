@@ -165,7 +165,7 @@ async function loadTiles(itemname, filename){
 
     var itemGroup = document.getElementById(itemname + "s");
 
-    const sortedItems = sortItems(listBox);
+    //const sortedItems = sortItems(listBox);
     for(let i = 0; i < items; i++){
 
 
