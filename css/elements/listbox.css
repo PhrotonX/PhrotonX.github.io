@@ -1,9 +1,25 @@
 .listbox{
-    display: none;
+    display: block;
 }
 .listbox select{
     border-style: solid 3px;
     width: 25%;
     margin-left: 37.5%;
     margin-right: 37.5%;
+}
+
+@media screen and (max-width: 500px){
+    .listbox select{
+        width: 95%;
+        margin: 1% 2.5% 1% 2.5%;
+    }
+}
+
+@media screen and (min-width: 501px){
+    @media screen and (max-width: 800px){
+        .listbox select{
+            width: 75%;
+            margin: 1% 12.5% 1% 12.5%;
+        }
+    }
 }

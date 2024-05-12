@@ -48,10 +48,14 @@ async function loadItems(itemName, filename, sortedValue){
     var sortingMethod = getCookie("ProjectSorting");
     console.log(sortingMethod.toString());
 
+    var hiddenItems = 0;
+    var noOfItems = 0;
+
     for(let i = 0; i < items; i++){
         console.log(sortedValue[i]);
+        noOfItems++;
+            
         switch(sortingMethod.toString()){
-
             case "relevance":
                 load(i);
                 break;
@@ -60,17 +64,26 @@ async function loadItems(itemName, filename, sortedValue){
                 var displayedValue = [];
 
                 for(let j = 0; j < items; j++){
-                    console.log("items:" + items + "\tsortedValue: " + sortedValue[i] + "\tDate: " + json.item[j].date[0].year + '' + getMonthWithLeadingZeroStr(json.item[j].date[0].month));
+                    let valueToCompare = json.item[j].date[0].year + '' + getMonthWithLeadingZeroStr(json.item[j].date[0].month);
+                    if(json.item[j].date[0].day != null){
+                        valueToCompare += json.item[j].date[0].day + "_" + json.item[j].date[0].item;
+                    }else{
+                        valueToCompare += "00_00";
+                    }
+
+                    console.log(j + ": items:" + items + "\tsortedValue: " + sortedValue[i] + "\tDate: " + valueToCompare);
                     
                     if(displayedValue.includes(j)){
                         continue;
                     }
-                    if(sortedValue[i] === json.item[j].date[0].year + '' + getMonthWithLeadingZeroStr(json.item[j].date[0].month)){
+
+                    if(sortedValue[i] === valueToCompare){
                         console.log("SUCCEED at item " + sortedValue[i] + "\tIndex: " + i + " against j: " + j);
                         displayedValue.push(j);
                         load(j);
                         break;
                     }
+                    
                 }
                 break;
             default:
@@ -78,11 +91,22 @@ async function loadItems(itemName, filename, sortedValue){
         }
     }
 
+    if(hiddenItems != 0){
+        let hiddenItemsNotice = document.getElementById("hidden-items-notice-" + itemName);
+        let plural = "are";
+        if(hiddenItems == 1){
+            plural = "is";
+        }
+        hiddenItemsNotice.innerHTML = hiddenItems + " out of " + noOfItems + " items "+ plural +" hidden.";
+    }
     /*for(let i = 0; i < items; i++){
 
         
     }*/
-    function load(i){
+    function load(i){if(json.item[i].hidden === true){
+            hiddenItems++;
+            return;
+        }
         var itemElement = document.createElement("div");
         itemElement.setAttribute("class", itemName + " item");
         itemElement.setAttribute("id", itemName + "-" + i);
@@ -236,7 +260,17 @@ async function sortJSONItems(sortingMethod, filename){
             switch(sortingMethod){
                 case "date-asc":
                 case "date-des":
-                    items[i] = json.item[i].date[0].year + getMonthWithLeadingZeroStr(json.item[i].date[0].month);
+                    let dayAndItem = "";
+                    if(json.item[i].date[0].day != null){
+                        dayAndItem += json.item[i].date[0].day;
+                        
+                        if(json.item[i].date[0].item != null){
+                            dayAndItem += "_" + json.item[i].date[0].item;
+                        }
+                    }else{
+                        dayAndItem += "00_00";
+                    }
+                    items[i] = json.item[i].date[0].year + getMonthWithLeadingZeroStr(json.item[i].date[0].month) + dayAndItem;
                     //console.log(items[i]);
                     break;
                 case "relevance":

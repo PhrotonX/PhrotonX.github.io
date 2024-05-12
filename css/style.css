@@ -47,6 +47,11 @@ button, a, input, select, textarea {
     -webkit-tap-highlight-color: transparent;
 }
 
+.center{
+    width: 100%;
+    text-align: center;
+}
+
 #content{
     padding-top: 48px;
 }
