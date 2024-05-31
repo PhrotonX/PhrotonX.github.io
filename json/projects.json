@@ -1,6 +1,27 @@
 {
     "item": [
         {
+            "category": "App",
+            "title": "Notes for Android (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 2,
+                    "day": "00",
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/projects/notesForAndroid.png",
+            "description": [
+                "Is currently being built on Android SDK with Java"
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ]
+        },
+        {
+            
             "category": "Game",
             "title": "Militia SFML",
             "date": [
@@ -35,6 +56,46 @@
                     "action": "href=mailto:charlesmartinpascual@gmail.com",
                     "target": "self"
                 }
+            ],
+            "hidden": false
+        },
+        {
+            "category": "App",
+            "title": "Xlintax (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 3,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on .NET UWP.",
+                "Soon to be migrated to WinUI 3."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Framework",
+            "title": "DzergeroEngine3D (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 4,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "A relatively new project",
+                "Uses C++, OpenGL, GLFW, and GLAD."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
             "hidden": false
         },
@@ -173,46 +234,6 @@
         },
         {
             "category": "App",
-            "title": "Notes for Android (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 2,
-                    "day": "00",
-                    "item": "01",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/projects/notesForAndroid.png",
-            "description": [
-                "Is currently being built on Android SDK with Java"
-            ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
-            ]
-        },
-        {
-            "category": "App",
-            "title": "Xlintax (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 3,
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is built on .NET UWP.",
-                "Soon to be migrated to WinUI 3."
-            ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            "category": "App",
             "title": "TallyCounter (UWP)",
             "date": [
                 {
@@ -266,26 +287,6 @@
             ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            "category": "Framework",
-            "title": "DzergeroEngine3D (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 4,
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "A relatively new project",
-                "Uses C++, OpenGL, GLFW, and GLAD."
-            ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
             "hidden": false
         }
