@@ -92,7 +92,8 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "A relatively new project",
-                "Uses C++, OpenGL, GLFW, and GLAD."
+                "Uses C++, OpenGL, GLFW, and GLAD.",
+                "Is accompanied with a website called DzergeroEngine3D Documentation."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
