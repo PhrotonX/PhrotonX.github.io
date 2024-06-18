@@ -1,7 +1,7 @@
 {
     "item": [
         {
-            "category": "App",
+            "category": "App - Mobile",
             "title": "Notes for Android (Coming Soon)",
             "date": [
                 {
@@ -22,7 +22,7 @@
         },
         {
             
-            "category": "Game",
+            "category": "Game - Desktop",
             "title": "Militia SFML",
             "date": [
                 {
@@ -60,7 +60,29 @@
             "hidden": false
         },
         {
-            "category": "App",
+            "category": "Framework - Library",
+            "title": "DzergeroEngine3D (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 4,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Uses C++, OpenGL, GLFW, and GLAD.",
+                "Aims to deliver a free but hard-to-use 3D engine.",
+                "Enforces MVC Architecture throughout the code.",
+                "Is accompanied with a website called DzergeroEngine3D Documentation."
+            ],
+            "note": [
+                "<b>The code is open-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
+        },
+        {
+            "category": "App - Multiplatform",
             "title": "Xlintax (Coming Soon)",
             "date": [
                 {
@@ -80,20 +102,21 @@
             "hidden": false
         },
         {
-            "category": "Framework",
-            "title": "DzergeroEngine3D (Coming Soon)",
+            "category": "Framework - Dynamic Link Library",
+            "title": "XMLPFC (Coming Soon)",
             "date": [
                 {
                     "year": 2024,
-                    "month": 4,
+                    "month": 6,
                     "progress": "Present"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "A relatively new project",
-                "Uses C++, OpenGL, GLFW, and GLAD.",
-                "Is accompanied with a website called DzergeroEngine3D Documentation."
+                "Also known as <b>eXtensible Markup Language Parser for C++</b>.",
+                "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
+                "A relatively new project.",
+                "Is built on C++."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
@@ -101,7 +124,7 @@
             "hidden": false
         },
         {
-            "category": "App",
+            "category": "App - Desktop",
             "title": "EightQueensPuzzle",
             "date": [
                 {
@@ -109,12 +132,12 @@
                     "month": 2,
                     "day": "09",
                     "item": "02",
-                    "progress": "Present"
+                    "progress": "April 2024 (Shelved)"
                 }
             ],
             "image": "../res/img/projects/eightQueensPuzzle.png",
             "description": [
-                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm.",
+                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI.",
                 "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
                 "Unique features are soon merging with DzergeroEngine."
             ],
@@ -132,7 +155,7 @@
             
         },
         {
-            "category": "App",
+            "category": "App - Desktop",
             "title": "UUID Generator",
             "date": [
                 {
@@ -157,7 +180,7 @@
             
         },
         {
-            "category": "App",
+            "category": "App - Desktop",
             "title": "TextPad",
             "date": [
                 {
@@ -180,7 +203,7 @@
             
         },
         {
-            "category": "Website",
+            "category": "Website - Dynamic",
             "title": "ComParts (School Project)",
             "date": [
                 {
@@ -206,7 +229,7 @@
             ]
         },
         {
-            "category": "Website",
+            "category": "Website - Dynamic",
             "title": "WebLog (Coming Soon)",
             "date": [
                 {
@@ -234,7 +257,7 @@
             "hidden": false
         },
         {
-            "category": "App",
+            "category": "App - Multiplatform",
             "title": "TallyCounter (UWP)",
             "date": [
                 {
@@ -253,7 +276,7 @@
             "hidden": false
         },
         {
-            "category": "App",
+            "category": "App - Desktop",
             "title": "TallyCounter (Win32)",
             "date": [
                 {
@@ -271,7 +294,7 @@
             ]
         },
         {
-            "category": "Framework",
+            "category": "Framework - Library",
             "title": "DzergeroEngine (Coming Soon)",
             "date": [
                 {

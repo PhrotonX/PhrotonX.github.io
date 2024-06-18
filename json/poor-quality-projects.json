@@ -1,7 +1,7 @@
 {
     "item": [
         {
-            "category": "Game",
+            "category": "Game - Desktop",
             "title": " TankGame (CLOSED SOURCE)",
             "date": [
                 {
@@ -13,6 +13,7 @@
             "image": "../res/img/projects/Coding Clipart.png",
             "description": [
                 "This game contains large amount of bad practices",
+                "CLI Application",
                 "Built with C++ &amp; SFML"
             ],
             "note": [
