@@ -124,6 +124,34 @@
             "hidden": false
         },
         {
+            "category": "Website - Dynamic",
+            "title": "WebLog (Coming Soon)",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 3,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "description": [
+                "Is built on Laravel."
+            ],
+            "button": [
+                {
+                    "content": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/webLog",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                }
+            ],
+            "hidden": false
+        },
+        {
             "category": "App - Desktop",
             "title": "EightQueensPuzzle",
             "date": [
@@ -227,34 +255,6 @@
                     "target": "_blank"
                 }
             ]
-        },
-        {
-            "category": "Website - Dynamic",
-            "title": "WebLog (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 1,
-                    "progress": "Present (Inactive)"
-                }
-            ],
-            "image": "../res/img/Web Icon with Mouse Pointer.png",
-            "description": [
-                "Is built on Laravel."
-            ],
-            "button": [
-                {
-                    "content": "View on GitHub",
-                    "action": "href=https://github.com/PhrotonX/webLog",
-                    "target": "_blank"
-                },
-                {
-                    "content": "Learn more about R.A. 10173",
-                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
-                    "target": "_blank"
-                }
-            ],
-            "hidden": false
         },
         {
             "category": "App - Multiplatform",
