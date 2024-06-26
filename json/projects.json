@@ -103,11 +103,32 @@
         },
         {
             "category": "Framework - Dynamic Link Library",
+            "title": "xlibcpp (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 6,
+                    "day": 24,
+                    "item": "02",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<b>Extension Library for C++</b>",
+                "Is built on C++."
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Framework - Dynamic Link Library",
             "title": "XMLPFC (Coming Soon)",
             "date": [
                 {
                     "year": 2024,
                     "month": 6,
+                    "day": 1,
+                    "item": "01",
                     "progress": "Present"
                 }
             ],
