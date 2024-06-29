@@ -205,6 +205,33 @@
         },
         {
             "category": "App - Desktop",
+            "title": "Contact Manager",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 11,
+                    "day": "25",
+                    "item": "01",
+                    "progress": "November 2023 (Shelved)"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is written in Java.",
+                "Shelved project"
+            ],
+            "button": [
+                {
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
+                }
+            ],
+            "hidden": false
+            
+        },
+        {
+            "category": "App - Desktop",
             "title": "UUID Generator",
             "date": [
                 {
