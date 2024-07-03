@@ -71,7 +71,7 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Uses C++, OpenGL, GLFW, and GLAD.",
+                "Uses C++20, OpenGL, GLFW, and GLAD.",
                 "Aims to deliver a free but hard-to-use 3D engine.",
                 "Enforces MVC Architecture throughout the code.",
                 "Is accompanied with a website called DzergeroEngine3D Documentation."
