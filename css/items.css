@@ -57,8 +57,11 @@
         height:  45%;
     }
     .item-content{
+        width: 90%;
+        margin: 0%;
         top: 100px;
         margin-bottom: 200px;
+        padding: 5%;
     }
     .item li, .item ul{
         list-style-type: none;

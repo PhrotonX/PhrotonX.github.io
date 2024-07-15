@@ -1,24 +1,27 @@
 {
     "item": [
         {
-            "category": "App - Mobile",
-            "title": "Notes for Android (Coming Soon)",
+            "category": "Framework - Library",
+            "title": "DzergeroEngine3D (Coming Soon)",
             "date": [
                 {
                     "year": 2024,
-                    "month": 2,
-                    "day": "00",
-                    "item": "01",
+                    "month": 4,
                     "progress": "Present"
                 }
             ],
-            "image": "../res/img/projects/notesForAndroid.png",
+            "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Is currently being built on Android SDK with Java"
+                "Is in early development",
+                "Uses C++20 with Modules, OpenGL, GLFW, and GLAD.",
+                "Aims to deliver a free but hard-to-use 3D engine.",
+                "Enforces MVC Architecture throughout the code.",
+                "Is accompanied with a website called DzergeroEngine3D Documentation."
             ],
             "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
-            ]
+                "<b>The code is open-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
         },
         {
             
@@ -60,46 +63,24 @@
             "hidden": false
         },
         {
-            "category": "Framework - Library",
-            "title": "DzergeroEngine3D (Coming Soon)",
+            "category": "App - Mobile",
+            "title": "Notes for Android (Coming Soon)",
             "date": [
                 {
                     "year": 2024,
-                    "month": 4,
+                    "month": 2,
+                    "day": "00",
+                    "item": "01",
                     "progress": "Present"
                 }
             ],
-            "image": "../res/img/Coding Clipart.png",
+            "image": "../res/img/projects/notesForAndroid.png",
             "description": [
-                "Uses C++20, OpenGL, GLFW, and GLAD.",
-                "Aims to deliver a free but hard-to-use 3D engine.",
-                "Enforces MVC Architecture throughout the code.",
-                "Is accompanied with a website called DzergeroEngine3D Documentation."
-            ],
-            "note": [
-                "<b>The code is open-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            "category": "App - Multiplatform",
-            "title": "Xlintax (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 3,
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is built on .NET UWP.",
-                "Soon to be migrated to WinUI 3."
+                "Is currently being built on Android SDK with Java"
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
+            ]
         },
         {
             "category": "Framework - Dynamic Link Library",
@@ -138,6 +119,26 @@
                 "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
                 "A relatively new project.",
                 "Is built on C++."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
+        },
+        {
+            "category": "App - Multiplatform",
+            "title": "Xlintax (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 3,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on .NET UWP.",
+                "Soon to be migrated to WinUI 3."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
@@ -343,7 +344,7 @@
         },
         {
             "category": "Framework - Library",
-            "title": "DzergeroEngine (Coming Soon)",
+            "title": "DzergeroEngine (Shelved)",
             "date": [
                 {
                     "year": 2021,
@@ -355,7 +356,8 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Derived from the same technologies as Militia SFML."
+                "Derived from the same technologies as Militia SFML.",
+                "Is not prioritized in favor of DzergeroEngine3D."
             ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
