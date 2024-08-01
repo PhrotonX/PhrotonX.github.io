@@ -56,7 +56,7 @@ async function loadItems(itemName, filename, sortedValue){
         noOfItems++;
             
         switch(sortingMethod.toString()){
-            case "relevance":
+            case "priority":
                 load(i);
                 break;
             case "date-asc":
@@ -273,7 +273,7 @@ async function sortJSONItems(sortingMethod, filename){
                     items[i] = json.item[i].date[0].year + getMonthWithLeadingZeroStr(json.item[i].date[0].month) + dayAndItem;
                     //console.log(items[i]);
                     break;
-                case "relevance":
+                case "priority":
                     items[i] = i;
                     break;
                 default:

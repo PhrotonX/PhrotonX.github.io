@@ -12,6 +12,7 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
+                "Project with highest priority",
                 "Is in early development",
                 "Uses C++20 with Modules, OpenGL, GLFW, and GLAD.",
                 "Aims to deliver a free but hard-to-use 3D engine.",
@@ -40,7 +41,7 @@
             "description": [
                 "This game contains large amount of code and implementation of skills and knowledge in software development, including MVC Architecture, Client-Server Architecture, Observer Pattern, Abstract Factory Pattern, and more.",
                 "This game also consists of features such as UI framework, Game Engine, Multiplayer, and more.",
-                "This game gains the most amount of focus and priority compared to other projects.",
+                "This game gained the most amount of focus and priority compared to other projects.",
                 "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
                 "Is accompanied with a website called Militia SFML Documentation.",
                 "Built with C++ &amp; SFML"
@@ -76,7 +77,8 @@
             ],
             "image": "../res/img/projects/notesForAndroid.png",
             "description": [
-                "Is currently being built on Android SDK with Java"
+                "Is currently being built on Android SDK with Java",
+                "Supports basic CRUD operation"
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
