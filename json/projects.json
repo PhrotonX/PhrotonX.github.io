@@ -80,8 +80,17 @@
                 "Is currently being built on Android SDK with Java",
                 "Supports basic CRUD operation"
             ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
+            "button": [
+                {
+                    "content": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/notes-android",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                }
             ]
         },
         {
