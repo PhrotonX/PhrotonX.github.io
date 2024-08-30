@@ -14,7 +14,7 @@
             "description": [
                 "Project with highest priority",
                 "Is in early development",
-                "Uses C++20 with Modules, OpenGL, GLFW, and GLAD.",
+                "Uses C++20 with Modules, OpenGL, GLFW, GLAD, and GLM.",
                 "Aims to deliver a free but hard-to-use 3D engine.",
                 "Enforces MVC Architecture throughout the code.",
                 "Is accompanied with a website called DzergeroEngine3D Documentation."
@@ -39,7 +39,7 @@
             ],
             "image": "../res/img/projects/militiaSFML.png",
             "description": [
-                "This game contains large amount of code and implementation of skills and knowledge in software development, including MVC Architecture, Client-Server Architecture, Observer Pattern, Abstract Factory Pattern, and more.",
+                "This game contains large amount of code and implementation of skills and knowledge in software development, including MVC Architecture, Client-Server Architecture, and more.",
                 "This game also consists of features such as UI framework, Game Engine, Multiplayer, and more.",
                 "This game gained the most amount of focus and priority compared to other projects.",
                 "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
@@ -60,6 +60,26 @@
                     "action": "href=mailto:charlesmartinpascual@gmail.com",
                     "target": "self"
                 }
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Framework - Dynamic Link Library",
+            "title": "xlibcpp (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 6,
+                    "day": 24,
+                    "item": "02",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<b>Extension Library for C++</b>",
+                "Is built on C++.",
+                "Consists of my own implementation of data structures."
             ],
             "hidden": false
         },
@@ -94,21 +114,22 @@
             ]
         },
         {
-            "category": "Framework - Dynamic Link Library",
-            "title": "xlibcpp (Coming Soon)",
+            "category": "App - Multiplatform",
+            "title": "Xlintax (Coming Soon)",
             "date": [
                 {
                     "year": 2024,
-                    "month": 6,
-                    "day": 24,
-                    "item": "02",
+                    "month": 3,
                     "progress": "Present"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "<b>Extension Library for C++</b>",
-                "Is built on C++."
+                "Is built on .NET UWP.",
+                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
             "hidden": false
         },
@@ -130,26 +151,6 @@
                 "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
                 "A relatively new project.",
                 "Is built on C++."
-            ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            "category": "App - Multiplatform",
-            "title": "Xlintax (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 3,
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is built on .NET UWP.",
-                "Soon to be migrated to WinUI 3."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
@@ -183,64 +184,6 @@
                 }
             ],
             "hidden": false
-        },
-        {
-            "category": "App - Desktop",
-            "title": "EightQueensPuzzle",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 2,
-                    "day": "09",
-                    "item": "02",
-                    "progress": "April 2024 (Shelved)"
-                }
-            ],
-            "image": "../res/img/projects/eightQueensPuzzle.png",
-            "description": [
-                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI.",
-                "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
-                "Unique features are soon merging with DzergeroEngine."
-            ],
-            "note": [
-                "<b>The code is closed-source but it is open for code request.</b>"
-            ],
-            "button": [
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                }
-            ],
-            "hidden": false
-            
-        },
-        {
-            "category": "App - Desktop",
-            "title": "Contact Manager",
-            "date": [
-                {
-                    "year": 2023,
-                    "month": 11,
-                    "day": "25",
-                    "item": "01",
-                    "progress": "November 2023 (Shelved)"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is written in Java.",
-                "Shelved project"
-            ],
-            "button": [
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                }
-            ],
-            "hidden": false
-            
         },
         {
             "category": "App - Desktop",
@@ -303,7 +246,8 @@
             "image": "../res/img/projects/comparts.jpeg",
             "description": [
                 "School requirement for ICT-11 Students at Next Generation Technological College, S.Y. 2021-2022.",
-                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL."
+                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL.",
+                "Last updated: April 2022"
             ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
@@ -355,7 +299,7 @@
         },
         {
             "category": "Framework - Library",
-            "title": "DzergeroEngine (Shelved)",
+            "title": "DzergeroEngine2D (Shelved)",
             "date": [
                 {
                     "year": 2021,
@@ -374,6 +318,63 @@
                 "<b>The code is closed-source and it is not open for code request.</b>"
             ],
             "hidden": false
+        },
+        {
+            "category": "App - Desktop",
+            "title": "Contact Manager",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 11,
+                    "day": "25",
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is written in Java."
+            ],
+            "button": [
+                {
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
+                }
+            ],
+            "hidden": false
+            
+        },
+        {
+            "category": "App - Desktop",
+            "title": "EightQueensPuzzle",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 2,
+                    "day": "09",
+                    "item": "02",
+                    "progress": "April 2024 (Shelved)"
+                }
+            ],
+            "image": "../res/img/projects/eightQueensPuzzle.png",
+            "description": [
+                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI.",
+                "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
+                "Unique features are soon merging with DzergeroEngine."
+            ],
+            "note": [
+                "<b>The code is closed-source but it is open for code request.</b>"
+            ],
+            "button": [
+                {
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
+                }
+            ],
+            "hidden": false
+            
         }
     ]
 }
