@@ -123,10 +123,11 @@
                     "progress": "Present"
                 }
             ],
-            "image": "../res/img/Coding Clipart.png",
+            "image": "../res/img/projects/xlintax.png",
             "description": [
                 "Is built on .NET UWP.",
-                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter."
+                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter.",
+                "Also supports dfferent programming languages."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
