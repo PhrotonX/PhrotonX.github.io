@@ -84,6 +84,27 @@
             "hidden": false
         },
         {
+            "category": "App - Multiplatform",
+            "title": "Xlintax (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 3,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/projects/xlintax.png",
+            "description": [
+                "Is built on .NET UWP.",
+                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter.",
+                "Also supports dfferent programming languages."
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
+        },
+        {
             "category": "App - Mobile",
             "title": "Notes for Android (Coming Soon)",
             "date": [
@@ -114,25 +135,30 @@
             ]
         },
         {
-            "category": "App - Multiplatform",
-            "title": "Xlintax (Coming Soon)",
+            "category": "App - Desktop",
+            "title": "Contact Manager",
             "date": [
                 {
-                    "year": 2024,
-                    "month": 3,
+                    "year": 2023,
+                    "month": 11,
+                    "day": "25",
+                    "item": "01",
                     "progress": "Present"
                 }
             ],
-            "image": "../res/img/projects/xlintax.png",
+            "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Is built on .NET UWP.",
-                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter.",
-                "Also supports dfferent programming languages."
+                "Is written in Java."
             ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
+            "button": [
+                {
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
+                }
             ],
             "hidden": false
+            
         },
         {
             "category": "Framework - Dynamic Link Library",
@@ -319,32 +345,6 @@
                 "<b>The code is closed-source and it is not open for code request.</b>"
             ],
             "hidden": false
-        },
-        {
-            "category": "App - Desktop",
-            "title": "Contact Manager",
-            "date": [
-                {
-                    "year": 2023,
-                    "month": 11,
-                    "day": "25",
-                    "item": "01",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is written in Java."
-            ],
-            "button": [
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                }
-            ],
-            "hidden": false
-            
         },
         {
             "category": "App - Desktop",
