@@ -2,7 +2,7 @@
     "item": [
         {
             "category": "Framework - Static Library",
-            "title": "DzergeroEngine3D (Coming Soon)",
+            "title": "DZ3D Engine (Coming Soon)",
             "date": [
                 {
                     "year": 2024,
@@ -12,12 +12,9 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Project with highest priority",
                 "Is in early development",
-                "Uses C++20 with Modules, OpenGL, GLFW, GLAD, and GLM.",
-                "Aims to deliver a free but hard-to-use 3D engine.",
-                "Enforces MVC Architecture throughout the code.",
-                "Is accompanied with a website called DzergeroEngine3D Documentation."
+                "Uses C++20 with OpenGL, GLFW, GLAD, and GLM.",
+                "Aims to deliver a free but hard-to-use 3D engine."
             ],
             "note": [
                 "<b>The code is open-source and it is soon open for code request.</b>"
@@ -25,8 +22,28 @@
             "hidden": false
         },
         {
+            "category": "Framework - Dynamic Link Library",
+            "title": "xlibcpp (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 6,
+                    "day": 24,
+                    "item": "02",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<b>Extension Library for C++</b>",
+                "Is built on C++.",
+                "Consists of my own implementation of data structures, algorithms, among others."
+            ],
+            "hidden": false
+        },
+        {
             
-            "category": "Game - Desktop",
+            "category": "Desktop Application",
             "title": "Militia SFML",
             "date": [
                 {
@@ -39,11 +56,7 @@
             ],
             "image": "../res/img/projects/militiaSFML.png",
             "description": [
-                "This game contains large amount of code and implementation of skills and knowledge in software development, including MVC Architecture, Client-Server Architecture, and more.",
-                "This game also consists of features such as UI framework, Game Engine, Multiplayer, and more.",
-                "This game gained the most amount of focus and priority compared to other projects.",
-                "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
-                "Is accompanied with a website called Militia SFML Documentation.",
+               "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
                 "Built with C++ &amp; SFML"
             ],
             "note": [
@@ -64,27 +77,7 @@
             "hidden": false
         },
         {
-            "category": "Framework - Dynamic Link Library",
-            "title": "xlibcpp (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 6,
-                    "day": 24,
-                    "item": "02",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "<b>Extension Library for C++</b>",
-                "Is built on C++.",
-                "Consists of my own implementation of data structures."
-            ],
-            "hidden": false
-        },
-        {
-            "category": "App - Multiplatform",
+            "category": "Cross-platform Application",
             "title": "Xlintax (Coming Soon)",
             "date": [
                 {
@@ -96,8 +89,7 @@
             "image": "../res/img/projects/xlintax.png",
             "description": [
                 "Is built on .NET UWP.",
-                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter.",
-                "Also supports dfferent programming languages."
+                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
@@ -105,7 +97,7 @@
             "hidden": false
         },
         {
-            "category": "App - Mobile",
+            "category": "Mobile Application",
             "title": "Notes for Android (Coming Soon)",
             "date": [
                 {
@@ -135,7 +127,7 @@
             ]
         },
         {
-            "category": "App - Desktop",
+            "category": "Desktop Application",
             "title": "Contact Manager",
             "date": [
                 {
@@ -162,14 +154,14 @@
         },
         {
             "category": "Framework - Dynamic Link Library",
-            "title": "XMLPFC (Coming Soon)",
+            "title": "XMLPFC (Shelved)",
             "date": [
                 {
                     "year": 2024,
-                    "month": 6,
-                    "day": 1,
+                    "month": 5,
+                    "day": 29,
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "July 2024"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
@@ -185,7 +177,7 @@
             "hidden": false
         },
         {
-            "category": "Website - Dynamic",
+            "category": "Dynamic Website (Web Application)",
             "title": "WebLog (Coming Soon)",
             "date": [
                 {
@@ -213,7 +205,7 @@
             "hidden": false
         },
         {
-            "category": "App - Desktop",
+            "category": "Desktop Application",
             "title": "UUID Generator",
             "date": [
                 {
@@ -238,7 +230,7 @@
             
         },
         {
-            "category": "App - Desktop",
+            "category": "Desktop Application",
             "title": "TextPad",
             "date": [
                 {
@@ -261,7 +253,7 @@
             
         },
         {
-            "category": "Website - Dynamic",
+            "category": "Dynamic Website (Web Application)",
             "title": "ComParts (School Project)",
             "date": [
                 {
@@ -288,7 +280,7 @@
             ]
         },
         {
-            "category": "App - Multiplatform",
+            "category": "Desktop Application",
             "title": "TallyCounter (UWP)",
             "date": [
                 {
@@ -307,7 +299,7 @@
             "hidden": false
         },
         {
-            "category": "App - Desktop",
+            "category": "Desktop Application",
             "title": "TallyCounter (Win32)",
             "date": [
                 {
@@ -326,7 +318,7 @@
         },
         {
             "category": "Framework - Library",
-            "title": "DzergeroEngine2D (Shelved)",
+            "title": "DZ2D Engine (Shelved)",
             "date": [
                 {
                     "year": 2021,
@@ -339,7 +331,7 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "Derived from the same technologies as Militia SFML.",
-                "Is not prioritized in favor of DzergeroEngine3D."
+                "Is not prioritized in favor of DZ3D Engine."
             ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
@@ -347,8 +339,8 @@
             "hidden": false
         },
         {
-            "category": "App - Desktop",
-            "title": "EightQueensPuzzle",
+            "category": "Desktop Application",
+            "title": "EightQueensPuzzle (Shelved)",
             "date": [
                 {
                     "year": 2024,
@@ -360,9 +352,7 @@
             ],
             "image": "../res/img/projects/eightQueensPuzzle.png",
             "description": [
-                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI.",
-                "This app is derived from Militia SFML. It uses the same technologies but with unique features such as multithreading.",
-                "Unique features are soon merging with DzergeroEngine."
+                "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI."
             ],
             "note": [
                 "<b>The code is closed-source but it is open for code request.</b>"
@@ -376,6 +366,27 @@
             ],
             "hidden": false
             
+        },
+        {
+            "category": "Cross-platform Application",
+            "title": "Planner (Coming Soon)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 1,
+                    "progress": "(Present)"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is in planning stage",
+                "Will be written on Flutter",
+                "Aims to offer a cross-platform calendar application."
+            ],
+            "note": [
+                "<b>No code is present</b>"
+            ],
+            "hidden": true
         }
     ]
 }
