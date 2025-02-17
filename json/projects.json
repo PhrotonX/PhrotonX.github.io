@@ -1,6 +1,61 @@
 {
     "item": [
         {
+            "category": "Framework - Dynamic Link Library",
+            "title": "xlibcpp (Coming Soon)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 6,
+                    "day": 24,
+                    "item": "02",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<b>Extension Library for C++</b>",
+                "Is built on C++.",
+                "Consists of my own implementation of data structures, algorithms, among others."
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Desktop Application",
+            "title": "CVGuard (Coming Soon)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 2,
+                    "day": 6,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Built with C# and .NET Framework"
+            ],
+            "hidden": true
+        },
+        {
+            "category": "Dynamic Website (Web Application)",
+            "title": "Quest.net (School Project) (Coming Soon)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 2,
+                    "day": 17,
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "description": [
+                "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
+                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL."
+            ],
+            "hidden": true
+        },
+        {
             "category": "Framework - Static Library",
             "title": "DZ3D Engine (Coming Soon)",
             "date": [
@@ -18,26 +73,6 @@
             ],
             "note": [
                 "<b>The code is open-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            "category": "Framework - Dynamic Link Library",
-            "title": "xlibcpp (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 6,
-                    "day": 24,
-                    "item": "02",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "<b>Extension Library for C++</b>",
-                "Is built on C++.",
-                "Consists of my own implementation of data structures, algorithms, among others."
             ],
             "hidden": false
         },
@@ -382,9 +417,6 @@
                 "Is in planning stage",
                 "Will be written on Flutter",
                 "Aims to offer a cross-platform calendar application."
-            ],
-            "note": [
-                "<b>No code is present</b>"
             ],
             "hidden": true
         }
