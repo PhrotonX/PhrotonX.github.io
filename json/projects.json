@@ -15,8 +15,9 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "<b>Extension Library for C++</b>",
-                "Is built on C++.",
-                "Consists of my own implementation of data structures, algorithms, among others."
+                "Is currently being built on C++.",
+                "Consists of my own implementation of data structures, algorithms, among others.",
+                "It is made in order to improve my knowledge in DSA and to excel within my computer science program."
             ],
             "hidden": false
         },
@@ -28,14 +29,15 @@
                     "year": 2025,
                     "month": 2,
                     "day": 6,
+                    "item": "01",
                     "progress": "Present"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Built with C# and .NET Framework"
+                "Is currently being built on C# and .NET Framework"
             ],
-            "hidden": true
+            "hidden": false
         },
         {
             "category": "Dynamic Website (Web Application)",
@@ -45,89 +47,17 @@
                     "year": 2025,
                     "month": 2,
                     "day": 17,
+                    "item": "01",
                     "progress": "Present"
                 }
             ],
             "image": "../res/img/Web Icon with Mouse Pointer.png",
             "description": [
                 "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
-                "Built on HTML, CSS, PHP, JavaScript, XML, and SQL."
-            ],
-            "hidden": true
-        },
-        {
-            "category": "Framework - Static Library",
-            "title": "DZ3D Engine (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 4,
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is in early development",
-                "Uses C++20 with OpenGL, GLFW, GLAD, and GLM.",
-                "Aims to deliver a free but hard-to-use 3D engine."
-            ],
-            "note": [
-                "<b>The code is open-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            
-            "category": "Desktop Application",
-            "title": "Militia SFML",
-            "date": [
-                {
-                    "year": 2021,
-                    "month": 8,
-                    "day": 21,
-                    "item": "02",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/projects/militiaSFML.png",
-            "description": [
-               "This game has a lengthy development progress to ensure maintainable codebase before implementing actual gameplay features and avoid technical debt.",
-                "Built with C++ &amp; SFML"
-            ],
-            "note": [
-                "<b>The code is closed-source but it is open for code request.</b>"
-            ],
-            "button": [
-                {
-                    "content": "Learn more about R.A. 10173",
-                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
-                    "target": "_blank"
-                },
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                }
-            ],
-            "hidden": false
-        },
-        {
-            "category": "Cross-platform Application",
-            "title": "Xlintax (Coming Soon)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 3,
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/projects/xlintax.png",
-            "description": [
-                "Is built on .NET UWP.",
-                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter."
-            ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
+                "Is aimed to offer a website of online forum format.",
+                "Is currently being built on HTML and CSS.",
+                "Is also aimed to be built with a technology called node.js and programming languages such as JavaScript and SQL.",
+                "Laravel and PHP might also be considered over node.js."
             ],
             "hidden": false
         },
@@ -145,7 +75,7 @@
             ],
             "image": "../res/img/projects/notesForAndroid.png",
             "description": [
-                "Is currently being built on Android SDK with Java",
+                "Is currently being built on Android SDK with Java and Kotlin",
                 "Supports basic CRUD operation"
             ],
             "button": [
@@ -162,78 +92,27 @@
             ]
         },
         {
-            "category": "Desktop Application",
-            "title": "Contact Manager",
+            "category": "Mobile Application",
+            "title": "To Do List (School Project)",
             "date": [
                 {
-                    "year": 2023,
-                    "month": 11,
-                    "day": "25",
-                    "item": "01",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Is written in Java."
-            ],
-            "button": [
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                }
-            ],
-            "hidden": false
-            
-        },
-        {
-            "category": "Framework - Dynamic Link Library",
-            "title": "XMLPFC (Shelved)",
-            "date": [
-                {
-                    "year": 2024,
-                    "month": 5,
-                    "day": 29,
-                    "item": "01",
-                    "progress": "July 2024"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Also known as <b>eXtensible Markup Language Parser for C++</b>.",
-                "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
-                "A relatively new project.",
-                "Is built on C++."
-            ],
-            "note": [
-                "<b>The code is closed-source and it is soon open for code request.</b>"
-            ],
-            "hidden": false
-        },
-        {
-            "category": "Dynamic Website (Web Application)",
-            "title": "WebLog (Coming Soon)",
-            "date": [
-                {
-                    "year": 2023,
+                    "year": 2025,
                     "month": 3,
-                    "progress": "Present"
+                    "day": 11,
+                    "item": "01",
+                    "progress": "March 2025"
                 }
             ],
-            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "image": "../res/img/projects/toDoListB4a.png",
             "description": [
-                "Is built on Laravel."
+                "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
+                "Built on an obscure technology called B4A and written in B4X, a programming language that is similar to Visual Basic.",
+                "Also built or collaborated along with 2 other developers and 2 quality assurance (or my classmates) with the use of GitHub."
             ],
             "button": [
                 {
                     "content": "View on GitHub",
-                    "action": "href=https://github.com/PhrotonX/webLog",
-                    "target": "_blank"
-                },
-                {
-                    "content": "Learn more about R.A. 10173",
-                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "action": "href=https://github.com/PhrotonX/toDoListb4a",
                     "target": "_blank"
                 }
             ],
@@ -315,18 +194,71 @@
             ]
         },
         {
-            "category": "Desktop Application",
-            "title": "TallyCounter (UWP)",
+            "category": "Dynamic Website (Web Application)",
+            "title": "WebLog (Shelved)",
             "date": [
                 {
                     "year": 2023,
+                    "month": 3,
+                    "progress": "February 2025"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "description": [
+                "<strong>Shelved: </strong>Needed more priority on a school project called Quest.net, which is also a website.",
+                "Is built on Laravel."
+            ],
+            "button": [
+                {
+                    "content": "View on GitHub",
+                    "action": "href=https://github.com/PhrotonX/webLog",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                }
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Framework - Static Library",
+            "title": "DZ3D Engine (Shelved)",
+            "date": [
+                {
+                    "year": 2024,
                     "month": 4,
-                    "progress": "April 2023 (Shelved)"
+                    "progress": "January 2025"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Is built on .NET UWP."
+                "<strong>Shelved: </strong>Needed more priority on school projects.",
+                "Is in early development",
+                "Uses C++20 with OpenGL, GLFW, GLAD, and GLM.",
+                "Aims to deliver a free but hard-to-use 3D engine."
+            ],
+            "note": [
+                "<b>The code is open-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Cross-platform Application",
+            "title": "Xlintax (Shelved)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 3,
+                    "progress": "January 2025"
+                }
+            ],
+            "image": "../res/img/projects/xlintax.png",
+            "description": [
+                "<strong>Shelved: </strong>Needed more priority on a capstone project which is also written in C# and .NET.",
+                "Is built on C# and .NET UWP.",
+                "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
@@ -334,22 +266,111 @@
             "hidden": false
         },
         {
-            "category": "Desktop Application",
-            "title": "TallyCounter (Win32)",
+            "category": "Framework - Dynamic Link Library",
+            "title": "XMLPFC (Shelved)",
             "date": [
                 {
-                    "year": 2022,
-                    "month": 3,
-                    "progress": "May 2022 (Shelved)"
+                    "year": 2024,
+                    "month": 5,
+                    "day": 29,
+                    "item": "01",
+                    "progress": "July 2024"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Is built on C++ and Win32 API"
+                "<strong>Shelved: </strong>Depends on a full release of xlibcpp, in which the dependency is still under development.",
+                "Also known as <b>eXtensible Markup Language Parser for C++</b>.",
+                "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
+                "Is built on C++."
             ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
-            ]
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Cross-platform Application",
+            "title": "Planner (Coming Soon)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 1,
+                    "progress": "(Present)"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is in planning stage",
+                "Will be written on Flutter",
+                "Aims to offer a cross-platform calendar application."
+            ],
+            "button": [
+                {
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
+                }
+            ],
+            "hidden": true
+        },
+        {
+            
+            "category": "Desktop Application",
+            "title": "Militia SFML (Shelved)",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 8,
+                    "day": 21,
+                    "item": "02",
+                    "progress": "January 2025"
+                }
+            ],
+            "image": "../res/img/projects/militiaSFML.png",
+            "description": [
+                "<strong>Shelved: </strong>Needed more priority on school projects.",
+                "Took almost 4 years trying to develop this application but it needed a rewrite. However, this led into learning from several mistakes and allowed the developer from writing a more maintainable code for different applications.",
+                "Built with C++ &amp; SFML"
+            ],
+            "note": [
+                "<b>The code is closed-source and it is not open for code request.</b>"
+            ],
+            "button": [
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                }
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Desktop Application",
+            "title": "Contact Manager (Shelved)",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 11,
+                    "day": "25",
+                    "item": "01",
+                    "progress": "January 2025"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<strong>Shelved: </strong>Needed more priority on a capstone project.",
+                "Is written in Java."
+            ],
+            "button": [
+                {
+                    "content": "Request Code",
+                    "action": "href=mailto:charlesmartinpascual@gmail.com",
+                    "target": "self"
+                }
+            ],
+            "hidden": false
+            
         },
         {
             "category": "Framework - Library",
@@ -403,22 +424,43 @@
             
         },
         {
-            "category": "Cross-platform Application",
-            "title": "Planner (Coming Soon)",
+            "category": "Desktop Application",
+            "title": "TallyCounter (UWP) (Shelved)",
             "date": [
                 {
-                    "year": 2025,
-                    "month": 1,
-                    "progress": "(Present)"
+                    "year": 2023,
+                    "month": 4,
+                    "progress": "April 2023 (Shelved)"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
-                "Is in planning stage",
-                "Will be written on Flutter",
-                "Aims to offer a cross-platform calendar application."
+                "<strong>Shelved: </strong>Zero priority.",
+                "Is built on .NET UWP."
             ],
-            "hidden": true
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ],
+            "hidden": false
+        },
+        {
+            "category": "Desktop Application",
+            "title": "TallyCounter (Win32) (Shelved)",
+            "date": [
+                {
+                    "year": 2022,
+                    "month": 3,
+                    "progress": "May 2022 (Shelved)"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<strong>Shelved: </strong>Zero priority.",
+                "Is built on C++ and Win32 API"
+            ],
+            "note": [
+                "<b>The code is closed-source and it is soon open for code request.</b>"
+            ]
         }
     ]
 }

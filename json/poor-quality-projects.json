@@ -6,8 +6,8 @@
             "date": [
                 {
                     "year": 2020,
-                    "month": "???",
-                    "progress": "Early 2021"
+                    "month": 7,
+                    "progress": "May 2021"
                 }
             ],
             "image": "../res/img/projects/Coding Clipart.png",
@@ -17,7 +17,7 @@
                 "Built with C++ &amp; SFML"
             ],
             "note": [
-                "Any screenshots of this section must be used in accordance to DATA PRIVACY ACT OF 2012 or the REPUBLIC ACT OF 10173. AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+                "<b>Poor Quality Application</b>"
             ],
             "button": [
                 {
@@ -32,6 +32,25 @@
                 }
             ]
             
+        },
+        {
+            "category": "Desktop Application (CLI)",
+            "title": "Character Paint",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 4,
+                    "progress": "November 2020"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on C++"
+            ],
+            "note": [
+                "<b>Poor Quality Application</b>"
+            ],
+            "hidden": false
         }
     ]
 }
