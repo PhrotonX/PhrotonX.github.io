@@ -1,20 +1,20 @@
 {
     "tile": [
         {
-            "title": "Work Experience",
-            "content": 0,
-            "description": "I am seeking for experience.",
+            "title": "Clients Served",
+            "content": "0",
+            "description": "Currently serving one client.",
             "size": "small"
         },
         {
             "title": "Projects / Repos",
-            "content": 18,
+            "content": 21,
             "description": "Repos available on GitHub*.",
             "size": "small"
         },
         {
             "title": "Experience",
-            "content": "0",
+            "content": ".01",
             "description": "Years of building software**.",
             "size": "small"
         },

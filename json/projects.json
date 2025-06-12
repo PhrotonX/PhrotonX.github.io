@@ -2,6 +2,45 @@
     "item": [
         {
             "category": "Framework - Dynamic Link Library",
+            "title": "NNlibcpp (Coming Soon)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 6,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "<b>Neural Network Library for C++</b>",
+                "Is currently being built on C++.",
+                "Consists of an implementation of neural networks.",
+                "It is made since it is banned for Computer Science students to integrate AI APIs available online."
+            ],
+            "hidden": true
+        },
+        {
+            "category": "Dynamic Website (Web Application)",
+            "title": "SJM Event Styling (Coming Soon)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 5,
+                    "day": 25,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Client Website"
+            ],
+            "hidden": true
+        },
+        {
+            "category": "Framework - Dynamic Link Library",
             "title": "xlibcpp (Coming Soon)",
             "date": [
                 {
@@ -37,7 +76,7 @@
             "description": [
                 "Is currently being built on C# and .NET Framework"
             ],
-            "hidden": false
+            "hidden": true
         },
         {
             "category": "Dynamic Website (Web Application)",
@@ -53,13 +92,10 @@
             ],
             "image": "../res/img/Web Icon with Mouse Pointer.png",
             "description": [
-                "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
                 "Is aimed to offer a website of online forum format.",
-                "Is currently being built on HTML and CSS.",
-                "Is also aimed to be built with a technology called node.js and programming languages such as JavaScript and SQL.",
-                "Laravel and PHP might also be considered over node.js."
+                "Is currently being built on HTML and CSS."
             ],
-            "hidden": false
+            "hidden": true
         },
         {
             "category": "Mobile Application",
@@ -107,7 +143,7 @@
             "description": [
                 "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
                 "Built on an obscure technology called B4A and written in B4X, a programming language that is similar to Visual Basic.",
-                "Also built or collaborated along with 2 other developers and 2 quality assurance (or my classmates) with the use of GitHub."
+                "Also built or collaborated along with 3 other developers and 1 quality assurance (or my classmates) with the use of GitHub."
             ],
             "button": [
                 {
