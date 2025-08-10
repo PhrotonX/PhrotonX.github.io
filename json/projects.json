@@ -152,7 +152,7 @@
                     "target": "_blank"
                 }
             ],
-            "hidden": false
+            "hidden": true
         },
         {
             "category": "Desktop Application",
