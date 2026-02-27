@@ -52,6 +52,15 @@ p, #nav-menu p, #nav-back p, #nav-dropdown-content p{
     color: white;
 }
 
+#alert-content{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}
+
 @media screen and (max-width: 500px) {
     .toolbar p{
         color: var(--color);
