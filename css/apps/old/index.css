@@ -1,0 +1,68 @@
+/* 
+    index.css
+
+    For html/index.php
+*/
+
+@import url('colors.css');
+@import url('constants.css');
+
+body{
+    background: black;
+}
+
+.introduction{
+    display: flexbox;
+    vertical-align: middle;
+}
+
+.introduction-content{
+    margin: var(--margin-large);
+    text-align: center;
+    
+}
+
+.introduction-content .title{
+    font-size: xx-large;
+}
+
+.introduction-profile{
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+img.introduction-hero-image{
+    width: 100%;
+    height: auto;
+    z-index: -5;
+    top: 0;
+    filter: brightness(.7);
+    position: absolute;
+}
+
+img.introduction-image{
+    margin-left: calc((100% - 25%) / 2);
+    margin-right: calc((100% - 25%) / 2);
+    width: calc(100% / 4);
+    height: auto;
+}
+
+p, #nav-menu p, #nav-back p, #nav-dropdown-content p{
+    color: white;
+}
+
+#alert-content{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .toolbar p{
+        color: var(--color);
+    }
+}

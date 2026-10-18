@@ -1,0 +1,131 @@
+@import url('theme.css');
+@import url('colors.css');
+@import url('dropdown.css');
+@import url('form.css');
+@import url('nav.css');
+
+a, h1, h2, h3, h4, h5, h6, label, p, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    /* font-weight: lighter; */
+}
+
+button{
+    text-align: center;
+}
+
+.parent::after {
+    /* background-color: rgba(230, 240, 255, 0.50); */
+    background-color: var(--primary);
+    opacity: 0.80;
+}
+  
+.child::after {
+    /* background-color: rgba(230, 240, 255, 0.30); */
+    background-color: var(--primary);
+    opacity: 0.80;
+}
+  
+.shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+/*body{
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+}*/
+
+body{
+    background-color: var(--background);
+    color: var(--color);
+    margin: 0px;
+    /* margin: 16px; */
+}
+
+button, a, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+#content{
+    padding-top: 48px;
+}
+
+.dark{
+    color: white;
+}
+
+.description{
+    visibility: hidden;
+}
+
+footer{
+    /* position: relative; */
+    padding: 50px;
+    background-color: black;
+}
+
+header{
+    margin-top: -16px;
+    margin-bottom: -40px;
+    vertical-align: middle;
+}
+
+.plaintext{
+    margin: 4%;
+    width: 92%;
+}
+
+#sample-content{
+    padding: 25%;
+}
+/* 
+section, header, nav, article, aside, footer{
+    display: block;
+} */
+
+section{
+    /* width: 95%; */
+    height: auto;
+    /* margin-left: 2.5%; */
+    /* margin-right: 2.5%; */
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.subtitle{
+    font-weight: xx-large;
+}
+
+.title, .subtitle, .category{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.shadow {
+    border-radius: 1px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 500px){
+    button{
+        width: 95%;
+        margin: 1% 2.5% 1% 2.5%;
+    }
+}
+
+@media screen and (min-width: 501px){
+    @media screen and (max-width: 800px){
+        button{
+            width: 75%;
+            margin: 1% 12.5% 1% 12.5%;
+        }
+    }
+}
