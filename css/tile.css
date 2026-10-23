@@ -1,5 +1,9 @@
 /* Note: Tile grid is 4px */
 
+body{
+    background-color: rgb(73, 73, 73);
+}
+
 .grid .category{
     display: grid;
     row-gap: 4px;
@@ -8,7 +12,7 @@
 
 .tile{
     display: flex;
-    background-color: aqua;
+    background-color: rgb(13, 11, 107);
     /* border: 2px; */
 }
 
