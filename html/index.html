@@ -1,59 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Charles Martin's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <style>
+            
+        </style>
     </head>
     <body>
+
         <header>
             <h1>Portfolio (New)</h1>
-            <div id="account">
-
-            </div>
+            <div id="account"></div>
         </header>
+
         <main>
             <div class="grid">
-                <section class="category">
+
+                <section class="category" style="--cols: 8">
                     <h2>Pinned</h2>
-                    <div class="tile large"
-                        data-link="app.html?app=old">
-                        <!-- <img class="icon"> Must be SVG -->
-                        <p class="title">Old Portfolio (2023-2026) (Deprecated)</p>
-                        <div class="livetile">
-                            
-                        </div>
+
+                    <div class="tile large" data-link="app.html?app=old">
+                        <p class="title">Old Portfolio (2023–2026) (Deprecated)</p>
+                        <div class="livetile"></div>
                     </div>
-                    <div class="tile wide">
-                        <!-- <img class="icon"> Must be SVG -->
-                        <p class="title">Old Portfolio (2023-2026) (Deprecated)</p>
-                        <div class="livetile">
-                            
-                        </div>
+
+                    <div class="tile wide" data-link="app.html?app=old">
+                        <p class="title">Old Portfolio (2023–2026) (Deprecated)</p>
+                        <div class="livetile"></div>
                     </div>
-                    <div class="tile medium">
-                        <!-- <img class="icon"> Must be SVG -->
-                        <p class="title">Old Portfolio (2023-2026) (Deprecated)</p>
-                        <div class="livetile">
-                            
-                        </div>
+
+                    <div class="tile medium" data-link="app.html?app=old">
+                        <p class="title">Old Portfolio (2023–2026) (Deprecated)</p>
+                        <div class="livetile"></div>
                     </div>
-                    <div class="tile small">
-                        <!-- <img class="icon"> Must be SVG -->
-                        <p class="title">Old Portfolio (2023-2026) (Deprecated)</p>
-                        <div class="livetile">
-                            
-                        </div>
+
+                    <div class="tile small" data-link="app.html?app=old">
+                        <p class="title">Old Portfolio</p>
+                        <div class="livetile"></div>
                     </div>
                 </section>
+
+                <section class="category" style="--cols: 8">
+                    <h2>General Experience</h2>
+
+                    <div class="tile wide" style="--tile-bg:#f0a30a" data-link="app.html?app=projects">
+                        <p class="title">Projects</p>
+                        <div class="livetile"></div>
+                    </div>
+                </section>
+
+                <section class="category" style="--cols: 8">
+                    <h2>Projects</h2>
+
+                    <div class="tile medium" style="--tile-bg:#7fba00" data-link="app.html?app=one">
+                        <p class="title">Project One</p>
+                        <div class="livetile"></div>
+                    </div>
+
+                    <div class="tile medium" style="--tile-bg:#00a3ee" data-link="app.html?app=two">
+                        <p class="title">Project Two</p>
+                        <div class="livetile"></div>
+                    </div>
+
+                    <div class="tile wide" style="--tile-bg:#f0a30a" data-link="app.html?app=three">
+                        <p class="title">Project Three</p>
+                        <div class="livetile"></div>
+                    </div>
+
+                    <div class="tile small" style="--tile-bg:#e3c800" data-link="app.html?app=four">
+                        <p class="title">Project Four</p>
+                        <div class="livetile"></div>
+                    </div>
+                </section>
+
             </div>
         </main>
-        <footer>
 
-        </footer>
+        <script>
+        document.querySelectorAll('.tile').forEach(tile => {
+            const link = tile.dataset.link;
+            if (!link) return;
+
+            tile.setAttribute('role', 'link');
+            tile.tabIndex = 0;
+
+            const go = () => { window.location.href = link; };
+
+            tile.addEventListener('click', go);
+            tile.addEventListener('keydown', e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    go();
+                }
+            });
+        });
+        </script>
+
     </body>
-    <script src="../js/start.js"></script>
 </html>
-
-<!-- <script src="https://keepandroidopen.org/banner.js?hidebutton=off&id=alert-content"></script> -->
