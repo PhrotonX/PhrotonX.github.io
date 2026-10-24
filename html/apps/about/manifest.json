@@ -1,0 +1,17 @@
+{
+    "app_name": "old",
+    "display_name": "Old Portfolio (2023-2026)",
+    "external_live_tile": false,
+    "external_live_tile_url": null,
+    "live_tile_type": "json",
+    "live_tile": [
+        {
+            "heading": null,
+            "content": "View the old portfolio experience. Contains outdated information. To be removed on 2027.",
+            "tile_name": null,
+            "image": null
+        }
+    ],
+    "display_original_tile": true,
+    "color": "#00a3ee"
+}
