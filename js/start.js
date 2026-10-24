@@ -165,7 +165,7 @@ function enableLiveTile(tile, manifest, tileIndex) {
     if (!slides.length || !tile.querySelector(".livetile")) return;
 
     let index = 0;
-    const interval = 4200;
+    const interval = 5000;
     const showNext = () => {
         showLiveSlide(tile, manifest, slides, index);
         index = (index + 1) % slides.length;
