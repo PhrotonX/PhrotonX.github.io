@@ -1,4 +1,10 @@
 const tileTimers = new Map();
+const defaultAppManifests = [
+    "apps/profile/manifest.json",
+    "apps/about/manifest.json",
+    "apps/projects/manifest.json",
+    "apps/old/manifest.json"
+];
 
 function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>"']/g, (character) => ({
@@ -38,6 +44,21 @@ async function loadManifest(path) {
 
 function manifestPath(appName) {
     return `apps/${encodeURIComponent(appName)}/manifest.json`;
+}
+
+function manifestPaths(config) {
+    const configuredApps = Array.isArray(config.apps)
+        ? config.apps.map((app) => typeof app === "string" ? app : manifestPath(app.app || app.app_name))
+        : [];
+    const pinnedApps = (config.groups || [])
+        .flatMap((group) => group.tiles || [])
+        .map((tile) => manifestPath(tile.app));
+
+    return [...new Set([
+        ...defaultAppManifests,
+        ...configuredApps,
+        ...pinnedApps
+    ].filter(Boolean))];
 }
 
 function renderStartLayout(config, manifests) {
@@ -84,7 +105,9 @@ function enableTileNavigation() {
 
         tile.setAttribute("role", "link");
         tile.tabIndex = 0;
-        const open = () => { window.location.href = link; };
+        const open = () => {
+            window.location.href = link;
+        };
         tile.addEventListener("click", open);
         tile.addEventListener("keydown", (event) => {
             if (event.key === "Enter" || event.key === " ") {
@@ -265,13 +288,7 @@ async function initializeStartScreen() {
         return;
     }
 
-    const appNames = [...new Set((config.groups || [])
-        .flatMap((group) => group.tiles || [])
-        .map((tile) => tile.app)
-        .filter(Boolean))];
-    const manifests = (await Promise.all(appNames.map((appName) =>
-        loadManifest(manifestPath(appName))
-    ))).filter(Boolean);
+    const manifests = (await Promise.all(manifestPaths(config).map(loadManifest))).filter(Boolean);
 
     renderStartLayout(config, manifests);
     const byName = new Map(manifests.map((manifest) => [manifest.app_name, manifest]));

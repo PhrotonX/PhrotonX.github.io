@@ -11,8 +11,17 @@
         {
             "title": "General Experience",
             "tiles": [
-                { "app": "projects", "size": "wide" }
+                { "app": "projects", "size": "wide" },
+                { "app": "educational-attainment", "size": "large" }
             ]
         }
+    ],
+    "apps": [
+        { "app": "profile" },
+        { "app": "about" },
+        { "app": "old" },
+        { "app": "projects" },
+        { "app": "educational-attainment" },
+        { "app": "skills" }
     ]
 }

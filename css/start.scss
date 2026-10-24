@@ -9,7 +9,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow: visible;
+    overflow: hidden;
 }
 
 @keyframes metro-tile-enter {
@@ -59,6 +59,7 @@ $metro-s-curve: cubic-bezier(0, 0, 0, 1);
 #start-section {
     position: absolute;
     inset: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 48px;
@@ -124,6 +125,7 @@ main {
     inset: 100vh 0 auto;
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
     padding: 48px;
     overflow: hidden;
 }
@@ -134,6 +136,7 @@ main.apps-open {
 
 #all-apps-button {
     position: absolute;
+    z-index: 11;
     bottom: 16px;
     left: 48px;
     padding: 6px 12px;
@@ -153,21 +156,34 @@ main.apps-open {
 }
 
 #back-to-start {
-    margin-top: 28px;
-    padding: 10px 18px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    right: auto;
+    bottom: 16px;
+    left: 48px;
+    padding: 6px 12px;
     border: 1px solid rgba(255, 255, 255, .65);
     color: #fff;
     background: transparent;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
+main.apps-open #back-to-start {
+    display: block;
+}
+
 #app-list {
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(auto-fill, minmax(52px, 1fr));
+    grid-auto-columns: 260px;
+    align-content: start;
     gap: 4px;
     max-width: none;
+    height: calc(100vh - 190px);
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 12px;
@@ -380,7 +396,7 @@ main.apps-open {
 }
 
 .app-entry {
-    flex: 0 0 220px;
+    min-width: 0;
     display: flex;
     align-items: center;
     gap: 8px;
