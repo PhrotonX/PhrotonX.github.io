@@ -1,0 +1,11 @@
+{
+    "app_name": "skills",
+    "display_name": "Skills",
+    "description": "Skills",
+    "external_live_tile": false,
+    "external_live_tile_url": null,
+    "live_tile_type": "json",
+    "live_tile": null,
+    "display_original_tile": true,
+    "color": "#00a3ee"
+}
