@@ -23,7 +23,7 @@ function appIcon(manifest) {
 }
 
 function appUrl(appName) {
-    return `apps/${encodeURIComponent(appName)}/`;
+    return `apps/${appName}/`;
 }
 
 async function loadManifest(path) {
