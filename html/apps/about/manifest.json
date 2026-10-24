@@ -1,6 +1,7 @@
 {
-    "app_name": "old",
-    "display_name": "Old Portfolio (2023-2026)",
+    "app_name": "about",
+    "display_name": "About this website",
+    "description": "About this portfolio and its design.",
     "external_live_tile": false,
     "external_live_tile_url": null,
     "live_tile_type": "json",

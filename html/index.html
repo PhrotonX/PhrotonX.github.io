@@ -6,6 +6,7 @@
         <title>Charles Martin's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/start.css">
         <style>
             
         </style>
@@ -16,7 +17,10 @@
             <div id="start-section">
                 <header>
                     <h1>Portfolio (New)</h1>
-                    <div id="account"></div>
+                    <a id="account" href="app.html?app=profile" aria-label="Open Charles Martin's profile">
+                        <span>Charles<br><small>Martin</small></span>
+                        <img src="../html/apps/profile/icon.svg" alt="">
+                    </a>
                 </header>
                 <div class="grid">
 
@@ -61,6 +65,10 @@
                             <p class="title">Projects</p>
                             <div class="livetile"></div>
                         </div>
+                        <div class="tile large" style="--tile-bg:#f0a30a" data-link="app.html?app=projects">
+                            <p class="title">Projects</p>
+                            <div class="livetile"></div>
+                        </div>
                     </section>
 
                     <section class="category" style="--cols: 8">
@@ -88,36 +96,20 @@
                     </section>
 
                 </div>
+                <button id="all-apps-button" type="button">All apps</button>
             </div>
             <div id="apps-section">
                 <header>
                     <h1>Apps</h1>
-                    <div>
+                    <div id="app-list">
                         
                     </div>
+                    <button id="back-to-start" type="button">Back to start</button>
                 </header>
             </div>
         </main>
 
-        <script>
-        document.querySelectorAll('.tile').forEach(tile => {
-            const link = tile.dataset.link;
-            if (!link) return;
-
-            tile.setAttribute('role', 'link');
-            tile.tabIndex = 0;
-
-            const go = () => { window.location.href = link; };
-
-            tile.addEventListener('click', go);
-            tile.addEventListener('keydown', e => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    go();
-                }
-            });
-        });
-        </script>
+        <script src="../js/start.js"></script>
 
     </body>
 </html>

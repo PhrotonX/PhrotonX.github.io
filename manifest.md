@@ -4,6 +4,7 @@ The manifest file is used to describe the application and use it to display an a
 ## Manifest documentation
 **app_name** - The name of the folders for the app. Shall not be displayed on the front end. It is used on html/apps/[app_name]/. I tis also used for navigating to the app once a live tile has been clicked.
 **display_name** The name of the 
+**icon** - Optional icon path relative to the app folder. If omitted, `icon.svg` is used when present.
 **display_original_tile** - If ``true``, the original tile will be displayed after displaying all slides of live tile before displaying the live tiles again. The app name including the app icon is the original tile. Must be set to ``false`` if the tile must only display live tiles. Useful for tiles meant for slideshows or important information.
 **external_live_tile** - If ``true``, the local ``live_tile_json`` or ``live_tile_html`` is ignored.
 **external_live_tile_url** - The link to an external JSON file for dynamic 
@@ -22,6 +23,9 @@ live tiles.
 
 ## Live tiles
 - Each tile may consist of zero ro more live tiles. A tile is not necessarily a live tile.
-- If a tile is set to medium or wide with live tiles and a photos on it, it displays a full image of the live tile first before displaying the content or paragraph, making it a two total slide for each live tile.
+- When `display_original_tile` is `true`, the sequence starts with the original tile (app icon and display name).
+- If a tile is set to medium or wide with live tiles and a photo on it, it displays a full image of the live tile first before displaying the content or paragraph, making it two slides for that live tile.
 - If a tile is set to large and has one or more live tiles, it shall display a bulleted form of content with the image as the bullet and the paragraph as the content.
 - The ``tile_name`` replaces the name of the tile before going back to the original display name on original tile.
+- After the last live-tile slide, the sequence repeats from the original tile when `display_original_tile` is `true`.
+- Relative image paths are resolved from `html/apps/[app_name]/`.

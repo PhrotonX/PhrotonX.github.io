@@ -1,0 +1,11 @@
+{
+    "app_name": "old",
+    "display_name": "Old Portfolio (2023-2026)",
+    "description": "The previous portfolio experience, kept for reference.",
+    "color": "#00a3ee",
+    "display_original_tile": true,
+    "live_tile_type": "json",
+    "live_tile": [
+        { "content": "The previous portfolio experience. Kept for reference." }
+    ]
+}

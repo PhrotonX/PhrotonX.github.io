@@ -1,0 +1,15 @@
+{
+    "app_name": "profile",
+    "display_name": "Profile",
+    "description": "A little about me and the work I want to build.",
+    "color": "#0078d7",
+    "display_original_tile": true,
+    "live_tile_type": "json",
+    "live_tile": [
+        {
+            "heading": "Software developer",
+            "content": "Building useful, thoughtful software."
+        },
+        { "heading": "Currently learning", "content": ".NET, web development, and system design." }
+    ]
+}

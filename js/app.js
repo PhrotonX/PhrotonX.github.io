@@ -1,13 +1,8 @@
-// const params = new Proxy(new URLSearchParams(window.location.href), {
-//     get: (searchParams, prop) => searchParams.get(prop)
-// });
-
 const params = new URLSearchParams(window.location.search);
+const app = params.get("app");
 
-let app = params.get('app');
-
-// alert(app);
-
-// alert(urlParams.toString);
-
-window.location.href = "apps\\" + app;
+if (app && /^[a-z0-9_-]+$/i.test(app)) {
+    window.location.replace(`apps/${encodeURIComponent(app)}/`);
+} else {
+    window.location.replace("index.html");
+}
