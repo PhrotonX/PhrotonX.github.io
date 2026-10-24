@@ -1,10 +1,3 @@
-const manifestEntries = [
-    "apps/profile/manifest.json",
-    "apps/about/manifest.json",
-    "apps/projects/manifest.json",
-    "apps/old/manifest.json"
-];
-
 const tileTimers = new Map();
 
 function escapeHtml(value) {
@@ -23,7 +16,13 @@ function appIcon(manifest) {
 }
 
 function appUrl(appName) {
-    return `apps/${appName}/`;
+    return `app.html?app=${encodeURIComponent(appName)}`;
+}
+
+async function loadStartConfig() {
+    const response = await fetch("../json/start.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+    return response.json();
 }
 
 async function loadManifest(path) {
@@ -35,6 +34,47 @@ async function loadManifest(path) {
         console.warn(`Unable to load app manifest: ${path}`, error);
         return null;
     }
+}
+
+function manifestPath(appName) {
+    return `apps/${encodeURIComponent(appName)}/manifest.json`;
+}
+
+function renderStartLayout(config, manifests) {
+    const grid = document.querySelector("#start-section > .grid");
+    if (!grid) return;
+
+    const byName = new Map(manifests.map((manifest) => [manifest.app_name, manifest]));
+    grid.replaceChildren();
+
+    (config.groups || []).forEach((group) => {
+        const category = document.createElement("section");
+        category.className = "category";
+        category.style.setProperty("--cols", group.cols || 8);
+
+        const heading = document.createElement("h2");
+        heading.textContent = group.title || "";
+        category.appendChild(heading);
+
+        (group.tiles || []).forEach((tileConfig) => {
+            const manifest = byName.get(tileConfig.app);
+            if (!manifest) return;
+
+            const tile = document.createElement("div");
+            tile.className = `tile ${tileConfig.size || "medium"}`;
+            tile.dataset.link = appUrl(manifest.app_name);
+            tile.style.setProperty("--tile-bg", tileConfig.color || manifest.color || "#0d0b6b");
+
+            const title = document.createElement("p");
+            title.className = "title";
+            title.textContent = manifest.display_name || manifest.app_name;
+            tile.append(title, document.createElement("div"));
+            tile.lastElementChild.className = "livetile";
+            category.appendChild(tile);
+        });
+
+        grid.appendChild(category);
+    });
 }
 
 function enableTileNavigation() {
@@ -215,10 +255,28 @@ function renderTileIcons(manifests) {
 }
 
 async function initializeStartScreen() {
-    enableTileNavigation();
-    const manifests = (await Promise.all(manifestEntries.map(loadManifest))).filter(Boolean);
+    let config;
+    try {
+        config = await loadStartConfig();
+    } catch (error) {
+        console.error("Unable to load start.json", error);
+        const grid = document.querySelector("#start-section > .grid");
+        if (grid) grid.innerHTML = "<p>Unable to load the start screen configuration.</p>";
+        return;
+    }
+
+    const appNames = [...new Set((config.groups || [])
+        .flatMap((group) => group.tiles || [])
+        .map((tile) => tile.app)
+        .filter(Boolean))];
+    const manifests = (await Promise.all(appNames.map((appName) =>
+        loadManifest(manifestPath(appName))
+    ))).filter(Boolean);
+
+    renderStartLayout(config, manifests);
     const byName = new Map(manifests.map((manifest) => [manifest.app_name, manifest]));
 
+    enableTileNavigation();
     renderTileIcons(manifests);
     document.querySelectorAll(".tile[data-link]").forEach((tile, tileIndex) => {
         const appName = new URLSearchParams(tile.dataset.link.split("?")[1]).get("app");

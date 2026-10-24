@@ -3,22 +3,16 @@
         {
             "title": "Pinned",
             "tiles": [
-                { "app": "profile", "size": "large" },
-                { "app": "about", "size": "medium" }
+                { "app": "profile", "size": "wide" },
+                { "app": "about", "size": "medium" },
+                { "app": "old", "size": "large" }
             ]
         },
         {
-            "title": "Projects",
+            "title": "General Experience",
             "tiles": [
-                { "app": "projects", "size": "wide" },
-                { "app": "old", "size": "medium" }
+                { "app": "projects", "size": "wide" }
             ]
         }
-    ],
-    "apps": [
-        { "manifest": "apps/profile/manifest.json" },
-        { "manifest": "apps/about/manifest.json" },
-        { "manifest": "apps/projects/manifest.json" },
-        { "manifest": "apps/old/manifest.json" }
     ]
 }
