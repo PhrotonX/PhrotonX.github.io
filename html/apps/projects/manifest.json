@@ -7,18 +7,18 @@
     "live_tile_type": "json",
     "live_tile": [
         {
-            "heading": "21 repositories",
-            "content": "Explore projects and experiments.",
+            "heading": "Explore Systems",
+            "content": "See the timeline of my systems, from past to present.",
             "image": "livetile/img1.png"
-        },
-        {
-            "heading": "Open source",
-            "content": "See how ideas become working software.",
-            "image": "livetile/img2.png"
         },
         {
             "heading": "Explore Projects",
             "content": "See the timeline of my projects, from past to present.",
+            "image": "livetile/img2.png"
+        },
+        {
+            "heading": "Explore Projects",
+            "content": "See the timeline of my own projects, from past to present.",
             "image": "livetile/img3.png"
         }
     ]

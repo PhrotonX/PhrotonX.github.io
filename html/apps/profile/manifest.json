@@ -7,9 +7,9 @@
     "live_tile_type": "json",
     "live_tile": [
         {
-            "heading": "Software developer",
-            "content": "Building useful, thoughtful software."
+            "heading": "Software Developer (Back-end)",
+            "content": "Works on back-end systems built on ASP.NET Core and in some cases, Laravel."
         },
-        { "heading": "Currently learning", "content": ".NET, web development, and system design." }
+        { "heading": "Currently learning", "content": ".NET Core-related technologies." }
     ]
 }
