@@ -1,6 +1,62 @@
 {
     "item": [
         {
+            "id": "01f30181-674d-4510-98ed-0653b9b66f48",
+            "category": "Dynamic Website (Web Application)",
+            "title": "TaxIT (Thesis Project)",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 5,
+                    "day": 15,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png"
+                }
+            ],
+            "description": [
+                "Prototype Thesis Project",
+                "Written in ASP.NET Core and C#",
+                "Has Blockchain Integration with Solidity and Sepolia testnet"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "b026ea0e-fee6-49b3-bc46-4d6e2fd79179",
+            "category": "Cross-platform Application",
+            "title": "SmileSys",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 12,
+                    "day": 12,
+                    "item": "01",
+                    "progress": "June 2026"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png"
+                }
+            ],
+            "description": [
+                "Prototype School Project",
+                "Runs on Android and Windows",
+                "An application used to manage patient records with syncing capabilities based on a System Requirement Specification from a clinic.",
+                "Many portions of the application and web server was heavily AI-generated, making it extremely unstable, unreliable, and insecure.",
+                "Was shut down immediately after final submission to school for security.", 
+                "Not used for production environments."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "80c0d6c5-baa2-4b04-ae72-e16bd1682109",
             "category": "Framework - Dynamic Link Library",
             "title": "NNlibcpp (Coming Soon)",
             "date": [
@@ -13,6 +69,11 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png"
+                }
+            ],
             "description": [
                 "<b>Neural Network Library for C++</b>",
                 "Is currently being built on C++.",
@@ -22,24 +83,31 @@
             "hidden": true
         },
         {
+            "id": "23db2c0b-89b3-4236-be08-3de229cdf991",
             "category": "Dynamic Website (Web Application)",
-            "title": "SJM Event Styling (Coming Soon)",
+            "title": "SJM Event Styling",
             "date": [
                 {
                     "year": 2025,
                     "month": 5,
                     "day": 25,
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "July 2026"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png"
+                }
+            ],
             "description": [
                 "Client Website"
             ],
             "hidden": true
         },
         {
+            "id": "d7e56240-48c3-4957-beae-99587121d128",
             "category": "Framework - Dynamic Link Library",
             "title": "xlibcpp (Coming Soon)",
             "date": [
@@ -52,6 +120,12 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png",
+                    "alt": "Description here..."
+                }
+            ],
             "description": [
                 "<b>Extension Library for C++</b>",
                 "Is currently being built on C++.",
@@ -61,6 +135,7 @@
             "hidden": false
         },
         {
+            "id": "84a69d61-bb28-43bb-bce8-4635fd229fa6",
             "category": "Desktop Application",
             "title": "CVGuard (Coming Soon)",
             "date": [
@@ -73,12 +148,65 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png",
+                    "alt": "Description here..."
+                }
+            ],
             "description": [
                 "Is currently being built on C# and .NET Framework"
             ],
             "hidden": true
         },
         {
+            "id": "037372a5-0d9d-49af-817e-204e16d55177",
+            "category": "Dynamic Website (Web Application)",
+            "title": "SOSPampanga (School Project)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "day": 26,
+                    "item": "01",
+                    "progress": "November 2025"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "images": [
+                {
+                    "src": "res/img/img.png",
+                    "alt": "Description here..."
+                }
+            ],
+            "description": [
+                "Client-side was built on MIT App Inventor, while the server-side was built on ASP.NET Core and hosted through Microsoft Azure and also Google Firebase for live emergency alerts.",
+                "Was built to allow any anonymous users to make an emergency alert that also alerts other instances of devices running online."
+            ],
+            "hidden": true
+        },
+        {
+            "id": "a68ec8ea-dd9e-40c0-9113-7cb46e3928ff",
+            "category": "Dynamic Website (Web Application)",
+            "title": "Hitchhikers (School Project)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 8,
+                    "day": 30,
+                    "item": "01",
+                    "progress": "November 2025"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "description": [
+                "Was built on Laravel",
+                "Was built to provide an online transit system for any vehicles (including non-taxi vehicles) riding through a route that a passenger may need to drop-off."
+            ],
+            "hidden": true
+        },
+        {
+            "id": "a41a0a8e-b86a-4681-bbf5-f2877418d55c",
             "category": "Dynamic Website (Web Application)",
             "title": "Quest.net (School Project) (Coming Soon)",
             "date": [
@@ -98,6 +226,7 @@
             "hidden": true
         },
         {
+            "id": "1ba5a933-8cbe-4282-a904-f6765150f4ca",
             "category": "Mobile Application",
             "title": "Notes for Android (Coming Soon)",
             "date": [
@@ -128,6 +257,7 @@
             ]
         },
         {
+            "id": "27ce4c8a-4337-4ff4-bdc7-e10b7f1d3e74",
             "category": "Mobile Application",
             "title": "To Do List (School Project)",
             "date": [
@@ -155,6 +285,7 @@
             "hidden": true
         },
         {
+            "id": "0371dc88-c69c-4ec7-a3b7-70ac4f5b18be",
             "category": "Desktop Application",
             "title": "UUID Generator",
             "date": [
@@ -180,6 +311,7 @@
             
         },
         {
+            "id": "4b1a1650-79e0-4559-9911-a3c7d8452b70",
             "category": "Desktop Application",
             "title": "TextPad",
             "date": [
@@ -203,6 +335,7 @@
             
         },
         {
+            "id": "ef346c96-48f1-4c8a-a9b7-0f4e10aaf2f8",
             "category": "Dynamic Website (Web Application)",
             "title": "ComParts (School Project)",
             "date": [
@@ -230,6 +363,7 @@
             ]
         },
         {
+            "id": "824fb2cc-1801-43ab-b94c-5bb5681eda8f",
             "category": "Dynamic Website (Web Application)",
             "title": "WebLog (Shelved)",
             "date": [
@@ -259,6 +393,7 @@
             "hidden": false
         },
         {
+            "id": "cc5baaf0-e089-458c-b5c5-181eea1a30e5",
             "category": "Framework - Static Library",
             "title": "DZ3D Engine (Shelved)",
             "date": [
@@ -281,6 +416,7 @@
             "hidden": false
         },
         {
+            "id": "9cf597b7-bb56-46de-a7f1-bb1b9caac085",
             "category": "Cross-platform Application",
             "title": "Xlintax (Shelved)",
             "date": [
@@ -302,6 +438,7 @@
             "hidden": false
         },
         {
+            "id": "6c8e837d-7622-482f-992e-5f295f3b5116",
             "category": "Framework - Dynamic Link Library",
             "title": "XMLPFC (Shelved)",
             "date": [
@@ -326,6 +463,7 @@
             "hidden": false
         },
         {
+            "id": "4b288034-32ff-4a71-8b5a-f22602cce2b6",
             "category": "Cross-platform Application",
             "title": "Planner (Coming Soon)",
             "date": [
@@ -351,7 +489,7 @@
             "hidden": true
         },
         {
-            
+            "id": "ef33c67a-010f-41a2-9bf0-4ead5a31c93e",
             "category": "Desktop Application",
             "title": "Militia SFML (Shelved)",
             "date": [
@@ -382,6 +520,7 @@
             "hidden": false
         },
         {
+            "id": "beddb230-cdcb-43f3-bd2c-e2aa0cc25ade",
             "category": "Desktop Application",
             "title": "Contact Manager (Shelved)",
             "date": [
@@ -409,6 +548,7 @@
             
         },
         {
+            "id": "f9e8bb64-a454-44d4-8995-af038ecdb034",
             "category": "Framework - Library",
             "title": "DZ2D Engine (Shelved)",
             "date": [
@@ -431,6 +571,7 @@
             "hidden": false
         },
         {
+            "id": "6f745a19-78a8-41d6-b6a4-b3e36b05dfb3",
             "category": "Desktop Application",
             "title": "EightQueensPuzzle (Shelved)",
             "date": [
@@ -460,6 +601,7 @@
             
         },
         {
+            "id": "d60ff9cf-4bec-4dd7-94a3-c8d3483dfd21",
             "category": "Desktop Application",
             "title": "TallyCounter (UWP) (Shelved)",
             "date": [
@@ -480,6 +622,7 @@
             "hidden": false
         },
         {
+            "id": "7a193f04-1bfd-4408-a448-14499091c5b9",
             "category": "Desktop Application",
             "title": "TallyCounter (Win32) (Shelved)",
             "date": [

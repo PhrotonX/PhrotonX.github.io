@@ -2,7 +2,7 @@
     "app_name": "projects",
     "display_name": "Projects",
     "description": "A collection of experiments, tools, and finished work.",
-    "color": "#f0a30a",
+    "color": "#00a3ee",
     "display_original_tile": true,
     "live_tile_type": "json",
     "live_tile": [
