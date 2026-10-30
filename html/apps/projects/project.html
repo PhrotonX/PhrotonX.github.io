@@ -5,18 +5,17 @@
         <title id="title">Unknown App - Charles Martin's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/app.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/project.css">
-        <script src="js/jsonutils.js"></script>
-        <script src="js/months.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../../css/storyboard.css">
+        <script src="../../../js/jsonutils.js"></script>
+        <script src="../../../js/months.js"></script>
         <script src="../../../js/app-scroll.js" defer></script>
-        <script src="js/project.js" defer></script>
+        <script src="../../../js/storyboard.js" defer></script>
     </head>
-    <body class="project-detail-app">
+    <body class="storyboard-app" data-storyboard data-storyboard-data="../../../json/projects.json">
         <header>
             <p class="app-kicker">PROJECT SPOTLIGHT</p>
             <h1 id="app-name">Unknown App</h1>
-            <div class="project-command">
+            <div class="storyboard-command">
                 <a href="index.html">All projects</a>
                 <span aria-hidden="true">/</span>
                 <span id="project-counter">Project</span>
@@ -24,15 +23,15 @@
         </header>
         <main>
             <article>
-                <section class="project-summary" id="general">
+                <section class="storyboard-summary" id="general">
                     <span class="summary-label">OVERVIEW</span>
-                    <p id="project-category" class="project-category"></p>
-                    <p id="project-date" class="project-date"></p>
+                    <p id="project-category" class="storyboard-category"></p>
+                    <p id="project-date" class="storyboard-date"></p>
                     <ul id="description"></ul>
                     <div class="summary-rule"></div>
                     <p class="summary-hint">Scroll horizontally to explore this project.</p>
                 </section>
-                <section class="project-gallery" id="gallery">
+                <section class="storyboard-gallery" id="gallery">
                     <div class="gallery-heading">
                         <span>PROJECT GALLERY</span>
                         <span id="gallery-count"></span>
@@ -44,7 +43,7 @@
                         <button id="gallery-next" type="button" aria-label="Next image">→</button>
                     </div>
                 </section>
-                <aside class="project-rail">
+                <aside class="storyboard-rail">
                     <span class="summary-label">PROJECT NOTES</span>
                     <p>Built, explored, and documented as part of an evolving portfolio.</p>
                     <a href="index.html">Browse more work →</a>

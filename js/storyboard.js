@@ -1,15 +1,17 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
-loadItem(id, "../../../json/projects.json");
+const storyboardRoot = document.querySelector("[data-storyboard]");
+loadStoryboardItem(id, storyboardRoot.dataset.storyboardData);
 
-async function loadItem(itemId, jsonPath){
-    var json = await loadJSON(jsonPath);
+async function loadStoryboardItem(itemId, jsonPath){
+    const json = await loadJSON(jsonPath);
 
     var descriptionList = document.getElementById("description");
     
-    var item = json.item.find(project => project.id === itemId) ||
-        json.item.find(project => project.id.includes(itemId));
+    const records = json.item || json.items || [];
+    const item = records.find(record => record.id === itemId) ||
+        records.find(record => record.id.includes(itemId));
 
     if (!item) {
         document.getElementById("app-name").innerText = "Project not found";
@@ -20,12 +22,14 @@ async function loadItem(itemId, jsonPath){
     // Set app names
     document.getElementById("title").innerHTML = item.title + " - Charles Martin's Portfolio";
     document.getElementById("app-name").innerHTML = item.title;
-    document.getElementById("project-category").innerText = item.category;
-    document.getElementById("project-date").innerText = `${item.date[0].year} · ${item.date[0].progress}`;
-    document.getElementById("project-counter").innerText = `${item.date[0].year} / ${item.category}`;
+    const date = item.date?.[0] || {};
+    const category = item.category || "Uncategorized";
+    document.getElementById("project-category").innerText = category;
+    document.getElementById("project-date").innerText = `${date.year || ""} · ${date.progress || ""}`.trim();
+    document.getElementById("project-counter").innerText = `${date.year || ""} / ${category}`;
     
     // Set description
-    item.description.forEach(description => {
+    (item.description || []).forEach(description => {
         var descriptionParagraph = document.createElement("li");
         descriptionParagraph.innerHTML = description;
 

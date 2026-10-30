@@ -1,29 +1,29 @@
-.project-detail-app {
-    --project-blue: #087db3;
-    --project-dark: #143747;
+.storyboard-app {
+    --storyboard-blue: #087db3;
+    --storyboard-dark: #143747;
     background: #f2f2f2;
 }
 
-.project-detail-app > header {
+.storyboard-app > header {
     padding-top: clamp(32px, 6vh, 68px);
     padding-bottom: 20px;
 }
 
-.project-detail-app .app-kicker,
-.project-detail-app .summary-label,
-.project-detail-app .project-category,
-.project-detail-app .project-date {
-    color: var(--project-blue);
+.storyboard-app .app-kicker,
+.storyboard-app .summary-label,
+.storyboard-app .storyboard-category,
+.storyboard-app .storyboard-date {
+    color: var(--storyboard-blue);
     font-size: 12px;
     letter-spacing: .16em;
     text-transform: uppercase;
 }
 
-.project-detail-app .app-kicker {
+.storyboard-app .app-kicker {
     margin: 0 0 8px;
 }
 
-.project-detail-app h1 {
+.storyboard-app h1 {
     margin: 0;
     color: #1d1d1d;
     font-size: clamp(42px, 5vw, 68px);
@@ -31,7 +31,7 @@
     letter-spacing: -.05em;
 }
 
-.project-command {
+.storyboard-command {
     display: flex;
     gap: 12px;
     margin-top: 16px;
@@ -39,17 +39,17 @@
     font-size: 13px;
 }
 
-.project-command a {
-    color: var(--project-blue);
+.storyboard-command a {
+    color: var(--storyboard-blue);
     text-decoration: none;
 }
 
-.project-detail-app > main {
+.storyboard-app > main {
     padding-top: 10px;
     padding-bottom: 64px;
 }
 
-.project-detail-app article {
+.storyboard-app article {
     display: flex;
     align-items: stretch;
     gap: 22px;
@@ -58,15 +58,15 @@
     width: max-content;
 }
 
-.project-summary,
-.project-gallery,
-.project-rail {
+.storyboard-summary,
+.storyboard-gallery,
+.storyboard-rail {
     height: 100%;
     min-height: 0;
-    border-top: 6px solid var(--project-blue);
+    border-top: 6px solid var(--storyboard-blue);
 }
 
-.project-summary {
+.storyboard-summary {
     display: flex;
     flex-direction: column;
     width: min(460px, 72vw);
@@ -75,17 +75,17 @@
     background: #fff;
 }
 
-.project-summary .summary-label,
-.project-rail .summary-label {
+.storyboard-summary .summary-label,
+.storyboard-rail .summary-label {
     margin-bottom: 28px;
 }
 
-.project-summary .project-category,
-.project-summary .project-date {
+.storyboard-summary .storyboard-category,
+.storyboard-summary .storyboard-date {
     margin: 0 0 14px;
 }
 
-.project-summary ul {
+.storyboard-summary ul {
     display: grid;
     gap: 13px;
     margin: 20px 0 0;
@@ -108,14 +108,14 @@
     font-size: 12px;
 }
 
-.project-gallery {
+.storyboard-gallery {
     position: relative;
     display: flex;
     flex-direction: column;
     width: min(820px, 82vw);
     padding: 0;
     overflow: hidden;
-    background: var(--project-dark);
+    background: var(--storyboard-dark);
 }
 
 .gallery-heading {
@@ -123,7 +123,7 @@
     justify-content: space-between;
     padding: 16px 20px;
     color: #fff;
-    background: var(--project-blue);
+    background: var(--storyboard-blue);
     font-size: 11px;
     letter-spacing: .14em;
 }
@@ -196,7 +196,7 @@
     background: #fff !important;
 }
 
-.project-rail {
+.storyboard-rail {
     display: flex;
     flex-direction: column;
     width: 260px;
@@ -205,32 +205,32 @@
     background: #243f4e;
 }
 
-.project-rail p {
+.storyboard-rail p {
     margin: 0;
     font-size: 17px;
     line-height: 1.45;
 }
 
-.project-rail a {
+.storyboard-rail a {
     margin-top: auto;
     color: #fff;
     text-decoration: none;
 }
 
 @media (max-width: 700px) {
-    .project-detail-app article {
+    .storyboard-app article {
         gap: 16px;
     }
 
-    .project-summary {
+    .storyboard-summary {
         width: 82vw;
     }
 
-    .project-gallery {
+    .storyboard-gallery {
         width: 86vw;
     }
 
-    .project-rail {
+    .storyboard-rail {
         width: 72vw;
     }
 }

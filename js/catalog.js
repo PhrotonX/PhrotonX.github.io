@@ -1,29 +1,30 @@
-const projectGrid = document.getElementById("project-grid");
+const catalogRoot = document.querySelector("[data-catalog]");
+const catalogGrid = document.getElementById("catalog-grid");
 const sortButtons = document.querySelectorAll("[data-sort]");
-let projects = [];
+let items = [];
 let slideshowTimers = [];
 
-loadItems("date-desc", "../../../json/projects.json");
+loadItems("date-desc", catalogRoot.dataset.catalogData);
 
 sortButtons.forEach(button => {
     button.addEventListener("click", () => {
         sortButtons.forEach(item => item.classList.toggle("is-selected", item === button));
-        renderProjects(button.dataset.sort);
+        renderCatalog(button.dataset.sort);
     });
 });
 
 async function loadItems(defaultSort, filename) {
     const json = await loadJSON(filename);
-    projects = json.item.filter(item => !item.hidden);
-    renderProjects(defaultSort);
+    items = (json.item || json.items || []).filter(item => !item.hidden);
+    renderCatalog(defaultSort);
 }
 
-function renderProjects(sortMode) {
+function renderCatalog(sortMode) {
     slideshowTimers.forEach(timer => window.clearInterval(timer));
     slideshowTimers = [];
-    projectGrid.innerHTML = "";
+    catalogGrid.innerHTML = "";
 
-    groupProjects(sortMode).forEach(group => {
+    groupItems(sortMode).forEach(group => {
         const categorySection = document.createElement("section");
         categorySection.className = "category";
 
@@ -33,9 +34,9 @@ function renderProjects(sortMode) {
 
         const tileMatrix = document.createElement("div");
         tileMatrix.className = "tile-matrix";
-        group.items.forEach(item => tileMatrix.appendChild(createProjectTile(item)));
+        group.items.forEach(item => tileMatrix.appendChild(createCatalogTile(item)));
         categorySection.appendChild(tileMatrix);
-        projectGrid.appendChild(categorySection);
+        catalogGrid.appendChild(categorySection);
     });
 
     updateMatrixRows();
@@ -47,9 +48,9 @@ function updateMatrixRows() {
         const tileHeight = unit * 2 + 4;
         const gap = parseFloat(getComputedStyle(matrix).gap) || 0;
         const rows = Math.max(1, Math.floor((matrix.clientHeight + gap) / (tileHeight + gap)));
-        matrix.style.setProperty("--project-tile-height", `${tileHeight}px`);
-        matrix.style.setProperty("--project-row-count", rows);
-        matrix.querySelectorAll(".project-tile").forEach((tile, index) => {
+        matrix.style.setProperty("--catalog-tile-height", `${tileHeight}px`);
+        matrix.style.setProperty("--catalog-row-count", rows);
+        matrix.querySelectorAll(".catalog-tile").forEach((tile, index) => {
             tile.style.height = `${tileHeight}px`;
             tile.style.width = `${unit * 4 + 12}px`;
             tile.style.gridRow = `${(index % rows) + 1}`;
@@ -62,28 +63,29 @@ const matrixResizeObserver = new ResizeObserver(updateMatrixRows);
 matrixResizeObserver.observe(document.querySelector("main"));
 window.addEventListener("resize", updateMatrixRows);
 
-function groupProjects(sortMode) {
+function groupItems(sortMode) {
     if (sortMode === "category") {
         const categories = new Map();
-        [...projects]
-            .sort((a, b) => a.category.localeCompare(b.category) || projectDate(b) - projectDate(a))
+        [...items]
+            .sort((a, b) => itemCategory(a).localeCompare(itemCategory(b)) || itemDate(b) - itemDate(a))
             .forEach(item => {
-                if (!categories.has(item.category)) {
-                    categories.set(item.category, []);
+                const category = itemCategory(item);
+                if (!categories.has(category)) {
+                    categories.set(category, []);
                 }
-                categories.get(item.category).push(item);
+                categories.get(category).push(item);
             });
         return [...categories].map(([label, items]) => ({ label, items }));
     }
 
-    const sorted = [...projects].sort((a, b) => {
-        const difference = projectDate(b) - projectDate(a);
+    const sorted = [...items].sort((a, b) => {
+        const difference = itemDate(b) - itemDate(a);
         return sortMode === "date-asc" ? -difference : difference;
     });
     const years = new Map();
 
     sorted.forEach(item => {
-        const year = item.date[0].year;
+        const year = item.date?.[0]?.year || "Other";
         if (!years.has(year)) {
             years.set(year, []);
         }
@@ -93,29 +95,34 @@ function groupProjects(sortMode) {
     return [...years].map(([label, items]) => ({ label, items }));
 }
 
-function projectDate(item) {
-    const date = item.date[0];
+function itemDate(item) {
+    const date = item.date?.[0] || {};
     return Date.UTC(date.year, (date.month || 1) - 1, date.day || 1);
 }
 
-function createProjectTile(item) {
-    const projectTile = document.createElement("div");
-    projectTile.className = "tile item-tile project-tile wide";
+function itemCategory(item) {
+    return item.category || "Other";
+}
+
+function createCatalogTile(item) {
+    const catalogTile = document.createElement("div");
+    catalogTile.className = "tile item-tile catalog-tile wide";
     const unit = Math.min(48, Math.max(32, window.innerWidth * 0.05));
     const tileHeight = unit * 2 + 4;
-    projectTile.style.height = `${tileHeight}px`;
-    projectTile.style.width = `${unit * 4 + 12}px`;
-    projectTile.style.alignSelf = "start";
-    projectTile.setAttribute("role", "link");
-    projectTile.setAttribute("tabindex", "0");
-    projectTile.setAttribute("aria-label", `Open ${item.title}`);
-    projectTile.style.backgroundColor = item.color || "#00a3ee";
+    catalogTile.style.height = `${tileHeight}px`;
+    catalogTile.style.width = `${unit * 4 + 12}px`;
+    catalogTile.style.alignSelf = "start";
+    catalogTile.setAttribute("role", "link");
+    catalogTile.setAttribute("tabindex", "0");
+    catalogTile.setAttribute("aria-label", `Open ${item.title}`);
+    catalogTile.style.backgroundColor = item.color || "#00a3ee";
 
     const openProject = () => {
-        window.location.href = `project.html?id=${encodeURIComponent(item.id)}`;
+        window.location.href = catalogRoot.dataset.catalogLink
+            .replace("{id}", encodeURIComponent(item.id));
     };
-    projectTile.addEventListener("click", openProject);
-    projectTile.addEventListener("keydown", event => {
+    catalogTile.addEventListener("click", openProject);
+    catalogTile.addEventListener("keydown", event => {
         if (event.key === "Enter" || event.key === " ") {
             event.preventDefault();
             openProject();
@@ -126,19 +133,19 @@ function createProjectTile(item) {
     const imageViewport = document.createElement("div");
     imageViewport.className = "tile-image-viewport";
     if (images.length) {
-        projectTile.classList.add("has-thumbnail");
+        catalogTile.classList.add("has-thumbnail");
         imageViewport.appendChild(createImage(images[0]));
-        projectTile.appendChild(imageViewport);
+        catalogTile.appendChild(imageViewport);
     }
 
     const tileInfo = document.createElement("div");
     tileInfo.className = "tile-info";
 
-    const projectTitle = document.createElement("p");
-    projectTitle.className = "title";
-    projectTitle.innerText = item.title;
-    tileInfo.appendChild(projectTitle);
-    projectTile.appendChild(tileInfo);
+    const itemTitle = document.createElement("p");
+    itemTitle.className = "title";
+    itemTitle.innerText = item.title;
+    tileInfo.appendChild(itemTitle);
+    catalogTile.appendChild(tileInfo);
 
     if (images.length > 1) {
         const slideshowTimer = window.setInterval(() => {
@@ -158,7 +165,7 @@ function createProjectTile(item) {
         slideshowTimers.push(slideshowTimer);
     }
 
-    return projectTile;
+    return catalogTile;
 
     function createImage(imageData) {
         const image = document.createElement("img");
