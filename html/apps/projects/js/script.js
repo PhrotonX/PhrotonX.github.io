@@ -46,9 +46,12 @@ async function loadItems(itemName, filename){
         var categoryHeading = document.createElement("h2");
 
         groupedItem.forEach(item => {
-            var projectTile = createProjectTile(item);
+            if(!item.hidden){
+                var projectTile = createProjectTile(item);
 
-            categorySection.appendChild(projectTile);
+                categorySection.appendChild(projectTile);
+            }
+            
         });
 
         categoryHeading.innerText = year;

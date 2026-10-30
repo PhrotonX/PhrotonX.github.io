@@ -16,11 +16,12 @@
             "image": "../res/img/Coding Clipart.png",
             "images": [
                 {
-                    "src": "res/img/img.png"
+                    "src": "res/img/taxit.png"
                 }
             ],
             "description": [
                 "Prototype Thesis Project",
+                "Was the Lead Developer and was responsible for building the back-end of the web application.",
                 "Written in ASP.NET Core and C#",
                 "Has Blockchain Integration with Solidity and Sepolia testnet"
             ],
@@ -42,16 +43,21 @@
             "image": "../res/img/Coding Clipart.png",
             "images": [
                 {
-                    "src": "res/img/img.png"
+                    "src": "res/img/smilesys_1.png"
                 }
             ],
             "description": [
                 "Prototype School Project",
-                "Runs on Android and Windows",
+                "Client-side is written on .NET MAUI 9, while the server-side was written on ASP.NET Core 9",
+                "Runs on Android and Windows. It was originally intended for iOS, but the requirements to develop an iOS system was unfeasible since it needed a real Mac computer.",
                 "An application used to manage patient records with syncing capabilities based on a System Requirement Specification from a clinic.",
+                "This school project tremendously lacked proper coordination with other developers. This effectively let myself develop the whole system alone for a limited amount of time for six months: the client front-end, the client back-end, and the server back-end while also ensuring that it will run cross-platform, and also the most of the paper works (e.g. diagrams, Gantt chart, system architecture, etc.) For the same reason, the front-end was tremendously underdeveloped.",
+                "The lack of coordination was caused by the lack of willingness of my teammates to cooperate and listen. I was the project leader of all aspects of the project and there were only three group members.",
                 "Many portions of the application and web server was heavily AI-generated, making it extremely unstable, unreliable, and insecure.",
-                "Was shut down immediately after final submission to school for security.", 
-                "Not used for production environments."
+                "Many portions of the system is undocumented.",
+                "Was shut down immediately after testing by clients with one patient data due to several security issues. The security flaws were discovered during the testing period. All the data stored on the system were handed over to the clients through a cloud storage and all the data left on the server were erased immediately. It was treated like a garbage on a dumpster fire by myself and shall forever be.",
+                "Not used for production environments.",
+                "It was a giant blob of many, many mistakes from many, many aspects. From overreliance to AI during the system development, improper communication, to improper leadership. It was also a pinnacle of unprofessionalism."
             ],
             "hidden": false
         },
@@ -98,13 +104,13 @@
             "image": "../res/img/Coding Clipart.png",
             "images": [
                 {
-                    "src": "res/img/img.png"
+                    "src": "res/img/sjmEventStyling.png"
                 }
             ],
             "description": [
                 "Client Website"
             ],
-            "hidden": true
+            "hidden": false
         },
         {
             "id": "d7e56240-48c3-4957-beae-99587121d128",
@@ -183,7 +189,7 @@
                 "Client-side was built on MIT App Inventor, while the server-side was built on ASP.NET Core and hosted through Microsoft Azure and also Google Firebase for live emergency alerts.",
                 "Was built to allow any anonymous users to make an emergency alert that also alerts other instances of devices running online."
             ],
-            "hidden": true
+            "hidden": false
         },
         {
             "id": "a68ec8ea-dd9e-40c0-9113-7cb46e3928ff",
@@ -203,7 +209,7 @@
                 "Was built on Laravel",
                 "Was built to provide an online transit system for any vehicles (including non-taxi vehicles) riding through a route that a passenger may need to drop-off."
             ],
-            "hidden": true
+            "hidden": false
         },
         {
             "id": "a41a0a8e-b86a-4681-bbf5-f2877418d55c",
@@ -282,7 +288,7 @@
                     "target": "_blank"
                 }
             ],
-            "hidden": true
+            "hidden": false
         },
         {
             "id": "0371dc88-c69c-4ec7-a3b7-70ac4f5b18be",
