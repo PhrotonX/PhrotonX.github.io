@@ -6,29 +6,49 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/app.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/project.css">
         <script src="js/jsonutils.js"></script>
         <script src="js/months.js"></script>
-        <script src="js/project.js"></script>
+        <script src="../../../js/app-scroll.js" defer></script>
+        <script src="js/project.js" defer></script>
     </head>
-    <body>
+    <body class="project-detail-app">
         <header>
+            <p class="app-kicker">PROJECT SPOTLIGHT</p>
             <h1 id="app-name">Unknown App</h1>
+            <div class="project-command">
+                <a href="index.html">All projects</a>
+                <span aria-hidden="true">/</span>
+                <span id="project-counter">Project</span>
+            </div>
         </header>
         <main>
             <article>
-                <section class="category" id="general">
-                    <!-- <h2>Details</h2> -->
-                    <!-- TODO: Image Carousel -->
-                    <ul id="description">
-
-                    </ul>
+                <section class="project-summary" id="general">
+                    <span class="summary-label">OVERVIEW</span>
+                    <p id="project-category" class="project-category"></p>
+                    <p id="project-date" class="project-date"></p>
+                    <ul id="description"></ul>
+                    <div class="summary-rule"></div>
+                    <p class="summary-hint">Scroll horizontally to explore this project.</p>
                 </section>
-                <section class="category" id="gallery">
-                    <!-- <h2>Gallery</h2> -->
-                     <div id="gallery-carousel">
-                        
-                     </div>
+                <section class="project-gallery" id="gallery">
+                    <div class="gallery-heading">
+                        <span>PROJECT GALLERY</span>
+                        <span id="gallery-count"></span>
+                    </div>
+                    <div id="gallery-carousel" aria-label="Project images"></div>
+                    <div class="gallery-controls">
+                        <button id="gallery-previous" type="button" aria-label="Previous image">←</button>
+                        <div id="gallery-indicators" aria-label="Gallery slides"></div>
+                        <button id="gallery-next" type="button" aria-label="Next image">→</button>
+                    </div>
                 </section>
+                <aside class="project-rail">
+                    <span class="summary-label">PROJECT NOTES</span>
+                    <p>Built, explored, and documented as part of an evolving portfolio.</p>
+                    <a href="index.html">Browse more work →</a>
+                </aside>
             </article>
         </main>
         <footer>

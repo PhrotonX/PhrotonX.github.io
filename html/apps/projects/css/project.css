@@ -1,0 +1,236 @@
+.project-detail-app {
+    --project-blue: #087db3;
+    --project-dark: #143747;
+    background: #f2f2f2;
+}
+
+.project-detail-app > header {
+    padding-top: clamp(32px, 6vh, 68px);
+    padding-bottom: 20px;
+}
+
+.project-detail-app .app-kicker,
+.project-detail-app .summary-label,
+.project-detail-app .project-category,
+.project-detail-app .project-date {
+    color: var(--project-blue);
+    font-size: 12px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.project-detail-app .app-kicker {
+    margin: 0 0 8px;
+}
+
+.project-detail-app h1 {
+    margin: 0;
+    color: #1d1d1d;
+    font-size: clamp(42px, 5vw, 68px);
+    font-weight: 300;
+    letter-spacing: -.05em;
+}
+
+.project-command {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    color: #777;
+    font-size: 13px;
+}
+
+.project-command a {
+    color: var(--project-blue);
+    text-decoration: none;
+}
+
+.project-detail-app > main {
+    padding-top: 10px;
+    padding-bottom: 64px;
+}
+
+.project-detail-app article {
+    display: flex;
+    align-items: stretch;
+    gap: 22px;
+    height: 100%;
+    max-height: 100%;
+    width: max-content;
+}
+
+.project-summary,
+.project-gallery,
+.project-rail {
+    height: 100%;
+    min-height: 0;
+    border-top: 6px solid var(--project-blue);
+}
+
+.project-summary {
+    display: flex;
+    flex-direction: column;
+    width: min(460px, 72vw);
+    overflow-y: auto;
+    padding: 36px 32px;
+    background: #fff;
+}
+
+.project-summary .summary-label,
+.project-rail .summary-label {
+    margin-bottom: 28px;
+}
+
+.project-summary .project-category,
+.project-summary .project-date {
+    margin: 0 0 14px;
+}
+
+.project-summary ul {
+    display: grid;
+    gap: 13px;
+    margin: 20px 0 0;
+    padding-left: 20px;
+    color: #222;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.summary-rule {
+    width: 100%;
+    height: 1px;
+    margin-top: auto;
+    background: #d7d7d7;
+}
+
+.summary-hint {
+    margin: 14px 0 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.project-gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: min(820px, 82vw);
+    padding: 0;
+    overflow: hidden;
+    background: var(--project-dark);
+}
+
+.gallery-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    color: #fff;
+    background: var(--project-blue);
+    font-size: 11px;
+    letter-spacing: .14em;
+}
+
+#gallery-carousel {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    min-height: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+#gallery-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+#gallery-carousel img {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    background: #172f3b;
+    scroll-snap-align: start;
+}
+
+.gallery-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 54px;
+    padding: 8px 14px;
+    color: #fff;
+    background: #0c2734;
+}
+
+.gallery-controls button {
+    width: 36px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, .6);
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.gallery-controls button:disabled {
+    opacity: .35;
+    cursor: default;
+}
+
+#gallery-indicators {
+    display: flex;
+    gap: 7px;
+}
+
+.gallery-indicator {
+    width: 8px !important;
+    height: 8px !important;
+    min-height: 8px;
+    padding: 0;
+    border: 0 !important;
+    border-radius: 50%;
+    background: #78909c !important;
+}
+
+.gallery-indicator.is-selected {
+    background: #fff !important;
+}
+
+.project-rail {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    padding: 30px 24px;
+    color: #fff;
+    background: #243f4e;
+}
+
+.project-rail p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.45;
+}
+
+.project-rail a {
+    margin-top: auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .project-detail-app article {
+        gap: 16px;
+    }
+
+    .project-summary {
+        width: 82vw;
+    }
+
+    .project-gallery {
+        width: 86vw;
+    }
+
+    .project-rail {
+        width: 72vw;
+    }
+}

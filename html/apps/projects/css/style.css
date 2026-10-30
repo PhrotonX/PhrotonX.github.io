@@ -1,3 +1,214 @@
-.project-tile{
-    background-color: #00a3ee;
+.projects-app {
+    --projects-blue: #0078d7;
+    --projects-ink: #1f1f1f;
+    background: #f2f2f2;
+}
+
+.projects-app > header {
+    padding-top: clamp(32px, 6vh, 68px);
+    padding-bottom: 24px;
+}
+
+.projects-app .app-kicker {
+    margin: 0 0 8px;
+    color: var(--projects-blue);
+    font-size: 12px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+.projects-app h1 {
+    margin: 0;
+    color: var(--projects-ink);
+    font-size: clamp(42px, 5vw, 64px);
+    font-weight: 300;
+    letter-spacing: -.04em;
+}
+
+.projects-app .app-subtitle {
+    max-width: 640px;
+    margin: 10px 0 22px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.projects-command {
+    display: flex;
+    gap: 28px;
+    color: #555;
+    font-size: 14px;
+}
+
+.projects-command button {
+    padding: 0 0 6px;
+    border: 0;
+    color: inherit;
+    background: transparent;
+    cursor: pointer;
+    font: inherit;
+}
+
+.projects-command button {
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.projects-command button:hover,
+.projects-command button:focus-visible,
+.projects-command .is-selected {
+    color: var(--projects-blue);
+    border-color: var(--projects-blue);
+}
+
+.projects-app > main {
+    padding-top: 8px;
+}
+
+.projects-app .grid {
+    align-items: stretch;
+    gap: var(--app-gap);
+    height: 100%;
+    min-height: 0;
+}
+
+.projects-app .category {
+    display: block;
+    width: max-content;
+    height: auto;
+    min-height: 0;
+}
+
+.projects-app .tile-matrix {
+    --project-tile-height: calc(var(--app-unit) * 2 + var(--app-grid-gap));
+    --project-row-count: 1;
+    display: grid;
+    grid-template-rows: repeat(var(--project-row-count), var(--project-tile-height));
+    grid-auto-flow: column;
+    grid-auto-columns: calc(var(--app-unit) * 4 + var(--app-grid-gap) * 3);
+    gap: var(--app-grid-gap) var(--app-gap);
+    width: max-content;
+    height: min(60vh, calc(100vh - 250px));
+    min-height: 120px;
+    max-height: calc(100vh - 250px);
+    overflow: hidden;
+    align-content: start;
+    background: transparent;
+}
+
+.projects-app .category h2 {
+    width: calc(var(--app-unit) * 4 + var(--app-grid-gap) * 3);
+    height: 28px;
+    margin: 0 0 14px;
+    color: #666;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.projects-app .project-tile.wide {
+    display: flex;
+    grid-column: auto;
+    grid-row: auto;
+    width: calc(var(--app-unit) * 4 + var(--app-grid-gap) * 3);
+    height: var(--project-tile-height);
+    align-self: start;
+}
+
+.projects-app .tile-matrix {
+    height: min(60vh, calc(100vh - 250px));
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+}
+
+.projects-app .project-tile:hover {
+    filter: none;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, .14);
+    transform: translateY(-2px);
+}
+
+.projects-app .project-tile:focus-visible {
+    outline: 3px solid var(--projects-blue);
+    outline-offset: 3px;
+}
+
+.projects-app .tile-image-viewport {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    background: #333;
+}
+
+.projects-app .tile-thumbnail {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(0);
+}
+
+.projects-app .tile-thumbnail.next {
+    transform: translateY(100%);
+    z-index: 1;
+}
+
+.projects-app .tile-thumbnail.next.is-covering {
+    animation: project-cover-up 760ms cubic-bezier(.16, 1, .3, 1) forwards;
+}
+
+@keyframes project-cover-up {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.projects-app .tile-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    min-height: 42px;
+    padding: 8px 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, .72);
+}
+
+.projects-app .tile .title {
+    position: static;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media (max-width: 700px) {
+    .projects-app .category {
+        gap: var(--app-grid-gap) var(--app-gap);
+    }
+
+    .projects-app .project-tile.wide {
+        width: calc(var(--app-unit) * 4 + var(--app-grid-gap) * 3);
+        height: calc(var(--app-unit) * 2 + var(--app-grid-gap));
+    }
+
+    .projects-command {
+        gap: 18px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .projects-app .tile-info {
+        align-items: flex-end;
+    }
 }
