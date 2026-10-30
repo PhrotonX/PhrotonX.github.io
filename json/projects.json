@@ -64,7 +64,7 @@
         {
             "id": "80c0d6c5-baa2-4b04-ae72-e16bd1682109",
             "category": "Framework - Dynamic Link Library",
-            "title": "NNlibcpp (Coming Soon)",
+            "title": "NNlibcpp (Shelved)",
             "date": [
                 {
                     "year": 2025,
@@ -245,6 +245,11 @@
                 }
             ],
             "image": "../res/img/projects/notesForAndroid.png",
+            "images": [
+                {
+                    "src": "res/img/notesForAndroid.png"
+                }
+            ],
             "description": [
                 "Is currently being built on Android SDK with Java and Kotlin",
                 "Supports basic CRUD operation"
@@ -276,6 +281,11 @@
                 }
             ],
             "image": "../res/img/projects/toDoListB4a.png",
+            "images": [
+                {
+                    "src": "res/img/toDoListB4a.png"
+                }
+            ],
             "description": [
                 "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
                 "Built on an obscure technology called B4A and written in B4X, a programming language that is similar to Visual Basic.",
@@ -302,6 +312,11 @@
                 }
             ],
             "image": "../res/img/projects/uuidGen.png",
+            "images": [
+                {
+                    "src": "res/img/uuidGen.png"
+                }
+            ],
             "description": [
                 "Built on C++ and Win32 API",
                 "Can generate multiple variants of UUID.",
@@ -328,6 +343,11 @@
                 }
             ],
             "image": "../res/img/projects/textPad.png",
+            "images": [
+                {
+                    "src": "res/img/textPad.png"
+                }
+            ],
             "description": [
                 "Built on C++ and Win32 API"
             ],
@@ -352,6 +372,11 @@
                 }
             ],
             "image": "../res/img/projects/comparts.jpeg",
+            "images": [
+                {
+                    "src": "res/img/comparts.jpeg"
+                }
+            ],
             "description": [
                 "School requirement for ICT-11 Students at Next Generation Technological College, S.Y. 2021-2022.",
                 "Built on HTML, CSS, PHP, JavaScript, XML, and SQL.",
@@ -433,6 +458,11 @@
                 }
             ],
             "image": "../res/img/projects/xlintax.png",
+            "images": [
+                {
+                    "src": "res/img/xlintax.png"
+                }
+            ],
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on a capstone project which is also written in C# and .NET.",
                 "Is built on C# and .NET UWP.",
@@ -508,6 +538,11 @@
                 }
             ],
             "image": "../res/img/projects/militiaSFML.png",
+            "images": [
+                {
+                    "src": "res/img/militiaSFML.png"
+                }
+            ],
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
                 "Took almost 4 years trying to develop this application but it needed a rewrite. However, this led into learning from several mistakes and allowed the developer from writing a more maintainable code for different applications.",
@@ -590,6 +625,11 @@
                 }
             ],
             "image": "../res/img/projects/eightQueensPuzzle.png",
+            "images": [
+                {
+                    "src": "res/img/eightQueensPuzzle.png"
+                }
+            ],
             "description": [
                 "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI."
             ],
