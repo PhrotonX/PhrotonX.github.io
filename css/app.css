@@ -55,6 +55,10 @@ body > main::-webkit-scrollbar {
     width: 0;
 }
 
+body > main::-webkit-scrollbar:vertical {
+    display: none;
+}
+
 body > footer {
     flex: 0 0 auto;
     width: 100%;
