@@ -1,7 +1,10 @@
 .storyboard-app {
-    --storyboard-blue: #087db3;
-    --storyboard-dark: #143747;
-    background: #f2f2f2;
+    --storyboard-blue: #2ea7df;
+    /* --storyboard-blue: #087db3; */
+    --storyboard-dark: #ffffff;
+    /* --storyboard-dark: #143747; */
+    /* background: #f2f2f2; */
+    background: #292929;
 }
 
 .storyboard-app > header {
@@ -41,7 +44,8 @@
     display: flex;
     gap: 12px;
     margin-top: 16px;
-    color: #777;
+    color: #ddd;
+    /* color: #777; */
     font-size: 13px;
 }
 
@@ -78,7 +82,8 @@
     width: min(460px, 72vw);
     overflow-y: auto;
     padding: 36px 32px;
-    background: #fff;
+    /* background: #fff; */
+    background: #494949;
 }
 
 .storyboard-summary .summary-label,
@@ -96,7 +101,8 @@
     gap: 13px;
     margin: 20px 0 0;
     padding-left: 20px;
-    color: #222;
+    /* color: #222; */
+    color: #fff;
     font-size: 15px;
     line-height: 1.45;
 }
