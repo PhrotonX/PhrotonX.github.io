@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/app.css">
         <link rel="stylesheet" type="text/css" href="../../../css/catalog.css">
+        <link href="https://cdn.metroui.org.ua/4.5.12/icons.css" rel="stylesheet">
         <script src="../../../js/jsonutils.js"></script>
         <script src="../../../js/months.js"></script>
         <script src="../../../js/app-scroll.js" defer></script>
@@ -13,9 +14,19 @@
     </head>
     <body class="catalog-app" data-catalog data-catalog-data="../../../json/projects.json" data-catalog-link="project.html?id={id}">
         <header>
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <h1>Projects</h1>
+                </div>
+                <div class="header-right">
+                    <a href="../../index.html" class="home-button button-circle button-icon">
+                        <span class="mif-home mif-2x"></span>
+                    </a>
+                </div>
+            </div>
+            
             <p class="app-kicker">PORTFOLIO / WORK</p>
-            <h1>Projects</h1>
-            <p class="app-subtitle">A horizontal collection of experiments, applications, and finished work.</p>
+            <p class="app-subtitle">A collection of experiments, applications, and finished work.</p>
             <nav class="catalog-command" aria-label="Project sorting">
                 <button class="is-selected" type="button" data-sort="date-desc">Newest first</button>
                 <button type="button" data-sort="date-asc">Oldest first</button>
