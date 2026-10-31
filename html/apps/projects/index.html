@@ -10,7 +10,7 @@
         <script src="../../../js/jsonutils.js"></script>
         <script src="../../../js/months.js"></script>
         <script src="../../../js/app-scroll.js" defer></script>
-        <script src="../../../js/catalog.js" defer type="module"></script>
+        <!-- <script src="../../../js/catalog.js" defer type="module"></script> -->
     </head>
     <body class="catalog-app" data-catalog data-catalog-data="../../../json/projects.json" data-catalog-link="project.html?id={id}">
         <header>
@@ -43,6 +43,14 @@
 
         </footer>
     </body>
+    <script defer type="module">
+        import {loadItems} from "../../../js/catalog.js";
+
+        const catalogRoot = document.querySelector("[data-catalog]");
+        // const catalogRoot = document.getElementById("catalog-main");
+
+        loadItems("date-desc", catalogRoot.dataset.catalogData);
+    </script>
 </html>
 
 <!-- <script src="https://keepandroidopen.org/banner.js?hidebutton=off&id=alert-content"></script> -->

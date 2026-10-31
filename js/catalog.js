@@ -4,8 +4,6 @@ const sortButtons = document.querySelectorAll("[data-sort]");
 let items = [];
 let slideshowTimers = [];
 
-loadItems("date-desc", catalogRoot.dataset.catalogData);
-
 sortButtons.forEach(button => {
     button.addEventListener("click", () => {
         sortButtons.forEach(item => item.classList.toggle("is-selected", item === button));
@@ -13,7 +11,7 @@ sortButtons.forEach(button => {
     });
 });
 
-async function loadItems(defaultSort, filename) {
+export async function loadItems(defaultSort, filename) {
     const json = await loadJSON(filename);
     items = (json.item || json.items || []).filter(item => !item.hidden);
     renderCatalog(defaultSort);
