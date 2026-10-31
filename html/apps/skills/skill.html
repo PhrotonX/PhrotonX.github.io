@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+        <title id="title">Unknown App - Charles Martin's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/app.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/storyboard.css">
+        <link href="https://cdn.metroui.org.ua/4.5.12/icons.css" rel="stylesheet">
+        <script src="../../../js/jsonutils.js"></script>
+        <script src="../../../js/months.js"></script>
+        <script src="../../../js/app-scroll.js" defer></script>
+        <script src="../../../js/storyboard.js" defer></script>
+    </head>
+    <body class="storyboard-app" data-storyboard data-storyboard-data="skills.json">
+        <header>
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <a href="index.html" class="back-button button-circle button-icon">
+                        <span class="mif-arrow-left mif-2x"></span>
+                    </a>
+                    <h1 id="app-name">Unknown Skill</h1>
+                </div>
+                <div class="header-right">
+                    <a href="../../index.html" class="home-button button-circle button-icon">
+                        <span class="mif-home mif-2x"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="storyboard-command">
+                <a href="index.html">All skills</a>
+                <span aria-hidden="true">/</span>
+                <span id="project-counter">Education</span>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section class="storyboard-summary" id="general">
+                    <span class="summary-label">OVERVIEW</span>
+                    <p id="project-category" class="storyboard-category"></p>
+                    <p id="project-date" class="storyboard-date"></p>
+                    <ul id="description"></ul>
+                    <div class="summary-rule"></div>
+                    <p class="summary-hint text-with-icon"><span class="mif-arrow-right mif-2x icon-left"></span> Scroll right to read more.</p>
+                </section>
+                <section class="storyboard-gallery" id="gallery">
+                    <div class="gallery-heading">
+                        <span>GALLERY</span>
+                        <span id="gallery-count"></span>
+                    </div>
+                    <div id="gallery-carousel" aria-label="Project images"></div>
+                    <div class="gallery-controls">
+                        <button id="gallery-previous" type="button" aria-label="Previous image"><span class="mif-arrow-left mif-1x"></span></button>
+                        <div id="gallery-indicators" aria-label="Gallery slides"></div>
+                        <button id="gallery-next" type="button" aria-label="Next image"><span class="mif-arrow-right mif-1x"></span></button>
+                    </div>
+                </section>
+                <aside class="storyboard-rail">
+                    <span class="summary-label">Others</span>
+                    <a href="index.html">Browse more skills <span class="mif-arrow-right mif-1x"></span></a>
+                </aside>
+            </article>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+    <script>
+        
+    </script>
+</html>
+
+<!-- <script src="https://keepandroidopen.org/banner.js?hidebutton=off&id=alert-content"></script> -->

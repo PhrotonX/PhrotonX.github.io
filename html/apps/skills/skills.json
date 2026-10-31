@@ -1,0 +1,493 @@
+{
+    "item": [
+        {
+            "id": "8c9624b1-ac3d-405c-b646-c96f812e07e2",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "C# - Programming Language",
+            "color": "#009900",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to develop apps built around .NET technology.",
+                "My mainstream programming language"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "c458f518-62aa-4b6d-83a5-2b04e12426bd",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "C++ - Programming Language",
+            "color": "#f34b7d",
+            "date": [
+                {
+                    "year": 2018,
+                    "month": 7,
+                    "day": 15,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to develop CLI applications and other various desktop applications.",
+                "Was my mainstream programming language."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "c458f518-62aa-4b6d-83a5-2b04e12426bd",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "CSS - Markup Language",
+            "color": "#0099ff",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 8,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "<b>Note:</b> Has knowledge and skills in CSS, but not skilled in making front-end designs."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "970c6c93-5b31-484d-9e08-4171241eb7b7",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "HTML - Markup Language",
+            "color": "#e34c26",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 8,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "<b>Note:</b> Has knowledge and skills in HTML, but not skilled in making front-end designs."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "add47c53-b847-4b61-b775-dce64d73147f",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "JavaScript - Programming Language",
+            "color": "#f1e05a",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 8,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to develop functionalities in various websites.",
+                "Is not my mainstream programming language."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "426260e5-ac8b-4cd1-ad29-b29a7e094eaa",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "PHP - Programming Language",
+            "color": "#4F5D95",
+            "date": [
+                {
+                    "year": 2022,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to develop various websites, particularly websites that uses Laravel Framework."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "2fa3dbea-8d3f-433b-adf3-ab85e50dd15a",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "B4X - Programming Language",
+            "color": "#00e4ff",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 2,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "May 2025"
+                }
+            ],
+            "description": [
+                "Used to develop Android apps using B4A.",
+                "Has syntax that is very similar to Visual Basic."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "3956849c-91a0-40ae-af2b-aba97da766ed",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "Java - Programming Language",
+            "color": "#b07219",
+            "date": [
+                {
+                    "year": 2022,
+                    "month": 10,
+                    "day": 1    ,
+                    "item": "01",
+                    "progress": "November 2025"
+                }
+            ],
+            "description": [
+                "Used to develop Android apps with Android Studio.",
+                "Used to develop simple extensions for MIT App Inventor",
+                "Learning this programming language allowed me to learn Object-Oriented Paradigm (OOP) along with various design patterns and transfer such knowledge to other programming languages."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "c054fa52-2b34-449d-be70-bb480b5c8348",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "Gradle - Programming Language",
+            "color": "#02303a",
+            "date": [
+                {
+                    "year": 2022,
+                    "month": 10,
+                    "day": 1    ,
+                    "item": "01",
+                    "progress": "January 2025"
+                }
+            ],
+            "description": [
+                "Used to work with dependencies while making Android apps and other Java-based systems."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "45956239-dd6e-4adf-ad65-6474d57d6b2c",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "Scratch - Programming Language",
+            "color": "#ff9900",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "November 2025"
+                }
+            ],
+            "description": [
+                "Used to work make apps with MIT App Inventor."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "153f6eff-983b-4c20-9e92-0882880efbbd",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "Solidity - Programming Language",
+            "color": "#AA6746",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 5,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "September 2026"
+                }
+            ],
+            "description": [
+                "Used to make a layer of a system with blockchain integration."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "de17964b-8b36-481e-82d9-ff525c43da3a",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "XAML - Markup Language",
+            "color": "#0060ac",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to make application UI for a system that is based on .NET technologies including .NET MAUI, UWP, and WPF."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "ff138ba7-5cfe-4c09-ae5e-79d49f7277cd",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "C - Programming Language",
+            "color": "#555555",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 8,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "September 2026"
+                }
+            ],
+            "description": [
+                "Used on NeetCode."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "a1d7e647-89d7-432b-ab48-eae961c38a3e",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "Python - Programming Language",
+            "color": "#3572A5",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2026"
+                }
+            ],
+            "description": [
+                "Used on various school-related activities."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "72fc72cc-241f-4754-bbd1-97fd0e0852c1",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "JSON - Data Interchange Format",
+            "color": "#292929",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 6,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used for application data."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "e62f80cf-0d4a-497e-b88e-f0cb9fb3735f",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "XML - Markup Language",
+            "color": "#0060ac",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used for application data",
+                "Used to make user interfaces for Android applications with Android SDK."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "e8a1a80f-ea8c-47e5-b0e5-db57c25b9d49",
+            "category": "Coding",
+            "type": "Hard Skill",
+            "title": "Markdown - Markup Language",
+            "color": "#083fa1",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 12,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used on system documentation."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "16be2a87-4597-4aac-ad56-9c47b33d0fc8",
+            "category": "Framework",
+            "type": "Hard Skill",
+            "title": "ASP.NET Core - Framework",
+            "color": "#5c2d91",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 8,
+                    "day": 22,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used on making web applications with .NET technology"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "5a9316b2-b5c6-46bf-a46d-17fb07fca446",
+            "category": "Framework",
+            "type": "Hard Skill",
+            "title": ".NET MAUI - Framework",
+            "color": "#5c2d91",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 12,
+                    "day": 12,
+                    "item": "01",
+                    "progress": "May 2026"
+                }
+            ],
+            "description": [
+                "Used on making cross-platform applications."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "2094e145-5e5b-4f1e-ac78-fa5ff9fedd6d",
+            "category": "Framework",
+            "type": "Hard Skill",
+            "title": "WPF - Framework",
+            "color": "#5c2d91",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2025"
+                }
+            ],
+            "description": [
+                "Used on making Windows desktop applications.",
+                "Based on .NET"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "f1a18c68-3e5b-4aaf-a4b2-289a95a0c1b1",
+            "category": "Framework",
+            "type": "Hard Skill",
+            "title": "UWP - Framework",
+            "color": "#5c2d91",
+            "date": [
+                {
+                    "year": 2022,
+                    "month": 6,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2025"
+                }
+            ],
+            "description": [
+                "Used on making Windows desktop/tablet applications.",
+                "based on .NET"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "c20a013e-4bc7-40d9-b7bc-0e45709341e9",
+            "category": "Framework",
+            "type": "Hard Skill",
+            "title": "Laravel - Framework",
+            "color": "#ff2d20",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 12,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used on making web applications with PHP"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "c2086a12-04d5-45f1-a8f5-5da4aa1a083f",
+            "category": "Framework",
+            "type": "Hard Skill",
+            "title": "SFML - Framework",
+            "color": "#8cc445",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 5,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "January 2025"
+                }
+            ],
+            "description": [
+                "Used on making 2D games",
+                "Was abandoned since making games do not make any real world value or contribution to the society, and games makes people get addicted."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "ba871e97-e955-4bb4-8943-5fc9926c6764",
+            "category": "Soft Skill",
+            "type": "Soft Skill",
+            "title": "Unknown",
+            "date": [
+                {
+                    "year": 2005,
+                    "month": 5,
+                    "day": 19,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                ""
+            ],
+            "hidden": false
+        }
+    ]
+}

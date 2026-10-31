@@ -125,8 +125,14 @@
 
 .catalog-app .catalog-tile:hover {
     filter: none;
-    box-shadow: 0 4px 0 rgba(0, 0, 0, .14);
-    transform: translateY(-2px);
+    outline: 3px solid #ffffffaa;
+    outline-offset: -3px;
+    /* box-shadow: 0 4px 0 rgba(0, 0, 0, .14); */
+    /* transform: translateY(-2px); */
+}
+
+.catalog-app .catalog-tile:active {
+    transform: scale(.97);
 }
 
 .catalog-app .catalog-tile:focus-visible {
