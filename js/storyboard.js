@@ -36,6 +36,8 @@ async function loadStoryboardItem(itemId, jsonPath){
         descriptionList.appendChild(descriptionParagraph);
     });
 
+    renderStoryboardActions(item);
+
     // Set images
     var galleryCarousel = document.getElementById("gallery-carousel");
     var imagePaths = item.images || [];
@@ -80,4 +82,55 @@ async function loadStoryboardItem(itemId, jsonPath){
     updateGalleryState();
 
     document.body.dataset.ready = "true";
+}
+
+function renderStoryboardActions(item) {
+    const actions = document.getElementById("storyboard-actions");
+    const buttons = item.buttons || item.button || [];
+    actions.replaceChildren();
+
+    buttons.forEach((button, index) => {
+        const action = parseStoryboardAction(button.action);
+        if (!action.href) {
+            return;
+        }
+
+        const link = document.createElement("a");
+        link.className = "storyboard-action-tile";
+        link.href = action.href;
+        link.target = button.target === "_blank" ? "_blank" : "_self";
+        link.rel = link.target === "_blank" ? "noopener noreferrer" : "";
+        link.style.setProperty("--storyboard-action-color", button.color || actionColors[index % actionColors.length]);
+        link.setAttribute("aria-label", button.content || "Open project action");
+
+        const label = document.createElement("span");
+        label.textContent = button.content || "Open";
+        link.appendChild(label);
+        actions.appendChild(link);
+    });
+
+    const actionCount = actions.childElementCount;
+    actions.style.setProperty("--storyboard-action-columns", String(Math.min(actionCount, 2)));
+    actions.style.setProperty(
+        "--storyboard-action-size",
+        actionCount === 1 ? "clamp(160px, 18vw, 220px)" : "clamp(112px, 10vw, 140px)"
+    );
+    actions.hidden = actions.childElementCount === 0;
+}
+
+const actionColors = ["#087db3", "#245b73", "#3b7d5a", "#7d5a24"];
+
+function parseStoryboardAction(action) {
+    if (typeof action !== "string") {
+        return {};
+    }
+
+    const separator = action.indexOf("=");
+    if (separator === -1) {
+        return {};
+    }
+
+    return {
+        [action.slice(0, separator)]: action.slice(separator + 1)
+    };
 }
