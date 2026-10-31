@@ -9,6 +9,7 @@ sortButtons.forEach(button => {
         sortButtons.forEach(item => item.classList.toggle("is-selected", item === button));
         renderCatalog(button.dataset.sort);
     });
+
 });
 
 export async function loadItems(defaultSort, filename) {
@@ -41,6 +42,10 @@ function renderCatalog(sortMode) {
 }
 
 function updateMatrixRows() {
+    if (window.matchMedia("(max-width: 700px)").matches) {
+        return;
+    }
+
     document.querySelectorAll(".tile-matrix").forEach(matrix => {
         const unit = Math.min(48, Math.max(32, window.innerWidth * 0.05));
         const tileHeight = unit * 2 + 4;

@@ -313,6 +313,38 @@ async function initializeStartScreen() {
         page?.classList.remove("apps-open");
     });
 
+    let startTouchX = 0;
+    let startTouchY = 0;
+    const startSection = document.getElementById("start-section");
+    const appsSection = document.getElementById("apps-section");
+    startSection?.addEventListener("touchstart", (event) => {
+        startTouchX = event.changedTouches[0].clientX;
+        startTouchY = event.changedTouches[0].clientY;
+    }, { passive: true });
+    startSection?.addEventListener("touchend", (event) => {
+        const touch = event.changedTouches[0];
+        if (startTouchX - touch.clientX > 60 &&
+            Math.abs(startTouchX - touch.clientX) > Math.abs(startTouchY - touch.clientY)) {
+            page?.classList.add("apps-open");
+        }
+    }, { passive: true });
+    appsSection?.addEventListener("touchstart", (event) => {
+        startTouchX = event.changedTouches[0].clientX;
+        startTouchY = event.changedTouches[0].clientY;
+    }, { passive: true });
+    appsSection?.addEventListener("touchend", (event) => {
+        const touch = event.changedTouches[0];
+        if (touch.clientX - startTouchX > 60 &&
+            Math.abs(touch.clientX - startTouchX) > Math.abs(touch.clientY - startTouchY)) {
+            page?.classList.remove("apps-open");
+        }
+    }, { passive: true });
+
+    document.querySelector(".mobile-back")?.addEventListener("click", (event) => {
+        event.preventDefault();
+        window.history.back();
+    });
+
     document.querySelectorAll(".grid, #app-list").forEach((scrollArea) => {
         scrollArea.addEventListener("wheel", (event) => {
             if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;

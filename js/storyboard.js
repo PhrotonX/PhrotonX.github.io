@@ -26,7 +26,6 @@ async function loadStoryboardItem(itemId, jsonPath){
     const category = item.category || "Uncategorized";
     document.getElementById("project-category").innerText = category;
     document.getElementById("project-date").innerText = `${date.year || ""} · ${date.progress || ""}`.trim();
-    document.getElementById("project-counter").innerText = `${date.year || ""} / ${category}`;
     
     // Set description
     (item.description || []).forEach(description => {
@@ -37,6 +36,7 @@ async function loadStoryboardItem(itemId, jsonPath){
     });
 
     renderStoryboardActions(item);
+    initializeStoryboardNavigation();
 
     // Set images
     var galleryCarousel = document.getElementById("gallery-carousel");
@@ -59,6 +59,18 @@ async function loadStoryboardItem(itemId, jsonPath){
                 galleryItem.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
             });
             document.getElementById("gallery-indicators").appendChild(indicator);
+        });
+    }
+
+    function initializeStoryboardNavigation() {
+        document.querySelectorAll(".storyboard-command a").forEach(link => {
+            link.addEventListener("click", event => {
+                const target = document.querySelector(link.getAttribute("href"));
+                if (!target) return;
+
+                event.preventDefault();
+                target.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+            });
         });
     }
 
@@ -116,6 +128,8 @@ function renderStoryboardActions(item) {
         actionCount === 1 ? "clamp(160px, 18vw, 220px)" : "clamp(112px, 10vw, 140px)"
     );
     actions.hidden = actions.childElementCount === 0;
+    document.querySelector('.storyboard-command a[href="#storyboard-actions"]')
+        ?.toggleAttribute("hidden", actions.hidden);
 }
 
 const actionColors = ["#087db3", "#245b73", "#3b7d5a", "#7d5a24"];

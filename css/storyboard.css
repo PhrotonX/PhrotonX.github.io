@@ -278,23 +278,87 @@
 }
 
 @media (max-width: 700px) {
+    .storyboard-app {
+        background: #000;
+    }
+
+    .storyboard-app > header {
+        padding: 20px 18px 10px;
+        background: #000;
+    }
+
+    .storyboard-command {
+        gap: 20px;
+        margin-top: 12px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .storyboard-command span {
+        display: none;
+    }
+
+    .storyboard-app > main {
+        padding: 0 0 70px 18px;
+        scroll-snap-type: x mandatory;
+        overflow-x: auto;
+    }
+
     .storyboard-app article {
-        gap: 16px;
+        gap: 12px;
+        height: 100%;
+        width: max-content;
+        align-items: stretch;
+    }
+
+    .storyboard-summary,
+    .storyboard-gallery,
+    .storyboard-actions,
+    .storyboard-rail {
+        flex: 0 0 calc(100vw - 54px);
+        width: calc(100vw - 54px);
+        height: 100%;
+        scroll-snap-align: start;
     }
 
     .storyboard-summary {
-        width: 82vw;
+        padding: 24px 18px;
     }
 
     .storyboard-gallery {
-        width: 86vw;
+        width: calc(100vw - 54px);
     }
 
     .storyboard-actions {
-        --storyboard-action-size: 128px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: calc(100vw - 54px);
+        min-width: 0;
+        overflow-y: auto;
+    }
+
+    .storyboard-actions[hidden] {
+        display: none;
+    }
+
+    .storyboard-action-tile {
+        width: auto;
+        min-width: 0;
+        min-height: 0;
     }
 
     .storyboard-rail {
-        width: 72vw;
+        width: calc(100vw - 54px);
+        padding: 24px 18px;
+    }
+
+    .storyboard-app .header-wrapper .back-button,
+    .storyboard-app .header-wrapper .home-button {
+        display: none;
+    }
+
+    .storyboard-app > header h1 {
+        max-width: 100%;
+        font-size: 28px;
+        font-weight: 300;
     }
 }

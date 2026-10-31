@@ -204,13 +204,77 @@
 }
 
 @media (max-width: 700px) {
+    .catalog-app {
+        background: #000;
+    }
+
+    .catalog-app > header {
+        background: #000;
+    }
+
+    body.catalog-app > header {
+        padding: 24px 18px 16px;
+    }
+
+    .catalog-app > main {
+        padding: 0 0 70px 18px;
+        scroll-snap-type: x mandatory;
+    }
+
+    .catalog-app .grid {
+        gap: 12px;
+        width: max-content;
+        height: 100%;
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+
     .catalog-app .category {
-        gap: var(--app-grid-gap) var(--app-gap);
+        display: block;
+        flex: 0 0 calc(100vw - 54px);
+        width: calc(100vw - 54px);
+        box-sizing: border-box;
+        height: 100%;
+        padding: 0 18px;
+        overflow-y: auto;
+        scroll-snap-align: start;
+        overscroll-behavior-y: contain;
+    }
+
+    .catalog-app .tile-matrix {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: none;
+        grid-auto-flow: row;
+        grid-auto-columns: auto;
+        gap: 4px;
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .catalog-app .category h2 {
+        width: auto;
+        height: auto;
+        margin: 0 0 10px;
     }
 
     .catalog-app .catalog-tile.wide {
-        width: calc(var(--app-unit) * 4 + var(--app-grid-gap) * 3);
-        height: calc(var(--app-unit) * 2 + var(--app-grid-gap));
+        grid-column: 1 / -1;
+        width: auto !important;
+        height: 28vw !important;
+    }
+
+    .catalog-app .tile-matrix .catalog-tile,
+    .catalog-app .tile-matrix .catalog-tile.wide {
+        grid-column: span 1;
+        grid-row: auto !important;
+        width: 100% !important;
+        height: clamp(88px, 28vw, 112px) !important;
+        min-width: 0;
+        max-width: 100%;
     }
 
     .catalog-command {
@@ -221,5 +285,13 @@
 
     .catalog-app .tile-info {
         align-items: flex-end;
+    }
+
+    .catalog-app .header-wrapper .home-button {
+        display: none;
+    }
+
+    .catalog-app > header h1 {
+        font-size: 30px;
     }
 }
