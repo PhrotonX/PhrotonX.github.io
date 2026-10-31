@@ -2,24 +2,52 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-        <title>Projects - Charles Martin's Portfolio</title>
+        <title>Educational Attainment - Charles Martin's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/app.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/catalog.css">
+        <link href="https://cdn.metroui.org.ua/4.5.12/icons.css" rel="stylesheet">
+        <script src="../../../js/jsonutils.js"></script>
+        <script src="../../../js/months.js"></script>
         <script src="../../../js/app-scroll.js" defer></script>
+        <script src="../../../js/catalog.js" defer type="module"></script>
     </head>
-    <body>
+    <body class="catalog-app" data-catalog data-catalog-data="education.json" data-catalog-link="education.html?id={id}">
         <header>
-            <h1>About</h1>
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <h1>Educational Attainment</h1>
+                </div>
+                <div class="header-right">
+                    <a href="../../index.html" class="home-button button-circle button-icon">
+                        <span class="mif-home mif-2x"></span>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="app-kicker">PORTFOLIO / EDUCATION</p>
+            <p class="app-subtitle">List of programs attended, excluding junior high school and below.</p>
+            <nav class="catalog-command" aria-label="Project sorting">
+            <button class="is-selected" type="button" data-sort="category">By category</button>
+            </nav>
         </header>
         <main>
-            <h2>About this website</h2>
-            <p>This website is heavily influenced by Windows 8.1 Metro UI but is not affiliated by Microsoft (C). The design choice was intended to emphasize my experience in .NET Core despite the fact that this website itself does not use .NET by any means since it runs on Jekyll and GitHub Pages.</p>
+            <div class="grid" id="catalog-grid">
+                <section class="category">
+                </section>
+            </div>
         </main>
         <footer>
 
         </footer>
     </body>
-    <script>
-        
+    <script defer type="module">
+        import {loadItems} from "../../../js/catalog.js";
+
+        const catalogRoot = document.querySelector("[data-catalog]");
+
+        loadItems("category", catalogRoot.dataset.catalogData);
     </script>
 </html>
+
+<!-- <script src="https://keepandroidopen.org/banner.js?hidebutton=off&id=alert-content"></script> -->
