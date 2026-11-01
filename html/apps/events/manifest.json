@@ -1,0 +1,20 @@
+{
+    "app_name": "events",
+    "display_name": "Events",
+    "description": "A list of previous events that I've joined that has something to do with the field of tech.",
+    "color": "#00a3ee",
+    "display_original_tile": true,
+    "live_tile_type": "json",
+    "live_tile": [
+        {
+            "heading": "RAITE 2026",
+            "content": "Pampanga State University.",
+            "image": "res/raite2026.jpg"
+        },
+        {
+            "heading": "Robotics 2019",
+            "content": "Angeles City Science High School",
+            "image": "res/robotics2019/img1.jpg"
+        }
+    ]
+}
