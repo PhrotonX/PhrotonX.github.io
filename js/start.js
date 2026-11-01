@@ -173,15 +173,21 @@ function renderLiveSlide(slide) {
 
     if (slide.type === "bullet-list") {
         return `<div class="live-bullet-list">
-            ${slide.items.map((item) => `<div class="live-bullet">
+            ${slide.items.map((item) => `
                 ${item.image
-                    ? `<img src="${escapeHtml(item.image)}" alt="">`
-                    : `<img src="${escapeHtml(item.icon)}" alt="">`}
-                <div>
-                    ${item.heading ? `<strong>${escapeHtml(item.heading)}</strong>` : ""}
-                    <p>${escapeHtml(item.content || "")}</p>
-                </div>
-            </div>`).join("")}
+                    ?  `<div class="live-bullet">
+                            <img src="${escapeHtml(item.image)}" alt="">
+                            <div>
+                                ${item.heading ? `<strong>${escapeHtml(item.heading)}</strong>` : ""}
+                                <p>${escapeHtml(item.content || "")}</p>
+                            </div>
+                        </div>`
+                    : `<div class="live-copy no-padding">
+                            ${item.heading ? `<strong>${escapeHtml(item.heading)}</strong>` : ""}
+                            <p>${escapeHtml(item.content || "")}</p>
+                        </div>`
+                }
+            `).join("")}
         </div>`;
     }
 
