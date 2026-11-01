@@ -686,6 +686,60 @@
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ]
+        },
+        {
+            "id": "13b9816b-307c-4237-a487-4efaf1d597c2",
+            "category": "Game - Desktop",
+            "title": " TankGame (CLOSED SOURCE)",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 7,
+                    "progress": "May 2021"
+                }
+            ],
+            "image": "../res/img/projects/Coding Clipart.png",
+            "description": [
+                "This game contains large amount of bad practices",
+                "CLI Application",
+                "Built with C++ &amp; SFML"
+            ],
+            "note": [
+                "<b>Poor Quality Application</b>"
+            ],
+            "button": [
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Request Code",
+                    "action": "mailto:cpascual185@gmail.com",
+                    "target": "self"
+                }
+            ]
+            
+        },
+        {
+            "id": "70af4b25-716b-4b05-a4e2-e284a960cf3b",
+            "category": "Desktop Application (CLI)",
+            "title": "Character Paint",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 4,
+                    "progress": "November 2020"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on C++"
+            ],
+            "note": [
+                "<b>Poor Quality Application</b>"
+            ],
+            "hidden": false
         }
     ]
 }
