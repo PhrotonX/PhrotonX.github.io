@@ -163,7 +163,12 @@
 .storyboard-action-tile:hover,
 .storyboard-action-tile:focus-visible {
     filter: brightness(1.12);
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
+
+}
+
+.storyboard-action-tile:active{
+    transform: scale(.97);
 }
 
 .storyboard-action-tile:focus-visible {
