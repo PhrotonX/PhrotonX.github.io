@@ -321,7 +321,7 @@
             "button": [
                 {
                     "content": "Learn more",
-                    "action": "href=http://127.0.0.1:4000/html/apps/about/",
+                    "action": "href=/html/apps/about/",
                     "target": "_blank"
                 }
             ],
