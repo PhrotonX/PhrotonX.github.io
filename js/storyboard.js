@@ -98,6 +98,10 @@ async function loadStoryboardItem(itemId, jsonPath){
 
 function renderStoryboardActions(item) {
     const actions = document.getElementById("storyboard-actions");
+    if (!actions) {
+        return;
+    }
+
     const buttons = item.buttons || item.button || [];
     actions.replaceChildren();
 
@@ -122,17 +126,27 @@ function renderStoryboardActions(item) {
     });
 
     const actionCount = actions.childElementCount;
-    actions.style.setProperty("--storyboard-action-columns", String(Math.min(actionCount, 2)));
-    actions.style.setProperty(
-        "--storyboard-action-size",
-        actionCount === 1 ? "clamp(160px, 18vw, 220px)" : "clamp(112px, 10vw, 140px)"
-    );
+    actions.dataset.actionCount = String(actionCount);
+    updateStoryboardActionGrid(actions);
     actions.hidden = actions.childElementCount === 0;
     document.querySelector('.storyboard-command a[href="#storyboard-actions"]')
         ?.toggleAttribute("hidden", actions.hidden);
 }
 
 const actionColors = ["#087db3", "#245b73", "#3b7d5a", "#7d5a24"];
+const actionGridObserver = new ResizeObserver(entries => {
+    entries.forEach(({ target }) => updateStoryboardActionGrid(target));
+});
+
+function updateStoryboardActionGrid(actions) {
+    if (!actions.childElementCount) {
+        return;
+    }
+
+    const isMobile = window.matchMedia("(max-width: 700px)").matches;
+    const actionSize = isMobile ? 112 : 140;
+    actions.style.setProperty("--storyboard-action-tile-size", `${actionSize}px`);
+}
 
 function parseStoryboardAction(action) {
     if (typeof action !== "string") {
