@@ -150,7 +150,10 @@
 .storyboard-action-tile {
     position: relative;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: auto;
     aspect-ratio: 1;
     padding: 14px;
     border: 0;
@@ -181,6 +184,12 @@
     color: inherit;
     font-size: 14px;
     line-height: 1.2;
+}
+
+.storyboard-action-tile > .action-tile-heading{
+    font-size: xx-large;
+    font-weight: 300;
+    align-self: flex-end;
 }
 
 .gallery-heading {

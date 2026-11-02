@@ -64,3 +64,8 @@ body{
     width: 204px;
     height: 204px;
 }
+
+.tile-large-heading{
+    font-weight: 100;
+    font-size: xx-large;
+}
