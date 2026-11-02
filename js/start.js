@@ -96,6 +96,57 @@ function renderStartLayout(config, manifests) {
 
         grid.appendChild(category);
     });
+
+    sizeDesktopCategoryRows();
+    compactDesktopCategories();
+}
+
+function sizeDesktopCategoryRows() {
+    if (window.matchMedia("(max-width: 700px)").matches) return;
+
+    const grid = document.querySelector("#start-section > .grid");
+    if (!grid) return;
+
+    const gridRect = grid.getBoundingClientRect();
+    document.querySelectorAll("#start-section > .grid .category").forEach((category) => {
+        const heading = category.querySelector(":scope > h2");
+        const styles = getComputedStyle(category);
+        const unit = parseFloat(styles.getPropertyValue("--unit")) || 48;
+        const gap = parseFloat(styles.rowGap) || 4;
+        const headingHeight = heading?.getBoundingClientRect().height || 0;
+        const headingMargin = heading
+            ? parseFloat(getComputedStyle(heading).marginBottom) || 0
+            : 0;
+        const availableHeight = Math.max(
+            unit * 2,
+            gridRect.bottom - category.getBoundingClientRect().top - headingHeight - headingMargin
+        );
+        const rows = Math.max(
+            2,
+            Math.floor((availableHeight + gap) / (unit + gap))
+        );
+
+        category.style.setProperty("--desktop-rows", String(rows));
+    });
+}
+
+function compactDesktopCategories() {
+    if (window.matchMedia("(max-width: 700px)").matches) return;
+
+    document.querySelectorAll("#start-section > .grid .category").forEach((category) => {
+        const tiles = [...category.querySelectorAll(".tile")];
+        if (!tiles.length) return;
+
+        const categoryLeft = category.getBoundingClientRect().left;
+        const styles = getComputedStyle(category);
+        const cellSize = parseFloat(styles.gridAutoRows) || 48;
+        const gap = parseFloat(styles.columnGap) || 4;
+        const occupiedWidth = Math.max(
+            ...tiles.map((tile) => tile.getBoundingClientRect().right - categoryLeft)
+        );
+        const columns = Math.max(4, Math.ceil((occupiedWidth + gap) / (cellSize + gap)));
+        category.style.setProperty("--cols", String(columns));
+    });
 }
 
 function enableTileNavigation() {
@@ -310,6 +361,10 @@ async function initializeStartScreen() {
         if (manifest) enableLiveTile(tile, manifest, tileIndex);
     });
     renderAppList(manifests);
+    window.addEventListener("resize", () => {
+        sizeDesktopCategoryRows();
+        compactDesktopCategories();
+    });
 
     const page = document.querySelector("main");
     document.getElementById("all-apps-button")?.addEventListener("click", () => {

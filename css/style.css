@@ -206,3 +206,12 @@ a.button-circle:active{
 .icon-left{
     margin-right: 4px;
 }
+
+@media (min-width: 701px) {
+    #start-section > .grid .category {
+        grid-template-rows: max-content repeat(var(--desktop-rows, 4), var(--unit));
+        grid-auto-columns: var(--unit);
+        grid-auto-flow: column dense;
+        align-content: start;
+    }
+}
