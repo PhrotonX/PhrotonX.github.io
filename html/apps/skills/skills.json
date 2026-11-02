@@ -202,7 +202,14 @@
                 }
             ],
             "description": [
-                "Used to work make apps with MIT App Inventor."
+                "Used to make apps with MIT App Inventor.",
+                "Was a part of Pampanga State University curriculum for 3rd Year students"
+            ],
+            "images": [
+                {
+                    "src": "res/scratch_mit.png",
+                    "alt": "Screenshot of MIT App Inventor"
+                }
             ],
             "hidden": false
         },

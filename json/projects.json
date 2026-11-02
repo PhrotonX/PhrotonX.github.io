@@ -115,21 +115,14 @@
         {
             "id": "d7e56240-48c3-4957-beae-99587121d128",
             "category": "Framework - Dynamic Link Library",
-            "title": "xlibcpp (Coming Soon)",
+            "title": "xlibcpp (Shelved)",
             "date": [
                 {
                     "year": 2024,
                     "month": 6,
                     "day": 24,
                     "item": "02",
-                    "progress": "Present"
-                }
-            ],
-            "image": "../res/img/Coding Clipart.png",
-            "images": [
-                {
-                    "src": "res/img/img.png",
-                    "alt": "Description here..."
+                    "progress": "2025"
                 }
             ],
             "description": [
@@ -181,8 +174,8 @@
             "image": "../res/img/Web Icon with Mouse Pointer.png",
             "images": [
                 {
-                    "src": "res/img/img.png",
-                    "alt": "Description here..."
+                    "src": "res/img/sosPampanga.png",
+                    "alt": "Screenshot of the app"
                 }
             ],
             "description": [
@@ -205,8 +198,21 @@
                 }
             ],
             "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "images": [
+                {
+                    "src": "res/img/hitchhikers/img1.png"
+                },
+                {
+                    "src": "res/img/hitchhikers/img2.png"
+                },
+                {
+                    "src": "res/img/hitchhikers/img3.png"
+                }
+            ],
             "description": [
                 "Was built on Laravel",
+                "Used Leafleft.js and Nominatim for mapping",
+                "Used Docker and WSL2",
                 "Was built to provide an online transit system for any vehicles (including non-taxi vehicles) riding through a route that a passenger may need to drop-off."
             ],
             "hidden": false
@@ -234,14 +240,14 @@
         {
             "id": "1ba5a933-8cbe-4282-a904-f6765150f4ca",
             "category": "Mobile Application",
-            "title": "Notes for Android (Coming Soon)",
+            "title": "Notes for Android (Shelved)",
             "date": [
                 {
                     "year": 2024,
                     "month": 2,
                     "day": "00",
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "2025"
                 }
             ],
             "image": "../res/img/projects/notesForAndroid.png",
@@ -266,6 +272,47 @@
                     "target": "_blank"
                 }
             ]
+        },
+        {
+            "id": "30a964b7-fdec-424e-a88c-6a492e0881a3",
+            "category": "Static Website",
+            "title": "Portfolio (this website)",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 3,
+                    "day": 26,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/projects/toDoListB4a.png",
+            "images": [
+                {
+                    "src": "res/img/portfolio/img1.png",
+                    "alt": "2026 variant"
+                },
+                {
+                    "src": "res/img/portfolio/img2.png",
+                    "alt": "2026 variant (mobile layout)"
+                },
+                {
+                    "src": "res/img/portfolio/img3.png",
+                    "alt": "2024 variant"
+                }
+            ],
+            "description": [
+                "This website",
+                "The older variant consisted of a more basic UI and protest against the locking down of Android ecosystem."
+            ],
+            "button": [
+                {
+                    "content": "Learn more",
+                    "action": "href=http://127.0.0.1:4000/html/apps/about/",
+                    "target": "_blank"
+                }
+            ],
+            "hidden": false
         },
         {
             "id": "27ce4c8a-4337-4ff4-bdc7-e10b7f1d3e74",
@@ -496,7 +543,7 @@
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
-            "hidden": false
+            "hidden": true
         },
         {
             "id": "4b288034-32ff-4a71-8b5a-f22602cce2b6",
@@ -690,7 +737,7 @@
         {
             "id": "13b9816b-307c-4237-a487-4efaf1d597c2",
             "category": "Game - Desktop",
-            "title": " TankGame (CLOSED SOURCE)",
+            "title": " TankGame (CLI)",
             "date": [
                 {
                     "year": 2020,
@@ -724,7 +771,7 @@
         {
             "id": "70af4b25-716b-4b05-a4e2-e284a960cf3b",
             "category": "Desktop Application (CLI)",
-            "title": "Character Paint",
+            "title": "Character Paint (CLI)",
             "date": [
                 {
                     "year": 2020,

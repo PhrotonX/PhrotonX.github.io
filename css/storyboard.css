@@ -292,6 +292,13 @@
     line-height: 1.45;
 }
 
+.storyboard-rail strong {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.45;
+    font-weight: 300;
+}
+
 .storyboard-rail a {
     margin-top: auto;
     color: #fff;

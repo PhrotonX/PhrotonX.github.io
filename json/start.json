@@ -4,8 +4,8 @@
             "title": "Pinned",
             "tiles": [
                 { "app": "profile", "size": "wide" },
-                { "app": "about", "size": "medium" },
-                { "app": "old", "size": "large" }
+                { "app": "old", "size": "medium" },
+                { "app": "about", "size": "large" }
             ]
         },
         {

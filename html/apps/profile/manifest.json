@@ -25,6 +25,11 @@
             "heading": "Currently learning",
             "content": ".NET Core-related technologies.",
             "image": "res/profile_wide.png"
+        },
+        {
+            "heading": "Resume & CV",
+            "content": "Click here to download",
+            "image": "res/profile_wide.png"
         }
     ]
 }

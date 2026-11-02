@@ -7,10 +7,9 @@
     "live_tile_type": "json",
     "live_tile": [
         {
-            "heading": null,
-            "content": "View the old portfolio experience. Contains outdated information. To be removed on 2027.",
-            "tile_name": null,
-            "image": null
+            "heading": "This website is currently under construction",
+            "content": "Several features, images, and information remains incomplete.",
+            "tile_name": null
         }
     ],
     "display_original_tile": true,
