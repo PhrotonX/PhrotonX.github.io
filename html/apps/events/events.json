@@ -1,0 +1,66 @@
+{
+    "item": [
+        {
+            "id": "44bcaf6a-37e2-4cd3-8660-e07e8bf7fa6e",
+            "category": "Programming",
+            "title": "RAITE 2026 - Programming Challenge",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 10,
+                    "day": 2,
+                    "item": "01",
+                    "progress": ""
+                }
+            ],
+            "description": [
+                "Pampanga State University - Don Honorio Ventura Campus",
+                "The programming challenge consisted of two pair of student from different schools. It used CodeChum platform where the event was conducted.",
+                "Failed passing the hard programming problems which included problems that require solving with various graph algorithms such as A*.",
+                "Practiced various algorithms with NeetCode a month before the event, but it was extremely lacking since I was busy on building a system for our thesis project. Thus, largely contributing to the failure to gain rank during the event."
+            ],
+            "images": [
+                {
+                    "src": "res/raite2026.jpg",
+                    "alt": "Image 1"
+                }
+            ],
+            "hidden": false
+        },
+        {
+            "id": "5e87388e-178b-41dd-8fc6-6f6a24346230",
+            "category": "Programming",
+            "title": "Robotics Program",
+            "date": [
+                {
+                    "year": 2019,
+                    "month": 9,
+                    "day": 30,
+                    "item": "01",
+                    "progress": ""
+                }
+            ],
+            "description": [
+                "Angeles City Science High School",
+                "Consisted of robots developed using Arduino EEE Robot Kit. It uses scratch-like programming language to build the robot logic",
+                "Was be able to make the robot walk on to a detected black-colored line.",
+                "The robot had a lot of logical errors on its pathfinding while it was being developed."
+            ],
+            "images": [
+                {
+                    "src": "res/robotics2019/img1.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "res/robotics2019/img2.jpg",
+                    "alt": "Image 2"
+                },
+                {
+                    "src": "res/robotics2019/img3.jpg",
+                    "alt": "Image 3"
+                }
+            ],
+            "hidden": false
+        }
+    ]
+}

@@ -1,8 +1,71 @@
 {
     "item": [
         {
-            "category": "Framework - Dynamic Link Library",
-            "title": "NNlibcpp (Coming Soon)",
+            "id": "01f30181-674d-4510-98ed-0653b9b66f48",
+            "category": "Dynamic Website",
+            "title": "TaxIT (Thesis Project)",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 5,
+                    "day": 15,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/taxit.png"
+                }
+            ],
+            "description": [
+                "Prototype Thesis Project",
+                "Was the Lead Developer and was responsible for building the back-end of the web application.",
+                "Was <u>not</u> responsible for the front-end or the UI",
+                "Written in ASP.NET Core and C#",
+                "Has Blockchain Integration with Solidity and Sepolia testnet"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "b026ea0e-fee6-49b3-bc46-4d6e2fd79179",
+            "category": "Cross-platform Application",
+            "title": "SmileSys",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 12,
+                    "day": 12,
+                    "item": "01",
+                    "progress": "June 2026"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/smilesys_1.png"
+                }
+            ],
+            "description": [
+                "Prototype School Project",
+                "Client-side is written on .NET MAUI 9, while the server-side was written on ASP.NET Core 9",
+                "Runs on Android and Windows. It was originally intended for iOS, but the requirements to develop an iOS system was unfeasible since it needed a real Mac computer.",
+                "An application used to manage patient records with syncing capabilities based on a System Requirement Specification from a clinic.",
+                "This school project tremendously lacked proper coordination with other developers. This effectively let myself develop the whole system alone for a limited amount of time for six months: the client front-end, the client back-end, and the server back-end while also ensuring that it will run cross-platform, and also the most of the paper works (e.g. diagrams, Gantt chart, system architecture, etc.) For the same reason, the front-end was tremendously underdeveloped.",
+                "The lack of coordination was caused by the lack of willingness of my teammates to cooperate and listen. I was the project leader of all aspects of the project and there were only three group members.",
+                "Many portions of the application and web server was heavily AI-generated, making it extremely unstable, unreliable, and insecure.",
+                "Many portions of the system is undocumented.",
+                "Was shut down immediately after testing by clients with one patient data due to several security issues. The security flaws were discovered during the testing period. All the data stored on the system were handed over to the clients through a cloud storage and all the data left on the server were erased immediately. It was treated like a garbage on a dumpster fire by myself and shall forever be.",
+                "Not used for production environments.",
+                "It was a giant blob of many, many mistakes from many, many aspects. From overreliance to AI during the system development, improper communication, to improper leadership. It was also a pinnacle of unprofessionalism."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "80c0d6c5-baa2-4b04-ae72-e16bd1682109",
+            "category": "Framework",
+            "title": "NNlibcpp (Shelved)",
             "date": [
                 {
                     "year": 2025,
@@ -13,8 +76,14 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png"
+                }
+            ],
             "description": [
                 "<b>Neural Network Library for C++</b>",
+                "Dynamic Link Library",
                 "Is currently being built on C++.",
                 "Consists of an implementation of neural networks.",
                 "It is made since it is banned for Computer Science students to integrate AI APIs available online."
@@ -22,38 +91,51 @@
             "hidden": true
         },
         {
-            "category": "Dynamic Website (Web Application)",
-            "title": "SJM Event Styling (Coming Soon)",
+            "id": "23db2c0b-89b3-4236-be08-3de229cdf991",
+            "category": "Dynamic Website",
+            "title": "SJM Event Styling",
             "date": [
                 {
                     "year": 2025,
                     "month": 5,
                     "day": 25,
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "July 2026"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
-            "description": [
-                "Client Website"
+            "images": [
+                {
+                    "src": "res/img/sjmEventStyling_1.png",
+                    "alt": "2026 Version on Dark Theme"
+                },
+                {
+                    "src": "res/img/sjmEventStyling_2.png",
+                    "alt": "2025 Version on Dark Theme"
+                }
             ],
-            "hidden": true
+            "description": [
+                "Client Website",
+                "Built on Laravel"
+            ],
+            "hidden": false
         },
         {
-            "category": "Framework - Dynamic Link Library",
-            "title": "xlibcpp (Coming Soon)",
+            "id": "d7e56240-48c3-4957-beae-99587121d128",
+            "category": "Framework",
+            "title": "xlibcpp (Shelved)",
             "date": [
                 {
                     "year": 2024,
                     "month": 6,
                     "day": 24,
                     "item": "02",
-                    "progress": "Present"
+                    "progress": "2025"
                 }
             ],
-            "image": "../res/img/Coding Clipart.png",
             "description": [
                 "<b>Extension Library for C++</b>",
+                "Dynamic Link Library",
                 "Is currently being built on C++.",
                 "Consists of my own implementation of data structures, algorithms, among others.",
                 "It is made in order to improve my knowledge in DSA and to excel within my computer science program."
@@ -61,6 +143,7 @@
             "hidden": false
         },
         {
+            "id": "84a69d61-bb28-43bb-bce8-4635fd229fa6",
             "category": "Desktop Application",
             "title": "CVGuard (Coming Soon)",
             "date": [
@@ -73,13 +156,79 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/img.png",
+                    "alt": "Description here..."
+                }
+            ],
             "description": [
                 "Is currently being built on C# and .NET Framework"
             ],
             "hidden": true
         },
         {
-            "category": "Dynamic Website (Web Application)",
+            "id": "037372a5-0d9d-49af-817e-204e16d55177",
+            "category": "Dynamic Website",
+            "title": "SOSPampanga (School Project)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "day": 26,
+                    "item": "01",
+                    "progress": "November 2025"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "images": [
+                {
+                    "src": "res/img/sosPampanga.png",
+                    "alt": "Screenshot of the app"
+                }
+            ],
+            "description": [
+                "Client-side was built on MIT App Inventor, while the server-side was built on ASP.NET Core and hosted through Microsoft Azure and also Google Firebase for live emergency alerts.",
+                "Was built to allow any anonymous users to make an emergency alert that also alerts other instances of devices running online."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "a68ec8ea-dd9e-40c0-9113-7cb46e3928ff",
+            "category": "Dynamic Website",
+            "title": "Hitchhikers (School Project)",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 8,
+                    "day": 30,
+                    "item": "01",
+                    "progress": "November 2025"
+                }
+            ],
+            "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "images": [
+                {
+                    "src": "res/img/hitchhikers/img1.png"
+                },
+                {
+                    "src": "res/img/hitchhikers/img2.png"
+                },
+                {
+                    "src": "res/img/hitchhikers/img3.png"
+                }
+            ],
+            "description": [
+                "Was built on Laravel",
+                "Used Leafleft.js and Nominatim for mapping",
+                "Used Docker and WSL2",
+                "Was built to provide an online transit system for any vehicles (including non-taxi vehicles) riding through a route that a passenger may need to drop-off."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "a41a0a8e-b86a-4681-bbf5-f2877418d55c",
+            "category": "Dynamic Website",
             "title": "Quest.net (School Project) (Coming Soon)",
             "date": [
                 {
@@ -98,18 +247,24 @@
             "hidden": true
         },
         {
+            "id": "1ba5a933-8cbe-4282-a904-f6765150f4ca",
             "category": "Mobile Application",
-            "title": "Notes for Android (Coming Soon)",
+            "title": "Notes for Android (Shelved)",
             "date": [
                 {
                     "year": 2024,
                     "month": 2,
                     "day": "00",
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "2025"
                 }
             ],
             "image": "../res/img/projects/notesForAndroid.png",
+            "images": [
+                {
+                    "src": "res/img/notesForAndroid.png"
+                }
+            ],
             "description": [
                 "Is currently being built on Android SDK with Java and Kotlin",
                 "Supports basic CRUD operation"
@@ -128,6 +283,52 @@
             ]
         },
         {
+            "id": "30a964b7-fdec-424e-a88c-6a492e0881a3",
+            "category": "Static Website",
+            "title": "Portfolio (this website)",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 5,
+                    "day": 19,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "image": "../res/img/projects/toDoListB4a.png",
+            "images": [
+                {
+                    "src": "res/img/portfolio/img1.png",
+                    "alt": "2026 variant"
+                },
+                {
+                    "src": "res/img/portfolio/img2.png",
+                    "alt": "2026 variant (mobile layout)"
+                },
+                {
+                    "src": "res/img/portfolio/img3.png",
+                    "alt": "2024 variant"
+                },
+                {
+                    "src": "res/img/portfolio/img4.png",
+                    "alt": "2023 variant"
+                }
+            ],
+            "description": [
+                "This website",
+                "The older variant consisted of a more basic UI and protest against the locking down of Android ecosystem."
+            ],
+            "button": [
+                {
+                    "content": "Learn more",
+                    "action": "href=http://127.0.0.1:4000/html/apps/about/",
+                    "target": "_blank"
+                }
+            ],
+            "hidden": false
+        },
+        {
+            "id": "27ce4c8a-4337-4ff4-bdc7-e10b7f1d3e74",
             "category": "Mobile Application",
             "title": "To Do List (School Project)",
             "date": [
@@ -140,6 +341,20 @@
                 }
             ],
             "image": "../res/img/projects/toDoListB4a.png",
+            "images": [
+                {
+                    "src": "res/img/toDoList/img1.png"
+                },
+                {
+                    "src": "res/img/toDoList/img2.png"
+                },
+                {
+                    "src": "res/img/toDoList/img3.png"
+                },
+                {
+                    "src": "res/img/toDoList/img4.png"
+                }
+            ],
             "description": [
                 "School requirement for 2nd-Year BS in Computer Science Students at Don Honorio Ventura State University, S.Y. 2024-2025.",
                 "Built on an obscure technology called B4A and written in B4X, a programming language that is similar to Visual Basic.",
@@ -155,6 +370,7 @@
             "hidden": false
         },
         {
+            "id": "0371dc88-c69c-4ec7-a3b7-70ac4f5b18be",
             "category": "Desktop Application",
             "title": "UUID Generator",
             "date": [
@@ -165,6 +381,11 @@
                 }
             ],
             "image": "../res/img/projects/uuidGen.png",
+            "images": [
+                {
+                    "src": "res/img/uuidGen.png"
+                }
+            ],
             "description": [
                 "Built on C++ and Win32 API",
                 "Can generate multiple variants of UUID.",
@@ -180,6 +401,7 @@
             
         },
         {
+            "id": "4b1a1650-79e0-4559-9911-a3c7d8452b70",
             "category": "Desktop Application",
             "title": "TextPad",
             "date": [
@@ -190,6 +412,11 @@
                 }
             ],
             "image": "../res/img/projects/textPad.png",
+            "images": [
+                {
+                    "src": "res/img/textPad.png"
+                }
+            ],
             "description": [
                 "Built on C++ and Win32 API"
             ],
@@ -203,7 +430,8 @@
             
         },
         {
-            "category": "Dynamic Website (Web Application)",
+            "id": "ef346c96-48f1-4c8a-a9b7-0f4e10aaf2f8",
+            "category": "Dynamic Website",
             "title": "ComParts (School Project)",
             "date": [
                 {
@@ -213,6 +441,11 @@
                 }
             ],
             "image": "../res/img/projects/comparts.jpeg",
+            "images": [
+                {
+                    "src": "res/img/comparts.jpeg"
+                }
+            ],
             "description": [
                 "School requirement for ICT-11 Students at Next Generation Technological College, S.Y. 2021-2022.",
                 "Built on HTML, CSS, PHP, JavaScript, XML, and SQL.",
@@ -230,18 +463,49 @@
             ]
         },
         {
-            "category": "Dynamic Website (Web Application)",
+            "id": "4d9e8eea-dc5a-4eb9-999c-bb7e5b9ee500",
+            "category": "Dynamic Website",
+            "title": "The ComPawnions",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 3,
+                    "progress": "May 2025"
+                }
+            ],
+            "images": [
+                {
+                    "src": "res/img/theCompawnions.png",
+                    "alt": "An image of a website"
+                }
+            ],
+            "description": [
+                "Was a school group project and I was the lead developer. I was responsible for building scripts and certain pages only",
+                "Is built on HTML, CSS, and JavaScript",
+                "The UI was criticized for being too plain and old."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "824fb2cc-1801-43ab-b94c-5bb5681eda8f",
+            "category": "Dynamic Website",
             "title": "WebLog (Shelved)",
             "date": [
                 {
                     "year": 2023,
-                    "month": 3,
-                    "progress": "February 2025"
+                    "month": 2,
+                    "progress": "March 2025"
                 }
             ],
             "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "images": [
+                {
+                    "src": "res/img/webLog.png",
+                    "alt": "An image of a website with early stage UI"
+                }
+            ],
             "description": [
-                "<strong>Shelved: </strong>Needed more priority on a school project called Quest.net, which is also a website.",
+                "<strong>Shelved: </strong>Needed more priority on a school project called The Compawnions",
                 "Is built on Laravel."
             ],
             "button": [
@@ -259,7 +523,8 @@
             "hidden": false
         },
         {
-            "category": "Framework - Static Library",
+            "id": "cc5baaf0-e089-458c-b5c5-181eea1a30e5",
+            "category": "Framework",
             "title": "DZ3D Engine (Shelved)",
             "date": [
                 {
@@ -271,6 +536,7 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
+                "Static Library",
                 "Is in early development",
                 "Uses C++20 with OpenGL, GLFW, GLAD, and GLM.",
                 "Aims to deliver a free but hard-to-use 3D engine."
@@ -281,6 +547,7 @@
             "hidden": false
         },
         {
+            "id": "9cf597b7-bb56-46de-a7f1-bb1b9caac085",
             "category": "Cross-platform Application",
             "title": "Xlintax (Shelved)",
             "date": [
@@ -291,6 +558,11 @@
                 }
             ],
             "image": "../res/img/projects/xlintax.png",
+            "images": [
+                {
+                    "src": "res/img/xlintax.png"
+                }
+            ],
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on a capstone project which is also written in C# and .NET.",
                 "Is built on C# and .NET UWP.",
@@ -302,7 +574,8 @@
             "hidden": false
         },
         {
-            "category": "Framework - Dynamic Link Library",
+            "id": "6c8e837d-7622-482f-992e-5f295f3b5116",
+            "category": "Framework",
             "title": "XMLPFC (Shelved)",
             "date": [
                 {
@@ -316,6 +589,7 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "<strong>Shelved: </strong>Depends on a full release of xlibcpp, in which the dependency is still under development.",
+                "Dynamic Link Library",
                 "Also known as <b>eXtensible Markup Language Parser for C++</b>.",
                 "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
                 "Is built on C++."
@@ -323,9 +597,10 @@
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
-            "hidden": false
+            "hidden": true
         },
         {
+            "id": "4b288034-32ff-4a71-8b5a-f22602cce2b6",
             "category": "Cross-platform Application",
             "title": "Planner (Coming Soon)",
             "date": [
@@ -351,7 +626,7 @@
             "hidden": true
         },
         {
-            
+            "id": "ef33c67a-010f-41a2-9bf0-4ead5a31c93e",
             "category": "Desktop Application",
             "title": "Militia SFML (Shelved)",
             "date": [
@@ -364,6 +639,11 @@
                 }
             ],
             "image": "../res/img/projects/militiaSFML.png",
+            "images": [
+                {
+                    "src": "res/img/militiaSFML.png"
+                }
+            ],
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
                 "Took almost 4 years trying to develop this application but it needed a rewrite. However, this led into learning from several mistakes and allowed the developer from writing a more maintainable code for different applications.",
@@ -382,6 +662,7 @@
             "hidden": false
         },
         {
+            "id": "beddb230-cdcb-43f3-bd2c-e2aa0cc25ade",
             "category": "Desktop Application",
             "title": "Contact Manager (Shelved)",
             "date": [
@@ -409,7 +690,8 @@
             
         },
         {
-            "category": "Framework - Library",
+            "id": "f9e8bb64-a454-44d4-8995-af038ecdb034",
+            "category": "Framework",
             "title": "DZ2D Engine (Shelved)",
             "date": [
                 {
@@ -422,6 +704,7 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
+                "Library for C++",
                 "Derived from the same technologies as Militia SFML.",
                 "Is not prioritized in favor of DZ3D Engine."
             ],
@@ -431,6 +714,7 @@
             "hidden": false
         },
         {
+            "id": "6f745a19-78a8-41d6-b6a4-b3e36b05dfb3",
             "category": "Desktop Application",
             "title": "EightQueensPuzzle (Shelved)",
             "date": [
@@ -443,6 +727,11 @@
                 }
             ],
             "image": "../res/img/projects/eightQueensPuzzle.png",
+            "images": [
+                {
+                    "src": "res/img/eightQueensPuzzle.png"
+                }
+            ],
             "description": [
                 "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI."
             ],
@@ -460,6 +749,7 @@
             
         },
         {
+            "id": "d60ff9cf-4bec-4dd7-94a3-c8d3483dfd21",
             "category": "Desktop Application",
             "title": "TallyCounter (UWP) (Shelved)",
             "date": [
@@ -480,6 +770,7 @@
             "hidden": false
         },
         {
+            "id": "7a193f04-1bfd-4408-a448-14499091c5b9",
             "category": "Desktop Application",
             "title": "TallyCounter (Win32) (Shelved)",
             "date": [
@@ -497,6 +788,60 @@
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ]
+        },
+        {
+            "id": "13b9816b-307c-4237-a487-4efaf1d597c2",
+            "category": "Command Line Interface",
+            "title": " TankGame (CLI)",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 7,
+                    "progress": "May 2021"
+                }
+            ],
+            "image": "../res/img/projects/Coding Clipart.png",
+            "description": [
+                "This game contains large amount of bad practices",
+                "CLI Application",
+                "Built with C++ &amp; SFML"
+            ],
+            "note": [
+                "<b>Poor Quality Application</b>"
+            ],
+            "button": [
+                {
+                    "content": "Learn more about R.A. 10173",
+                    "action": "href=https://privacy.gov.ph/data-privacy-act/",
+                    "target": "_blank"
+                },
+                {
+                    "content": "Request Code",
+                    "action": "mailto:cpascual185@gmail.com",
+                    "target": "self"
+                }
+            ]
+            
+        },
+        {
+            "id": "70af4b25-716b-4b05-a4e2-e284a960cf3b",
+            "category": "Command Line Interface",
+            "title": "Character Paint (CLI)",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 4,
+                    "progress": "November 2020"
+                }
+            ],
+            "image": "../res/img/Coding Clipart.png",
+            "description": [
+                "Is built on C++"
+            ],
+            "note": [
+                "<b>Poor Quality Application</b>"
+            ],
+            "hidden": false
         }
     ]
 }

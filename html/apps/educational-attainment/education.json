@@ -1,0 +1,40 @@
+{
+    "item": [
+        {
+            "id": "21300b7a-c380-4427-aca2-256491396604",
+            "category": "College",
+            "title": "Bachelor of Science in Computer Science",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 8,
+                    "day": 22,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Pampanga State University - Don Honorio Ventura Campus"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "41bd24df-46e9-407c-ad4e-35ac4eb25a21",
+            "category": "Senior High School",
+            "title": "Information and Communications Technology (Tech-Voc Strand)",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 8,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2023"
+                }
+            ],
+            "description": [
+                "Next Generation Technological College - San Simon Campus"
+            ],
+            "hidden": false
+        }
+    ]
+}

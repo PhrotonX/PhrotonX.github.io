@@ -4,14 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
         <title>Charles Martin's Projects</title>
         <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
-        <script src="../js/cookies.js"></script>
-        <script src="../js/months.js"></script>
-        <script src="../js/script.js"></script>
+        <script src="../../../js/apps/old/cookies.js"></script>
+        <script src="../../../js/apps/old/months.js"></script>
+        <script src="../../../js/apps/old/script.js"></script>
         <!-- <script src="../lib/bootstrap-select-1.13.14/js/bootstrap-select.js"></script> -->
-        <link rel="stylesheet" href="../css/items.css" type="text/css"/>
-        <link rel="stylesheet" href="../css/style.css" type="text/css"/>
-        <link rel="stylesheet" href="../css/elements.css" type="text/css"/>
-        <link rel="stylesheet" href="../css/projects.css" type="text/css"/>
+        <link rel="stylesheet" href="../../../css/apps/old/items.css" type="text/css"/>
+        <link rel="stylesheet" href="../../../css/apps/old/style.css" type="text/css"/>
+        <link rel="stylesheet" href="../../../css/apps/old/elements.css" type="text/css"/>
+        <link rel="stylesheet" href="../../../css/apps/old/projects.css" type="text/css"/>
     </head>
     <body>
         <script>
@@ -28,6 +28,9 @@
         </span>
         <!-- @NOTE: Move this in a JSON File -->
         <section id="content">
+            <div id="alert-content">
+
+            </div>
             <div class="plaintext">
                 <h1 class="title">Projects</h1>
                 <span class="listbox">
@@ -41,14 +44,16 @@
                 </span>
                 <p class="center" id="hidden-items-notice-project"></p>
             </div>
-            <script>
+            
+            <!-- <script>
                 async function load(){
                     let values = await updateListBoxAndSort("projects-sort", "../json/projects.json");
                     loadItems("project", "../json/projects.json", values);
                 }
 
                 load();
-            </script>
+            </script> -->
+
             <!-- <h2>Self-Projects (Hobbies)</h2> -->
             <div id="projects">
                 <!-- <div class="project item" id="project-1">
@@ -60,6 +65,17 @@
                         </ul>
                     </section>
                 </div> -->
+
+                <div class="project item" id="project-1">
+                    <img class="item-image" id="item-image-1" src="../../../res/img/Coding Clipart.png">
+                    <section class="item-content acrylic parent shadow">
+                        <h3 class="title">NOT JOB READY</h3>
+                        <p class="date"></p>
+                        <ul class="description-list">
+                            <li><p>I am currently an undergraduate computer Science student. To protect my privacy and reputation, all projects has been hidden unless a reputable software has been built.</p></li>
+                        </ul>
+                    </section>
+                </div>
             </div>
         </section>
         <section id="footer">
@@ -67,3 +83,5 @@
         </section>
     </body>
 </html>
+
+<script src="https://keepandroidopen.org/banner.js?hidebutton=off&id=alert-content"></script>

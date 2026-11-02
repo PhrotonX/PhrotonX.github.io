@@ -1,0 +1,17 @@
+{
+    "app_name": "about",
+    "display_name": "About this website",
+    "description": "About this portfolio and its design.",
+    "external_live_tile": false,
+    "external_live_tile_url": null,
+    "live_tile_type": "json",
+    "live_tile": [
+        {
+            "heading": "This website is currently under construction",
+            "content": "Several features, images, and information remains incomplete.",
+            "tile_name": null
+        }
+    ],
+    "display_original_tile": true,
+    "color": "#7fba00"
+}

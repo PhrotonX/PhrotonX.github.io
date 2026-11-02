@@ -1,0 +1,30 @@
+{
+    "groups": [
+        {
+            "title": "Pinned",
+            "tiles": [
+                { "app": "profile", "size": "wide" },
+                { "app": "old", "size": "medium" },
+                { "app": "about", "size": "large" }
+            ]
+        },
+        {
+            "title": "General Experience",
+            "tiles": [
+                { "app": "projects", "size": "wide" },
+                { "app": "educational-attainment", "size": "large" },
+                { "app": "skills", "size": "medium" },
+                { "app": "events", "size": "wide" }
+            ]
+        }
+    ],
+    "apps": [
+        { "app": "profile" },
+        { "app": "about" },
+        { "app": "old" },
+        { "app": "projects" },
+        { "app": "educational-attainment" },
+        { "app": "skills" },
+        { "app": "events" }
+    ]
+}

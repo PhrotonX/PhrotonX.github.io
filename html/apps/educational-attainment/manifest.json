@@ -1,0 +1,20 @@
+{
+    "app_name": "educational-attainment",
+    "display_name": "Educational Attainment",
+    "description": "Educational Attainment",
+    "external_live_tile": false,
+    "external_live_tile_url": null,
+    "live_tile_type": "json",
+    "live_tile": [
+        {
+            "heading": "Bachelor of Science in Computer Science",
+            "content": "2023-Present (Undergraduate)"
+        },
+        {
+            "heading": "Information and Communications Technology",
+            "content": "2021-2023 (Senior High School)"
+        }
+    ],
+    "display_original_tile": true,
+    "color": "#f0a30a"
+}
