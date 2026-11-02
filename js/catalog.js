@@ -46,11 +46,19 @@ function updateMatrixRows() {
         return;
     }
 
+    const catalogGridRect = catalogGrid?.getBoundingClientRect();
+
     document.querySelectorAll(".tile-matrix").forEach(matrix => {
         const unit = Math.min(48, Math.max(32, window.innerWidth * 0.05));
         const tileHeight = unit * 2 + 4;
         const gap = parseFloat(getComputedStyle(matrix).gap) || 0;
-        const rows = Math.max(1, Math.floor((matrix.clientHeight + gap) / (tileHeight + gap)));
+        const matrixRect = matrix.getBoundingClientRect();
+        const availableHeight = catalogGridRect
+            ? Math.max(120, catalogGridRect.bottom - matrixRect.top)
+            : matrix.clientHeight;
+        const rows = Math.max(1, Math.floor((availableHeight + gap) / (tileHeight + gap)));
+
+        matrix.style.height = `${availableHeight}px`;
         matrix.style.setProperty("--catalog-tile-height", `${tileHeight}px`);
         matrix.style.setProperty("--catalog-row-count", rows);
         matrix.querySelectorAll(".catalog-tile").forEach((tile, index) => {
@@ -62,7 +70,9 @@ function updateMatrixRows() {
     });
 }
 
-const matrixResizeObserver = new ResizeObserver(updateMatrixRows);
+const matrixResizeObserver = new ResizeObserver(() => {
+    window.requestAnimationFrame(updateMatrixRows);
+});
 matrixResizeObserver.observe(document.querySelector("main"));
 window.addEventListener("resize", updateMatrixRows);
 
