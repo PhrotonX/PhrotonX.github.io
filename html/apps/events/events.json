@@ -14,6 +14,7 @@
                 }
             ],
             "description": [
+                "<b>Regional Assembly on Information Technology Education 2019 - PSITE Central Luzon</b>",
                 "Pampanga State University - Don Honorio Ventura Campus",
                 "The programming challenge consisted of two pair of student from different schools. It used CodeChum platform where the event was conducted.",
                 "Failed passing the hard programming problems which included problems that require solving with various graph algorithms such as A*.",
@@ -28,9 +29,28 @@
             "hidden": false
         },
         {
+            "id": "8172feae-a8bf-469a-bed5-1423f0d538ea",
+            "category": "Seminar",
+            "title": "CulayIT Caravan 2026",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 9,
+                    "day": 25,
+                    "item": "01",
+                    "progress": ""
+                }
+            ],
+            "description": [
+                "Pampanga State University - Don Honorio Ventura Campus",
+                "Was a <u>participant</u> (not a delegate or presenter) in a seminar about the use of AI and also Pax Silica"
+            ],
+            "hidden": false
+        },
+        {
             "id": "5e87388e-178b-41dd-8fc6-6f6a24346230",
             "category": "Programming",
-            "title": "Robotics Program",
+            "title": "Robotics 2019",
             "date": [
                 {
                     "year": 2019,
@@ -41,6 +61,7 @@
                 }
             ],
             "description": [
+                "<b>Division Training Workshop on Robotics and Intelligent Machine 2019</b>",
                 "Angeles City Science High School",
                 "Consisted of robots developed using Arduino EEE Robot Kit. It uses scratch-like programming language to build the robot logic",
                 "Was be able to make the robot walk on to a detected black-colored line.",
@@ -59,6 +80,47 @@
                     "src": "res/robotics2019/img3.jpg",
                     "alt": "Image 3"
                 }
+            ],
+            "hidden": false
+        },
+        {
+            "id": "a6984905-3433-4015-8907-fcb855f63478",
+            "category": "Social Networking",
+            "title": "Sip and Scale 2026",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 9,
+                    "day": 25,
+                    "item": "01",
+                    "progress": ""
+                }
+            ],
+            "description": [
+                "Lilim Café - Sto. Rosario, Angeles City, Pampanga",
+                "A networking event with various IT students and professionals who wanted to build a startup.",
+                "Failed making rapport with the participants due to the awkward choice of technology, Ethereum (Blockchain Network), wherein most of the participants are leaned towards AI.",
+                "Failed communicating and socializing with the participants due to extreme introversion."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "cba77e51-8261-4bfa-9152-100649fcbb59",
+            "category": "Seminar",
+            "title": "ICREAITE 2026",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 10,
+                    "day": 27,
+                    "item": "01",
+                    "progress": "October 28, 2026"
+                }
+            ],
+            "description": [
+                "<b>International Conference on Research in Artificial Intelligence, Technology, and Engineering 2026</b>",
+                "Pampanga State University - Don Honorio Ventura Campus",
+                "Was a <u>participant</u> (not a delegate or presenter) in a two-day conference consisting of various plenary talks and research presentations about the applications of AI into real-world problems."
             ],
             "hidden": false
         }
