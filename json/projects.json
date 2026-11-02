@@ -2,7 +2,7 @@
     "item": [
         {
             "id": "01f30181-674d-4510-98ed-0653b9b66f48",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "TaxIT (Thesis Project)",
             "date": [
                 {
@@ -22,6 +22,7 @@
             "description": [
                 "Prototype Thesis Project",
                 "Was the Lead Developer and was responsible for building the back-end of the web application.",
+                "Was <u>not</u> responsible for the front-end or the UI",
                 "Written in ASP.NET Core and C#",
                 "Has Blockchain Integration with Solidity and Sepolia testnet"
             ],
@@ -63,7 +64,7 @@
         },
         {
             "id": "80c0d6c5-baa2-4b04-ae72-e16bd1682109",
-            "category": "Framework - Dynamic Link Library",
+            "category": "Framework",
             "title": "NNlibcpp (Shelved)",
             "date": [
                 {
@@ -82,6 +83,7 @@
             ],
             "description": [
                 "<b>Neural Network Library for C++</b>",
+                "Dynamic Link Library",
                 "Is currently being built on C++.",
                 "Consists of an implementation of neural networks.",
                 "It is made since it is banned for Computer Science students to integrate AI APIs available online."
@@ -90,7 +92,7 @@
         },
         {
             "id": "23db2c0b-89b3-4236-be08-3de229cdf991",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "SJM Event Styling",
             "date": [
                 {
@@ -104,17 +106,23 @@
             "image": "../res/img/Coding Clipart.png",
             "images": [
                 {
-                    "src": "res/img/sjmEventStyling.png"
+                    "src": "res/img/sjmEventStyling_1.png",
+                    "alt": "2026 Version on Dark Theme"
+                },
+                {
+                    "src": "res/img/sjmEventStyling_2.png",
+                    "alt": "2025 Version on Dark Theme"
                 }
             ],
             "description": [
-                "Client Website"
+                "Client Website",
+                "Built on Laravel"
             ],
             "hidden": false
         },
         {
             "id": "d7e56240-48c3-4957-beae-99587121d128",
-            "category": "Framework - Dynamic Link Library",
+            "category": "Framework",
             "title": "xlibcpp (Shelved)",
             "date": [
                 {
@@ -127,6 +135,7 @@
             ],
             "description": [
                 "<b>Extension Library for C++</b>",
+                "Dynamic Link Library",
                 "Is currently being built on C++.",
                 "Consists of my own implementation of data structures, algorithms, among others.",
                 "It is made in order to improve my knowledge in DSA and to excel within my computer science program."
@@ -160,7 +169,7 @@
         },
         {
             "id": "037372a5-0d9d-49af-817e-204e16d55177",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "SOSPampanga (School Project)",
             "date": [
                 {
@@ -186,7 +195,7 @@
         },
         {
             "id": "a68ec8ea-dd9e-40c0-9113-7cb46e3928ff",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "Hitchhikers (School Project)",
             "date": [
                 {
@@ -219,7 +228,7 @@
         },
         {
             "id": "a41a0a8e-b86a-4681-bbf5-f2877418d55c",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "Quest.net (School Project) (Coming Soon)",
             "date": [
                 {
@@ -279,9 +288,9 @@
             "title": "Portfolio (this website)",
             "date": [
                 {
-                    "year": 2024,
-                    "month": 3,
-                    "day": 26,
+                    "year": 2023,
+                    "month": 5,
+                    "day": 19,
                     "item": "01",
                     "progress": "Present"
                 }
@@ -299,6 +308,10 @@
                 {
                     "src": "res/img/portfolio/img3.png",
                     "alt": "2024 variant"
+                },
+                {
+                    "src": "res/img/portfolio/img4.png",
+                    "alt": "2023 variant"
                 }
             ],
             "description": [
@@ -330,7 +343,16 @@
             "image": "../res/img/projects/toDoListB4a.png",
             "images": [
                 {
-                    "src": "res/img/toDoListB4a.png"
+                    "src": "res/img/toDoList/img1.png"
+                },
+                {
+                    "src": "res/img/toDoList/img2.png"
+                },
+                {
+                    "src": "res/img/toDoList/img3.png"
+                },
+                {
+                    "src": "res/img/toDoList/img4.png"
                 }
             ],
             "description": [
@@ -409,7 +431,7 @@
         },
         {
             "id": "ef346c96-48f1-4c8a-a9b7-0f4e10aaf2f8",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "ComParts (School Project)",
             "date": [
                 {
@@ -441,19 +463,49 @@
             ]
         },
         {
+            "id": "4d9e8eea-dc5a-4eb9-999c-bb7e5b9ee500",
+            "category": "Dynamic Website",
+            "title": "The ComPawnions",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 3,
+                    "progress": "May 2025"
+                }
+            ],
+            "images": [
+                {
+                    "src": "res/img/theCompawnions.png",
+                    "alt": "An image of a website"
+                }
+            ],
+            "description": [
+                "Was a school group project and I was the lead developer. I was responsible for building scripts and certain pages only",
+                "Is built on HTML, CSS, and JavaScript",
+                "The UI was criticized for being too plain and old."
+            ],
+            "hidden": false
+        },
+        {
             "id": "824fb2cc-1801-43ab-b94c-5bb5681eda8f",
-            "category": "Dynamic Website (Web Application)",
+            "category": "Dynamic Website",
             "title": "WebLog (Shelved)",
             "date": [
                 {
                     "year": 2023,
-                    "month": 3,
-                    "progress": "February 2025"
+                    "month": 2,
+                    "progress": "March 2025"
                 }
             ],
             "image": "../res/img/Web Icon with Mouse Pointer.png",
+            "images": [
+                {
+                    "src": "res/img/webLog.png",
+                    "alt": "An image of a website with early stage UI"
+                }
+            ],
             "description": [
-                "<strong>Shelved: </strong>Needed more priority on a school project called Quest.net, which is also a website.",
+                "<strong>Shelved: </strong>Needed more priority on a school project called The Compawnions",
                 "Is built on Laravel."
             ],
             "button": [
@@ -472,7 +524,7 @@
         },
         {
             "id": "cc5baaf0-e089-458c-b5c5-181eea1a30e5",
-            "category": "Framework - Static Library",
+            "category": "Framework",
             "title": "DZ3D Engine (Shelved)",
             "date": [
                 {
@@ -484,6 +536,7 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
+                "Static Library",
                 "Is in early development",
                 "Uses C++20 with OpenGL, GLFW, GLAD, and GLM.",
                 "Aims to deliver a free but hard-to-use 3D engine."
@@ -522,7 +575,7 @@
         },
         {
             "id": "6c8e837d-7622-482f-992e-5f295f3b5116",
-            "category": "Framework - Dynamic Link Library",
+            "category": "Framework",
             "title": "XMLPFC (Shelved)",
             "date": [
                 {
@@ -536,6 +589,7 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "<strong>Shelved: </strong>Depends on a full release of xlibcpp, in which the dependency is still under development.",
+                "Dynamic Link Library",
                 "Also known as <b>eXtensible Markup Language Parser for C++</b>.",
                 "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
                 "Is built on C++."
@@ -637,7 +691,7 @@
         },
         {
             "id": "f9e8bb64-a454-44d4-8995-af038ecdb034",
-            "category": "Framework - Library",
+            "category": "Framework",
             "title": "DZ2D Engine (Shelved)",
             "date": [
                 {
@@ -650,6 +704,7 @@
             ],
             "image": "../res/img/Coding Clipart.png",
             "description": [
+                "Library for C++",
                 "Derived from the same technologies as Militia SFML.",
                 "Is not prioritized in favor of DZ3D Engine."
             ],
@@ -736,7 +791,7 @@
         },
         {
             "id": "13b9816b-307c-4237-a487-4efaf1d597c2",
-            "category": "Game - Desktop",
+            "category": "Command Line Interface",
             "title": " TankGame (CLI)",
             "date": [
                 {
@@ -770,7 +825,7 @@
         },
         {
             "id": "70af4b25-716b-4b05-a4e2-e284a960cf3b",
-            "category": "Desktop Application (CLI)",
+            "category": "Command Line Interface",
             "title": "Character Paint (CLI)",
             "date": [
                 {
