@@ -481,18 +481,167 @@
             "id": "ba871e97-e955-4bb4-8943-5fc9926c6764",
             "category": "Soft Skill",
             "type": "Soft Skill",
-            "title": "Unknown",
+            "title": "Honesty",
             "date": [
                 {
-                    "year": 2005,
-                    "month": 5,
-                    "day": 19,
+                    "year": 2026,
+                    "month": 7,
+                    "day": 1,
                     "item": "01",
                     "progress": "Present"
                 }
             ],
             "description": [
                 ""
+            ],
+            "hidden": false
+        },
+        {
+            "id": "d40632f0-6546-418d-816c-b6c67a0c013c",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Visual Studio",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to make software with C++, C#, and .NET",
+                "Versions used: 2019, 2022, 2026"
+            ],
+            "images": [
+                {
+                    "src": "res/visual_studio_2026.png",
+                    "alt": "Screenshot of Visual Studio 2026 with TaxIT project opened."
+                }
+            ],
+            "hidden": false
+        },
+        {
+            "id": "1a479122-7564-4910-a41a-0e707dd24fc7",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Visual Studio Code",
+            "date": [
+                {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "images": [
+                {
+                    "src": "res/visual_studio_code.png",
+                    "alt": "Screenshot of Visual Studio Code with TaxIT Blockchain project opened."
+                }
+            ],
+            "description": [
+                "Used to make various software"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "edd3184c-c3c2-4d58-b74f-a605af3aec81",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Git",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 1,
+                    "day": 14,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                ""
+            ],
+            "hidden": false
+        },
+        {
+            "id": "46e0cf31-7459-48b0-ada6-8481af1a15ea",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "GitHub",
+            "date": [
+                {
+                    "year": 2020,
+                    "month": 1,
+                    "day": 14,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                ""
+            ],
+            "hidden": false
+        },
+        {
+            "id": "20fcdd5b-e344-4031-b5a1-74bcc7208449",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Microsoft Azure",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                ""
+            ],
+            "hidden": false
+        },
+        {
+            "id": "0caf6c58-6699-4ff4-bb90-035d976f6f83",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "HelioHost",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 12,
+                    "day": 20,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                ""
+            ],
+            "hidden": false
+        },
+        {
+            "id": "1a47dba7-8c80-441d-993e-684b4bd261a3",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Code::Blocks",
+            "date": [
+                {
+                    "year": 2018,
+                    "month": 7,
+                    "day": 15,
+                    "item": "01",
+                    "progress": "January 2025"
+                }
+            ],
+            "description": [
+                "My first IDE",
+                "Used to develop CLI applications and other various desktop applications.",
+                "Used to train myself in computer programming",
+                "Was abandoned in favor of Visual Studio 2022"
             ],
             "hidden": false
         }

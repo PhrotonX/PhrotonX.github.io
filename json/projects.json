@@ -26,6 +26,15 @@
                 "Written in ASP.NET Core and C#",
                 "Has Blockchain Integration with Solidity and Sepolia testnet"
             ],
+            "skills": [
+                {"id": "16be2a87-4597-4aac-ad56-9c47b33d0fc8"},
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "153f6eff-983b-4c20-9e92-0882880efbbd"},
+                {"id": "1a479122-7564-4910-a41a-0e707dd24fc7"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"}
+            ],
             "hidden": false
         },
         {
@@ -59,6 +68,15 @@
                 "Was shut down immediately after testing by clients with one patient data due to several security issues. The security flaws were discovered during the testing period. All the data stored on the system were handed over to the clients through a cloud storage and all the data left on the server were erased immediately. It was treated like a garbage on a dumpster fire by myself and shall forever be.",
                 "Not used for production environments.",
                 "It was a giant blob of many, many mistakes from many, many aspects. From overreliance to AI during the system development, improper communication, to improper leadership. It was also a pinnacle of unprofessionalism."
+            ],
+            "skills": [
+                {"id": "16be2a87-4597-4aac-ad56-9c47b33d0fc8"},
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "5a9316b2-b5c6-46bf-a46d-17fb07fca446"},
+                {"id": "de17964b-8b36-481e-82d9-ff525c43da3a"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"}
             ],
             "hidden": false
         },
@@ -117,6 +135,12 @@
             "description": [
                 "Client Website",
                 "Built on Laravel"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "426260e5-ac8b-4cd1-ad29-b29a7e094eaa"},
+                {"id": "c20a013e-4bc7-40d9-b7bc-0e45709341e9"}
             ],
             "hidden": false
         },
@@ -190,6 +214,14 @@
             "description": [
                 "Client-side was built on MIT App Inventor, while the server-side was built on ASP.NET Core and hosted through Microsoft Azure and also Google Firebase for live emergency alerts.",
                 "Was built to allow any anonymous users to make an emergency alert that also alerts other instances of devices running online."
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "45956239-dd6e-4adf-ad65-6474d57d6b2c"},
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "16be2a87-4597-4aac-ad56-9c47b33d0fc8"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"}
             ],
             "hidden": false
         },

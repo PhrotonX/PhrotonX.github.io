@@ -43,6 +43,17 @@ function renderCatalog(sortMode) {
 
 function updateMatrixRows() {
     if (window.matchMedia("(max-width: 700px)").matches) {
+        document.querySelectorAll(".tile-matrix").forEach(matrix => {
+            matrix.style.removeProperty("height");
+            matrix.style.removeProperty("--catalog-tile-height");
+            matrix.style.removeProperty("--catalog-row-count");
+            matrix.querySelectorAll(".catalog-tile").forEach(tile => {
+                tile.style.removeProperty("height");
+                tile.style.removeProperty("width");
+                tile.style.removeProperty("grid-row");
+                tile.style.removeProperty("grid-column");
+            });
+        });
         return;
     }
 

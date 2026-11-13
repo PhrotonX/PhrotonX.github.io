@@ -5,6 +5,7 @@
         <title id="title">Unknown App - Charles Martin's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/app.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/catalog.css">
         <link rel="stylesheet" type="text/css" href="../../../css/storyboard.css">
         <link href="https://cdn.metroui.org.ua/4.5.12/icons.css" rel="stylesheet">
         <script src="../../../js/jsonutils.js"></script>
@@ -31,6 +32,7 @@
                 <a href="#general">Overview</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#storyboard-actions">Links</a>
+                <a href="#storyboard-catalog-sections" id="catalog-sections-command" hidden>Skills</a>
                 <a href="#project-notes">Notes</a>
             </nav>
         </header>
@@ -57,6 +59,10 @@
                     </div>
                 </section>
                 <div class="storyboard-actions" id="storyboard-actions" aria-label="Project actions">
+                </div>
+                <div class="storyboard-catalog-sections" id="storyboard-catalog-sections"
+                    data-catalog-source="../../../html/apps/skills/skills.json"
+                    aria-label="Project catalog sections">
                 </div>
                 <aside class="storyboard-rail" id="project-notes">
                     <span class="summary-label">PROJECT NOTES</span>
