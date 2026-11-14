@@ -33,7 +33,9 @@
                 {"id": "1a479122-7564-4910-a41a-0e707dd24fc7"},
                 {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
                 {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
-                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"}
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "20fcdd5b-e344-4031-b5a1-74bcc7208449"},
+                {"id": "e1521c14-8474-4d3a-82a8-0e21f25b80d5"}
             ],
             "hidden": false
         },
@@ -83,30 +85,57 @@
         {
             "id": "80c0d6c5-baa2-4b04-ae72-e16bd1682109",
             "category": "Framework",
-            "title": "NNlibcpp (Shelved)",
+            "title": "NNlibcpp / NNlibsharp / NNlibpy (Shelved)",
             "date": [
                 {
                     "year": 2025,
                     "month": 6,
                     "day": 1,
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "August 2025"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
             "images": [
                 {
-                    "src": "res/img/img.png"
+                    "src": "res/img/nnlibcpp/img1.png",
+                    "alt": "Screenshot of Visual Studio 2022 with NNlibccp source code opened."
+                },
+                {
+                    "src": "res/img/nnlibcpp/img2.png",
+                    "alt": "Screenshot of VIsual Studio 2022 with NNlibcpp source code opened."
+                },
+                {
+                    "src": "res/img/nnlibcpp/img3.png",
+                    "alt": "Evidence of a PDF book that I used to learn build neural networks."
+                },
+                {
+                    "src": "res/img/nnlibcpp/img4.png",
+                    "alt": "Evidence of me learning how neural networks work theoretically."
+                },
+                {
+                    "src": "res/img/nnlibcpp/img5.png",
+                    "alt": "Screenshot of CLI output of NNlibcpp computations."
                 }
             ],
             "description": [
-                "<b>Neural Network Library for C++</b>",
+                "<b>Neural Network Library for C++ / C# / Python</b>",
                 "Dynamic Link Library",
-                "Is currently being built on C++.",
-                "Consists of an implementation of neural networks.",
-                "It is made since it is banned for Computer Science students to integrate AI APIs available online."
+                "Was built on C++, then C#, and then Python",
+                "Consisted of my own implementation of neural networks.",
+                "Was made to learn how neural networks work and was also assisted by AI while learning. However, the AI tools had constantly brought me towards incorrect path of learning on how to build an image recognition software.",
+                "Was made to somehow build an AI system for CCTVs with object detection, which never happened due to the highly theoretical nature of my learning path.",
+                "Relied on various academic papers and books such as <i>C++ Neural Networks and Fuzzy Logic</i>, <i>Fuzzy Logic and Neural Networks</i>, <i>Modern Algorithms for Image Processing</i>, and many more but none of them helped me build an AI system practically since all of them are too theoretical or too focused on mathematical or scientific computations. All of these books were suggested by ChatGPT.",
+                "It was abandoned due to several school projects and a thesis project, but I plan to work on it again under a different project and under a different learning path."
             ],
-            "hidden": true
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
+                {"id": "a1d7e647-89d7-432b-ab48-eae961c38a3e"}
+            ],
+            "hidden": false
         },
         {
             "id": "23db2c0b-89b3-4236-be08-3de229cdf991",
@@ -134,7 +163,9 @@
             ],
             "description": [
                 "Client Website",
-                "Built on Laravel"
+                "Built on Laravel",
+                "Designed to handle event booking and to advertise services offered by the business.",
+                "Has notification system through email to remind clients of their booked event with the ability to cancel their bookings."
             ],
             "skills": [
                 {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
@@ -169,27 +200,27 @@
         {
             "id": "84a69d61-bb28-43bb-bce8-4635fd229fa6",
             "category": "Desktop Application",
-            "title": "CVGuard (Coming Soon)",
+            "title": "CVGuard (Shelved)",
             "date": [
                 {
                     "year": 2025,
                     "month": 2,
                     "day": 6,
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "2025"
                 }
             ],
-            "image": "../res/img/Coding Clipart.png",
             "images": [
                 {
-                    "src": "res/img/img.png",
-                    "alt": "Description here..."
+                    "src": "res/img/cvguard/img1.png",
+                    "alt": "Screenshot of Visual Studio 2022 with CVGuard source code opened."
                 }
             ],
             "description": [
-                "Is currently being built on C# and .NET Framework"
+                "Was built on C# and .NET Framework",
+                "Was shelved in favor of various school projects."
             ],
-            "hidden": true
+            "hidden": false
         },
         {
             "id": "037372a5-0d9d-49af-817e-204e16d55177",
@@ -221,7 +252,8 @@
                 {"id": "45956239-dd6e-4adf-ad65-6474d57d6b2c"},
                 {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
                 {"id": "16be2a87-4597-4aac-ad56-9c47b33d0fc8"},
-                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"}
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
+                {"id": "8204d198-6a6b-4a84-b1eb-ce86fe236a8c"}
             ],
             "hidden": false
         },
@@ -255,6 +287,17 @@
                 "Used Leafleft.js and Nominatim for mapping",
                 "Used Docker and WSL2",
                 "Was built to provide an online transit system for any vehicles (including non-taxi vehicles) riding through a route that a passenger may need to drop-off."
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c20a013e-4bc7-40d9-b7bc-0e45709341e9"},
+                {"id": "426260e5-ac8b-4cd1-ad29-b29a7e094eaa"},
+                {"id": "970c6c93-5b31-484d-9e08-4171241eb7b7"},
+                {"id": "31458edc-7211-4757-98b6-955dc7431a3a"},
+                {"id": "add47c53-b847-4b61-b775-dce64d73147f"},
+                {"id": "d540efc7-e459-463e-a545-8f673699d8e7"},
+                {"id": "821dedbf-c7cb-4ad2-b602-db0116a735f1"}
             ],
             "hidden": false
         },
@@ -298,8 +341,14 @@
                 }
             ],
             "description": [
-                "Is currently being built on Android SDK with Java and Kotlin",
+                "Was built on Android SDK with Java and partly Kotlin",
                 "Supports basic CRUD operation"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "3956849c-91a0-40ae-af2b-aba97da766ed"},
+                {"id": "4b037fee-73d5-4bd7-9b82-13301363ebb5"}
             ],
             "button": [
                 {
@@ -349,6 +398,13 @@
             "description": [
                 "This website",
                 "The older variant consisted of a more basic UI and protest against the locking down of Android ecosystem."
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "970c6c93-5b31-484d-9e08-4171241eb7b7"},
+                {"id": "31458edc-7211-4757-98b6-955dc7431a3a"},
+                {"id": "add47c53-b847-4b61-b775-dce64d73147f"}
             ],
             "button": [
                 {
@@ -513,8 +569,7 @@
             ],
             "description": [
                 "Was a school group project and I was the lead developer. I was responsible for building scripts and certain pages only",
-                "Is built on HTML, CSS, and JavaScript",
-                "The UI was criticized for being too plain and old."
+                "Was built on HTML, CSS, and JavaScript"
             ],
             "hidden": false
         },

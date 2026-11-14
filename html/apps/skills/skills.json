@@ -43,7 +43,7 @@
             "hidden": false
         },
         {
-            "id": "c458f518-62aa-4b6d-83a5-2b04e12426bd",
+            "id": "31458edc-7211-4757-98b6-955dc7431a3a",
             "category": "Coding",
             "type": "Hard Skill",
             "title": "CSS - Markup Language",
@@ -624,6 +624,44 @@
             "hidden": false
         },
         {
+            "id": "e1521c14-8474-4d3a-82a8-0e21f25b80d5",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Sepolia Testnet",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 5,
+                    "day": 15,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "Used to test Ethereum smart contracts"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "8204d198-6a6b-4a84-b1eb-ce86fe236a8c",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Firebase",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "day": 20,
+                    "item": "01",
+                    "progress": "2025"
+                }
+            ],
+            "description": [
+                "Used to test Ethereum smart contracts"
+            ],
+            "hidden": false
+        },
+        {
             "id": "1a47dba7-8c80-441d-993e-684b4bd261a3",
             "category": "Software",
             "type": "Hard Skill",
@@ -642,6 +680,70 @@
                 "Used to develop CLI applications and other various desktop applications.",
                 "Used to train myself in computer programming",
                 "Was abandoned in favor of Visual Studio 2022"
+            ],
+            "hidden": false
+        },
+        {
+            "id": "d540efc7-e459-463e-a545-8f673699d8e7",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Nominatim",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 10,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2025"
+                }
+            ],
+            "description": [
+                "Used to convert coordinates to location addresses. "
+            ],
+            "hidden": false
+        },
+        {
+            "id": "821dedbf-c7cb-4ad2-b602-db0116a735f1",
+            "category": "Dependency",
+            "type": "Hard Skill",
+            "title": "Leaflet.js",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 10,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2025"
+                }
+            ],
+            "description": [
+                "Used to provide map controls."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "4b037fee-73d5-4bd7-9b82-13301363ebb5",
+            "category": "Software",
+            "type": "Hard Skill",
+            "title": "Android Studio",
+            "date": [
+                {
+                    "year": 2024,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "2025"
+                }
+            ],
+            "description": [
+                "Used to make Android apps.",
+                "Versions used: 2024, 2025"
+            ],
+            "images": [
+                {
+                    "src": "res/android_studio.png",
+                    "alt": "Screenshot of Android Studio with the project <i>Notes for Android</i> opened."
+                }
             ],
             "hidden": false
         }
