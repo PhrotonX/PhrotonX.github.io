@@ -188,12 +188,36 @@
                     "progress": "2025"
                 }
             ],
+            "images": [
+                {
+                    "src": "res/img/xlibcpp/cyclic_graph.png",
+                    "alt": "Image of TestGraph cyclic graph check on TestXlibcpp"
+                },
+                {
+                    "src": "res/img/xlibcpp/graph_1.png",
+                    "alt": "Image of TestGraph on TestXlibcpp"
+                },
+                {
+                    "src": "res/img/xlibcpp/graph_2.png",
+                    "alt": "Image of TestGraph on TestXlibcpp"
+                },
+                {
+                    "src": "res/img/xlibcpp/fibonacci_search.png",
+                    "alt": "Image of TestFibonacciSearch on TestXlibcpp"
+                },
+                {
+                    "src": "res/img/xlibcpp/fractional_knapsack.png",
+                    "alt": "Image of  TestFractionalKnapsack on TestXlibcpp"
+                }
+            ],
             "description": [
                 "<b>Extension Library for C++</b>",
                 "Dynamic Link Library",
-                "Is currently being built on C++.",
+                "Was built on C++.",
                 "Consists of my own implementation of data structures, algorithms, among others.",
-                "It is made in order to improve my knowledge in DSA and to excel within my computer science program."
+                "It was made in order to improve my knowledge in DSA, to excel within my computer science program.",
+                "Learned from basic data structures and algorithms up to the re-implementation of Graphs and Topological Sort.",
+                "Was shelved in favor of various school projects."
             ],
             "hidden": false
         },
@@ -621,12 +645,18 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/dzergero3d/img1.png",
+                    "alt": "Image of cube lighting test."
+                }
+            ],
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
                 "Static Library",
-                "Is in early development",
                 "Uses C++20 with OpenGL, GLFW, GLAD, and GLM.",
-                "Aims to deliver a free but hard-to-use 3D engine."
+                "Was made to learn OpenGL.",
+                "Relied on a booked called <i>Learn OpenGL - Graphics Programming</i> by Joey de Vries"
             ],
             "note": [
                 "<b>The code is open-source and it is soon open for code request.</b>"
@@ -762,8 +792,14 @@
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
+            "images": [
+                {
+                    "src": "res/img/contact_manager.png",
+                    "alt": "Screenshot of an early version of Contact Manager"
+                }
+            ],
             "description": [
-                "<strong>Shelved: </strong>Needed more priority on a capstone project.",
+                "<strong>Shelved: </strong>Needed more priority on school projects.",
                 "Is written in Java."
             ],
             "button": [
