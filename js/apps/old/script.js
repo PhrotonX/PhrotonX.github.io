@@ -115,7 +115,7 @@ async function loadItems(itemName, filename, sortedValue){
             var itemImage = document.createElement("img");
             itemImage.setAttribute("class", "item-image");
             itemImage.setAttribute("id", "item-image-" + i);
-            itemImage.setAttribute("src", json.item[i].image);
+            itemImage.setAttribute("src", "../../../" + json.item[i].image);
             itemElement.appendChild(itemImage);
             //document.getElementById("item-image-" + "1").setAttribute("src", json.item[i].image);
         }
