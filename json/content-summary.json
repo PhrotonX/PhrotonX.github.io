@@ -8,19 +8,19 @@
         },
         {
             "title": "Projects / Repos",
-            "content": 21,
+            "content": 29,
             "description": "Repos available on GitHub*.",
             "size": "small"
         },
         {
             "title": "Experience",
-            "content": "0.1",
+            "content": "0",
             "description": "Years of building software**.",
             "size": "small"
         },
         {
             "title": "Studying",
-            "content": "7",
+            "content": "8",
             "description": "Years of learning to code***.",
             "size": "small"
         }
