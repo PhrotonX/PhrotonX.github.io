@@ -1,0 +1,57 @@
+{
+    "item": [
+        {
+            "id": "7aee708c-b78a-425c-8596-01f448257428",
+            "category": "Related to Coding",
+            "title": "TESDA - Android Mobile Apps Development for Beginners",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 4,
+                    "day": 1,
+                    "item": "01",
+                    "progress": ""
+                }
+            ],
+            "images": [
+                {
+                    "src": "res/img/tesda_android.png",
+                    "alt": "Certificate"
+                }
+            ],
+            "description": [
+                "From TESDA Online Program",
+                "Learned to develop Android Apps with Java."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "cb7a0fa0-c0ae-4876-95e4-2603bfdead34",
+            "category": "Related to Coding",
+            "title": "Cisco - Python Essentials",
+            "date": [
+                {
+                    "year": 2025,
+                    "month": 11,
+                    "day": 16,
+                    "item": "01",
+                    "progress": "December 2025"
+                }
+            ],
+            "images": [
+                {
+                    "src": "res/img/cisco_python_1.png",
+                    "alt": "Python Essentials 1"
+                },
+                {
+                    "src": "res/img/cisco_python_2.png",
+                    "alt": "Python Essentials 2"
+                }
+            ],
+            "description": [
+                "Learned Python Programming Language"
+            ],
+            "hidden": false
+        }
+    ]
+}

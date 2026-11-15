@@ -1,20 +1,31 @@
 {
     "groups": [
         {
-            "title": "Pinned",
+            "title": "Profile",
             "tiles": [
-                { "app": "profile", "size": "wide" },
-                { "app": "old", "size": "medium" },
-                { "app": "about", "size": "large" }
+                { "app": "profile", "size": "wide" }
             ]
         },
         {
             "title": "General Experience",
             "tiles": [
                 { "app": "projects", "size": "wide" },
-                { "app": "educational-attainment", "size": "large" },
                 { "app": "skills", "size": "medium" },
                 { "app": "events", "size": "wide" }
+            ]
+        },
+        {
+            "title": "Credentials", 
+            "tiles": [
+                { "app": "educational-attainment", "size": "large" },
+                { "app": "certificates", "size": "medium" }
+            ]
+        },
+        {
+            "title": "Others",
+            "tiles":[
+                { "app": "old", "size": "medium" },
+                { "app": "about", "size": "large" }
             ]
         }
     ],
@@ -25,6 +36,7 @@
         { "app": "projects" },
         { "app": "educational-attainment" },
         { "app": "skills" },
-        { "app": "events" }
+        { "app": "events" },
+        { "app": "certificates" }
     ]
 }
