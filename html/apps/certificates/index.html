@@ -12,7 +12,7 @@
         <script src="../../../js/app-scroll.js" defer></script>
         <script src="../../../js/catalog.js" defer type="module"></script>
     </head>
-    <body class="catalog-app" data-catalog data-catalog-data="skills.json" data-catalog-link="skill.html?id={id}">
+    <body class="catalog-app" data-catalog data-catalog-data="certificates.json" data-catalog-link="certificate.html?id={id}">
         <header>
             <div class="header-wrapper">
                 <div class="header-left">
@@ -26,11 +26,11 @@
             </div>
             
             <p class="app-kicker">PORTFOLIO / CERTIFICATES</p>
-            <p class="app-subtitle">List of certificates.</p>
+            <p class="app-subtitle">Only certificates that matter are listed.</p>
             <nav class="catalog-command" aria-label="Certificate sorting">
-                <button class="is-selected" type="button" data-sort="category">By category</button>
-                <button type="button" data-sort="date-desc">Newest first</button>
+                <button class="is-selected" type="button" data-sort="date-desc">Newest first</button>
                 <button type="button" data-sort="date-asc">Oldest first</button>
+                <button type="button" data-sort="category">By category</button>
             </nav>
         </header>
         <main>
@@ -48,7 +48,7 @@
 
         const catalogRoot = document.querySelector("[data-catalog]");
 
-        loadItems("category", catalogRoot.dataset.catalogData);
+        loadItems("date-desc", catalogRoot.dataset.catalogData);
     </script>
 </html>
 
