@@ -472,6 +472,11 @@
                 "Built on an obscure technology called B4A and written in B4X, a programming language that is similar to Visual Basic.",
                 "Also built or collaborated along with 3 other developers and 1 quality assurance (or my classmates) with the use of GitHub."
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "2fa3dbea-8d3f-433b-adf3-ab85e50dd15a"}
+            ],
             "button": [
                 {
                     "content": "View on GitHub",
@@ -503,6 +508,12 @@
                 "Can generate multiple variants of UUID.",
                 "Save UUID as a text file."
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "1a47dba7-8c80-441d-993e-684b4bd261a3"}
+            ],
             "button": [
                 {
                     "content": "View on GitHub",
@@ -531,6 +542,12 @@
             ],
             "description": [
                 "Built on C++ and Win32 API"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "1a47dba7-8c80-441d-993e-684b4bd261a3"}
             ],
             "button": [
                 {
@@ -563,6 +580,16 @@
                 "Built on HTML, CSS, PHP, JavaScript, XML, and SQL.",
                 "Last updated: April 2022"
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "970c6c93-5b31-484d-9e08-4171241eb7b7"},
+                {"id": "31458edc-7211-4757-98b6-955dc7431a3a"},
+                {"id": "add47c53-b847-4b61-b775-dce64d73147f"},
+                {"id": "426260e5-ac8b-4cd1-ad29-b29a7e094eaa"},
+                {"id": "72fc72cc-241f-4754-bbd1-97fd0e0852c1"},
+                {"id": "e62f80cf-0d4a-497e-b88e-f0cb9fb3735f"}
+            ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
             ],
@@ -594,6 +621,14 @@
             "description": [
                 "Was a school group project and I was the lead developer. I was responsible for building scripts and certain pages only",
                 "Was built on HTML, CSS, and JavaScript"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "970c6c93-5b31-484d-9e08-4171241eb7b7"},
+                {"id": "31458edc-7211-4757-98b6-955dc7431a3a"},
+                {"id": "add47c53-b847-4b61-b775-dce64d73147f"},
+                {"id": "426260e5-ac8b-4cd1-ad29-b29a7e094eaa"}
             ],
             "hidden": false
         },
