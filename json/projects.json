@@ -1,6 +1,38 @@
 {
     "item": [
         {
+            "id": "6bd81c9b-8535-4b70-b0ff-452758d4d46c",
+            "category": "Desktop Application",
+            "title": "MartinLabs Point of Sales (work in progress)",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 11,
+                    "day": 19,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "description": [
+                "A work-in-progress point-of-sales system",
+                "Planned to build a POS system that is highly modularized to fit client needs.",
+                "Planned to be an offline-first desktop application with an optional centralized server.",
+                "Planned to have a highly customizable UI to fit client needs.",
+                "Planned to be sold to my clients if there are any.",
+                "Is a software under my professional branding, namely <i>MartinLabs Systems.</i>"
+            ],
+            "skills": [
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "de17964b-8b36-481e-82d9-ff525c43da3a"},
+                {"id": "2094e145-5e5b-4f1e-ac78-fa5ff9fedd6d"},
+                {"id": "cbb03bff-a5b9-4036-a6c8-b9db10cf7881"}
+            ],
+            "hidden": false
+        },
+        {
             "id": "01f30181-674d-4510-98ed-0653b9b66f48",
             "category": "Dynamic Website",
             "title": "TaxIT (Thesis Project)",
@@ -10,7 +42,7 @@
                     "month": 5,
                     "day": 15,
                     "item": "01",
-                    "progress": "Present"
+                    "progress": "November 27, 2026"
                 }
             ],
             "image": "../res/img/Coding Clipart.png",
@@ -42,7 +74,7 @@
         {
             "id": "b026ea0e-fee6-49b3-bc46-4d6e2fd79179",
             "category": "Cross-platform Application",
-            "title": "SmileSys",
+            "title": "SmileSys (Software Engineering Project)",
             "date": [
                 {
                     "year": 2025,
@@ -242,13 +274,14 @@
             ],
             "description": [
                 "Was built on C# and .NET Framework",
-                "Was shelved in favor of various school projects."
+                "Was shelved in favor of various school projects and my thesis project.",
+                "Was intended to be a CCTV software with AI features based on my NNlib* libraries, but it never came into fruition."
             ],
             "hidden": false
         },
         {
             "id": "037372a5-0d9d-49af-817e-204e16d55177",
-            "category": "Dynamic Website",
+            "category": "Mobile Application",
             "title": "SOSPampanga (School Project)",
             "date": [
                 {
@@ -604,7 +637,7 @@
         {
             "id": "4d9e8eea-dc5a-4eb9-999c-bb7e5b9ee500",
             "category": "Dynamic Website",
-            "title": "The ComPawnions",
+            "title": "The ComPawnions (School Project)",
             "date": [
                 {
                     "year": 2025,
@@ -654,6 +687,14 @@
                 "<strong>Shelved: </strong>Needed more priority on a school project called The Compawnions",
                 "Is built on Laravel."
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c20a013e-4bc7-40d9-b7bc-0e45709341e9"},
+                {"id": "426260e5-ac8b-4cd1-ad29-b29a7e094eaa"},
+                {"id": "970c6c93-5b31-484d-9e08-4171241eb7b7"},
+                {"id": "31458edc-7211-4757-98b6-955dc7431a3a"}
+            ],
             "button": [
                 {
                     "content": "View on GitHub",
@@ -693,6 +734,12 @@
                 "Was made to learn OpenGL.",
                 "Relied on a booked called <i>Learn OpenGL - Graphics Programming</i> by Joey de Vries"
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"}
+            ],
             "note": [
                 "<b>The code is open-source and it is soon open for code request.</b>"
             ],
@@ -720,6 +767,13 @@
                 "Is built on C# and .NET UWP.",
                 "Aims to offer an IDE-like experience for XML with XMLPFC as default XML linter."
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "de17964b-8b36-481e-82d9-ff525c43da3a"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"}
+            ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
@@ -746,6 +800,12 @@
                 "Original name was <b>XMLPLNCFCPP</b> or <b>eXtensible Markup Language Parser, Linter, and Checker for C++</b>.",
                 "Is built on C++."
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"}
+            ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
@@ -767,6 +827,10 @@
                 "Is in planning stage",
                 "Will be written on Flutter",
                 "Aims to offer a cross-platform calendar application."
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"}
             ],
             "button": [
                 {
@@ -800,6 +864,12 @@
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
                 "Took almost 4 years trying to develop this application but it needed a rewrite. However, this led into learning from several mistakes and allowed the developer from writing a more maintainable code for different applications.",
                 "Built with C++ &amp; SFML"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "c2086a12-04d5-45f1-a8f5-5da4aa1a083f"}
             ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
@@ -835,14 +905,12 @@
             ],
             "description": [
                 "<strong>Shelved: </strong>Needed more priority on school projects.",
-                "Is written in Java."
+                "Was written in Java."
             ],
-            "button": [
-                {
-                    "content": "Request Code",
-                    "action": "href=mailto:charlesmartinpascual@gmail.com",
-                    "target": "self"
-                }
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "3956849c-91a0-40ae-af2b-aba97da766ed"}
             ],
             "hidden": false
             
@@ -865,6 +933,12 @@
                 "Library for C++",
                 "Derived from the same technologies as Militia SFML.",
                 "Is not prioritized in favor of DZ3D Engine."
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c2086a12-04d5-45f1-a8f5-5da4aa1a083f"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"}
             ],
             "note": [
                 "<b>The code is closed-source and it is not open for code request.</b>"
@@ -892,6 +966,12 @@
             ],
             "description": [
                 "This app strives to solve the eight queens problem by guessing the (or thinking of an) algorithm without using AI."
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c2086a12-04d5-45f1-a8f5-5da4aa1a083f"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"}
             ],
             "note": [
                 "<b>The code is closed-source but it is open for code request.</b>"
@@ -922,6 +1002,14 @@
                 "<strong>Shelved: </strong>Zero priority.",
                 "Is built on .NET UWP."
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "d40632f0-6546-418d-816c-b6c67a0c013c"},
+                {"id": "8c9624b1-ac3d-405c-b646-c96f812e07e2"},
+                {"id": "de17964b-8b36-481e-82d9-ff525c43da3a"},
+                {"id": "f1a18c68-3e5b-4aaf-a4b2-289a95a0c1b1"}
+            ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ],
@@ -943,6 +1031,12 @@
                 "<strong>Shelved: </strong>Zero priority.",
                 "Is built on C++ and Win32 API"
             ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "1a47dba7-8c80-441d-993e-684b4bd261a3"}
+            ],
             "note": [
                 "<b>The code is closed-source and it is soon open for code request.</b>"
             ]
@@ -963,6 +1057,12 @@
                 "This game contains large amount of bad practices",
                 "CLI Application",
                 "Built with C++ &amp; SFML"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "1a47dba7-8c80-441d-993e-684b4bd261a3"}
             ],
             "note": [
                 "<b>Poor Quality Application</b>"
@@ -995,6 +1095,12 @@
             "image": "../res/img/Coding Clipart.png",
             "description": [
                 "Is built on C++"
+            ],
+            "skills": [
+                {"id": "edd3184c-c3c2-4d58-b74f-a605af3aec81"},
+                {"id": "46e0cf31-7459-48b0-ada6-8481af1a15ea"},
+                {"id": "c458f518-62aa-4b6d-83a5-2b04e12426bd"},
+                {"id": "1a47dba7-8c80-441d-993e-684b4bd261a3"}
             ],
             "note": [
                 "<b>Poor Quality Application</b>"
