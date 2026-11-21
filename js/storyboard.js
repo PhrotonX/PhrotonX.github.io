@@ -26,7 +26,7 @@ async function loadStoryboardItem(itemId, jsonPath){
     const date = item.date?.[0] || {};
     const category = item.category || "Uncategorized";
     document.getElementById("project-category").innerText = category;
-    document.getElementById("project-date").innerText = `${date.year || ""} · ${date.progress || ""}`.trim();
+    document.getElementById("project-date").innerText = `${getMonthName(date.month) || ""}${" "+date.day || ""}, ${date.year || ""} · ${date.progress || ""}`.trim();
     
     // Set description
     (item.description || []).forEach(description => {
