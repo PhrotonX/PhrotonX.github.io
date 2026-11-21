@@ -15,6 +15,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "6",
             "description": [
                 "Used to develop apps built around .NET technology.",
                 "My mainstream programming language"
@@ -36,6 +37,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 "Used to develop CLI applications and other various desktop applications.",
                 "Was my mainstream programming language."
@@ -57,6 +59,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "<b>Note:</b> Has knowledge and skills in CSS, but not skilled in making front-end designs."
             ],
@@ -77,6 +80,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "6",
             "description": [
                 "<b>Note:</b> Has knowledge and skills in HTML, but not skilled in making front-end designs."
             ],
@@ -97,6 +101,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used to develop functionalities in various websites.",
                 "Is not my mainstream programming language."
@@ -118,6 +123,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "4",
             "description": [
                 "Used to develop various websites, particularly websites that uses Laravel Framework."
             ],
@@ -138,6 +144,7 @@
                     "progress": "May 2025"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used to develop Android apps using B4A.",
                 "Has syntax that is very similar to Visual Basic."
@@ -159,6 +166,7 @@
                     "progress": "November 2025"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used to develop Android apps with Android Studio.",
                 "Used to develop simple extensions for MIT App Inventor",
@@ -181,6 +189,7 @@
                     "progress": "January 2025"
                 }
             ],
+            "proficiency": "1",
             "description": [
                 "Used to work with dependencies while making Android apps and other Java-based systems."
             ],
@@ -201,6 +210,7 @@
                     "progress": "November 2025"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "Used to make apps with MIT App Inventor.",
                 "Was a part of Pampanga State University curriculum for 3rd Year students"
@@ -228,6 +238,7 @@
                     "progress": "September 2026"
                 }
             ],
+            "proficiency": "1",
             "description": [
                 "Used to make a layer of a system with blockchain integration."
             ],
@@ -248,6 +259,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 "Used to make application UI for a system that is based on .NET technologies including .NET MAUI, UWP, and WPF."
             ],
@@ -268,6 +280,7 @@
                     "progress": "September 2026"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "Used on NeetCode."
             ],
@@ -288,6 +301,7 @@
                     "progress": "2026"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used on various school-related activities."
             ],
@@ -308,6 +322,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "6",
             "description": [
                 "Used for application data."
             ],
@@ -328,6 +343,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 "Used for application data",
                 "Used to make user interfaces for Android applications with Android SDK."
@@ -349,6 +365,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "6",
             "description": [
                 "Used on system documentation."
             ],
@@ -369,6 +386,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 "Used on making web applications with .NET technology"
             ],
@@ -389,6 +407,7 @@
                     "progress": "May 2026"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used on making cross-platform applications."
             ],
@@ -409,6 +428,7 @@
                     "progress": "2025"
                 }
             ],
+            "proficiency": "4",
             "description": [
                 "Used on making Windows desktop applications.",
                 "Based on .NET"
@@ -430,6 +450,7 @@
                     "progress": "2025"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used on making Windows desktop/tablet applications.",
                 "based on .NET"
@@ -451,8 +472,12 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "4",
             "description": [
-                "Used on making web applications with PHP"
+                "Used on making web applications with PHP",
+                "Used to learn building back-end for systems",
+                "Used to learn MVC architecture",
+                "Used to learn database migration management"
             ],
             "hidden": false
         },
@@ -471,6 +496,7 @@
                     "progress": "January 2025"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 "Used on making 2D games",
                 "Was abandoned since making games do not make any real world value or contribution to the society, and games makes people get addicted."
@@ -481,7 +507,7 @@
             "id": "ba871e97-e955-4bb4-8943-5fc9926c6764",
             "category": "Soft Skill",
             "type": "Soft Skill",
-            "title": "Honesty",
+            "title": "Honesty - Soft Skill",
             "date": [
                 {
                     "year": 2026,
@@ -491,6 +517,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "0",
             "description": [
                 ""
             ],
@@ -510,6 +537,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 "Used to make software with C++, C#, and .NET",
                 "Versions used: 2019, 2022, 2026"
@@ -536,6 +564,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "images": [
                 {
                     "src": "res/visual_studio_code.png",
@@ -561,6 +590,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 ""
             ],
@@ -580,6 +610,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 ""
             ],
@@ -599,6 +630,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 ""
             ],
@@ -618,6 +650,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "3",
             "description": [
                 ""
             ],
@@ -637,6 +670,7 @@
                     "progress": "Present"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "Used to test Ethereum smart contracts"
             ],
@@ -656,6 +690,7 @@
                     "progress": "2025"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "Used to test Ethereum smart contracts"
             ],
@@ -675,11 +710,12 @@
                     "progress": "January 2025"
                 }
             ],
+            "proficiency": "5",
             "description": [
                 "My first IDE",
                 "Used to develop CLI applications and other various desktop applications.",
-                "Used to train myself in computer programming",
-                "Was abandoned in favor of Visual Studio 2022"
+                "Used to train myself in computer programming.",
+                "Was abandoned due to a severe memory leak on latest Code::Blocks versions. It occurs on program startup or the splash screen."
             ],
             "hidden": false
         },
@@ -697,6 +733,7 @@
                     "progress": "2025"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "Used to convert coordinates to location addresses. "
             ],
@@ -716,6 +753,7 @@
                     "progress": "2025"
                 }
             ],
+            "proficiency": "2",
             "description": [
                 "Used to provide map controls."
             ],
@@ -739,11 +777,73 @@
                 "Used to make Android apps.",
                 "Versions used: 2024, 2025"
             ],
+            "proficiency": "3",
             "images": [
                 {
                     "src": "res/android_studio.png",
                     "alt": "Screenshot of Android Studio with the project <i>Notes for Android</i> opened."
                 }
+            ],
+            "hidden": false
+        },
+        {
+            "id": "3e4e22a6-cc50-4ce9-ae13-ea18e19b3513",
+            "category": "Software Architecture",
+            "type": "Hard Skill",
+            "title": "Model-View-Controller (MVC) Architecture",
+            "date": [
+                {
+                    "year": 2022,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "proficiency": "4",
+            "description": [
+                ""
+            ],
+            "hidden": false
+        },
+        {
+            "id": "f6b2ac95-8a18-4e97-8c3c-47bacbbfb1ed",
+            "category": "Software Architecture",
+            "type": "Hard Skill",
+            "title": "Model-View-ViewModel Architecture",
+            "date": [
+                {
+                    "year": 2023,
+                    "month": 1,
+                    "day": 1,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "proficiency": "4",
+            "description": [
+                "Used on Android App Development and WPF.",
+                "Used CommunityToolkit.Mvvm for .NET technologies like .NET MAUI and WPF."
+            ],
+            "hidden": false
+        },
+        {
+            "id": "cbb03bff-a5b9-4036-a6c8-b9db10cf7881",
+            "category": "Software Architecture",
+            "type": "Hard Skill",
+            "title": "Modular Monolith Architecture",
+            "date": [
+                {
+                    "year": 2026,
+                    "month": 11,
+                    "day": 19,
+                    "item": "01",
+                    "progress": "Present"
+                }
+            ],
+            "proficiency": "1",
+            "description": [
+                ""
             ],
             "hidden": false
         }

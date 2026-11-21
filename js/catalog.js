@@ -101,6 +101,19 @@ function groupItems(sortMode) {
             });
         return [...categories].map(([label, items]) => ({ label, items }));
     }
+    if (sortMode === "proficiency") {
+        const proficiencies = new Map();
+        [...items]
+            .sort((b, a) => itemProficiency(a).localeCompare(itemProficiency(b)) || itemDate(b) - itemDate(a))
+            .forEach(item => {
+                const proficiency = itemProficiency(item);
+                if (!proficiencies.has(proficiency)) {
+                    proficiencies.set(proficiency, []);
+                }
+                proficiencies.get(proficiency).push(item);
+            });
+        return [...proficiencies].map(([label, items]) => ({ label, items }));
+    }
 
     const sorted = [...items].sort((a, b) => {
         const difference = itemDate(b) - itemDate(a);
@@ -126,6 +139,10 @@ function itemDate(item) {
 
 function itemCategory(item) {
     return item.category || "Other";
+}
+
+function itemProficiency(item) {
+    return item.proficiency || "0 - Not Measured";
 }
 
 function createCatalogTile(item) {
