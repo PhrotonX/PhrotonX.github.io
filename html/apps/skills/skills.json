@@ -801,7 +801,7 @@
             ],
             "proficiency": "4",
             "description": [
-                ""
+                "Used as the software architecture for websites."
             ],
             "hidden": false
         },
@@ -821,6 +821,7 @@
             ],
             "proficiency": "4",
             "description": [
+                "Used as the software architecture for native apps.",
                 "Used on Android App Development and WPF.",
                 "Used CommunityToolkit.Mvvm for .NET technologies like .NET MAUI and WPF."
             ],
@@ -842,7 +843,7 @@
             ],
             "proficiency": "1",
             "description": [
-                ""
+                "Used to make system module do not depend on each other and make each module optional."
             ],
             "hidden": false
         }
