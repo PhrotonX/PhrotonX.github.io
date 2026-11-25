@@ -99,7 +99,7 @@
                 "The lack of coordination was caused by the lack of willingness of my teammates to cooperate and listen. I was the project leader of all aspects of the project and there were only three group members.",
                 "Many portions of the application and web server was heavily AI-generated, making it extremely unstable, unreliable, and insecure.",
                 "Many portions of the system is undocumented.",
-                "Was shut down immediately after testing by clients with one patient data due to several security issues. The security flaws were discovered during the testing period. All the data stored on the system were handed over to the clients through a cloud storage and all the data left on the server were erased immediately. It was treated like a garbage on a dumpster fire by myself and shall forever be.",
+                "Was shut down immediately after testing by clients with one patient data due to several security issues. The security flaws were discovered during the testing period. All the data stored on the system were handed over to the clients through a cloud storage and all the data left on the server were erased immediately.",
                 "Not used for production environments.",
                 "It was a giant blob of many, many mistakes from many, many aspects. From overreliance to AI during the system development, improper communication, to improper leadership. It was also a pinnacle of unprofessionalism."
             ],
